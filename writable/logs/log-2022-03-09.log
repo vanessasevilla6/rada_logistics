@@ -1,0 +1,106 @@
+CRITICAL - 2022-03-09 14:58:55 --> Attempt to read property "ciclo" on string
+#0 /Applications/MAMP/htdocs/uabc/app/Models/JugadoresModel.php(179): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', '/Applications/M...', 179)
+#1 /Applications/MAMP/htdocs/uabc/app/Controllers/Home.php(469): App\Models\JugadoresModel->getInfoReporte('[object Object]')
+#2 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(824): App\Controllers\Home->getInfoReporte('[object Object]')
+#3 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/MAMP/htdocs/uabc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-03-09 15:00:16 --> Too few arguments to function App\Controllers\Home::getInfoReporte(), 0 passed in /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php on line 824 and exactly 1 expected
+#0 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(824): App\Controllers\Home->getInfoReporte()
+#1 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Applications/MAMP/htdocs/uabc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-09 15:00:54 --> Too few arguments to function App\Controllers\Home::getInfoReporte(), 0 passed in /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php on line 824 and exactly 1 expected
+#0 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(824): App\Controllers\Home->getInfoReporte()
+#1 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Applications/MAMP/htdocs/uabc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-09 15:01:11 --> Too few arguments to function App\Controllers\Home::getInfoReporte(), 0 passed in /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php on line 824 and exactly 1 expected
+#0 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(824): App\Controllers\Home->getInfoReporte()
+#1 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Applications/MAMP/htdocs/uabc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-09 15:01:46 --> Too few arguments to function App\Controllers\Home::getInfoReporte(), 0 passed in /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php on line 824 and exactly 1 expected
+#0 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(824): App\Controllers\Home->getInfoReporte()
+#1 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Applications/MAMP/htdocs/uabc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-09 15:02:13 --> Too few arguments to function App\Controllers\Home::getInfoReporte(), 0 passed in /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php on line 824 and exactly 1 expected
+#0 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(824): App\Controllers\Home->getInfoReporte()
+#1 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Applications/MAMP/htdocs/uabc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-09 15:03:10 --> Too few arguments to function App\Controllers\Home::getInfoReporte(), 0 passed in /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php on line 824 and exactly 1 expected
+#0 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(824): App\Controllers\Home->getInfoReporte()
+#1 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Applications/MAMP/htdocs/uabc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-09 15:03:58 --> Too few arguments to function App\Controllers\Home::getInfoReporte(), 0 passed in /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php on line 824 and exactly 1 expected
+#0 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(824): App\Controllers\Home->getInfoReporte()
+#1 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Applications/MAMP/htdocs/uabc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2022-03-09 18:59:28 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'tc.idCiclo=10' at line 1
+CRITICAL - 2022-03-09 18:59:28 --> Call to a member function getResultArray() on bool
+#0 /Applications/MAMP/htdocs/uabc/app/Controllers/Home.php(472): App\Models\JugadoresModel->getInfoReporte(Object(stdClass))
+#1 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(824): App\Controllers\Home->getInfoReporte()
+#2 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/uabc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-03-09 18:59:32 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'tc.idCiclo=10' at line 1
+CRITICAL - 2022-03-09 18:59:32 --> Call to a member function getResultArray() on bool
+#0 /Applications/MAMP/htdocs/uabc/app/Controllers/Home.php(472): App\Models\JugadoresModel->getInfoReporte(Object(stdClass))
+#1 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(824): App\Controllers\Home->getInfoReporte()
+#2 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/uabc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-03-09 18:59:34 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'tc.idCiclo=10' at line 1
+CRITICAL - 2022-03-09 18:59:34 --> Call to a member function getResultArray() on bool
+#0 /Applications/MAMP/htdocs/uabc/app/Controllers/Home.php(472): App\Models\JugadoresModel->getInfoReporte(Object(stdClass))
+#1 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(824): App\Controllers\Home->getInfoReporte()
+#2 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/uabc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-03-09 18:59:40 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'tc.idCiclo=11' at line 1
+CRITICAL - 2022-03-09 18:59:40 --> Call to a member function getResultArray() on bool
+#0 /Applications/MAMP/htdocs/uabc/app/Controllers/Home.php(472): App\Models\JugadoresModel->getInfoReporte(Object(stdClass))
+#1 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(824): App\Controllers\Home->getInfoReporte()
+#2 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/uabc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-03-09 18:59:49 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'tc.idCiclo=11' at line 1
+CRITICAL - 2022-03-09 18:59:49 --> Call to a member function getResultArray() on bool
+#0 /Applications/MAMP/htdocs/uabc/app/Controllers/Home.php(472): App\Models\JugadoresModel->getInfoReporte(Object(stdClass))
+#1 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(824): App\Controllers\Home->getInfoReporte()
+#2 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/uabc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-03-09 19:01:14 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'tc.idCiclo=10' at line 1
+CRITICAL - 2022-03-09 19:01:14 --> Call to a member function getResultArray() on bool
+#0 /Applications/MAMP/htdocs/uabc/app/Controllers/Home.php(472): App\Models\JugadoresModel->getInfoReporte(Object(stdClass))
+#1 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(824): App\Controllers\Home->getInfoReporte()
+#2 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/uabc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-03-09 19:02:37 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'tc.idCiclo=10' at line 1
+CRITICAL - 2022-03-09 19:02:37 --> Call to a member function getResultArray() on bool
+#0 /Applications/MAMP/htdocs/uabc/app/Controllers/Home.php(472): App\Models\JugadoresModel->getInfoReporte(Object(stdClass))
+#1 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(824): App\Controllers\Home->getInfoReporte()
+#2 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/uabc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

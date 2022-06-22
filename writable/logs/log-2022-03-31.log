@@ -1,0 +1,66 @@
+CRITICAL - 2022-03-31 09:48:27 --> Undefined variable $result
+#0 /Applications/MAMP/htdocs/uabc/app/Models/TorneosModel.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/Applications/M...', 57)
+#1 /Applications/MAMP/htdocs/uabc/app/Controllers/Torneos.php(32): App\Models\TorneosModel->getTorneos('0', 'hola', 'hola', '0')
+#2 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(824): App\Controllers\Torneos->getTorneos('0', 'hola', 'hola', '0')
+#3 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Torneos))
+#4 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/MAMP/htdocs/uabc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-03-31 12:18:15 --> Object of class App\Models\TorneosModel could not be converted to string
+#0 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(824): App\Controllers\Home->equipo('9')
+#1 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Applications/MAMP/htdocs/uabc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-31 12:26:02 --> Attempt to read property "idEquipo" on array
+#0 /Applications/MAMP/htdocs/uabc/app/Views/catalogo/equipo.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', '/Applications/M...', 12)
+#1 /Applications/MAMP/htdocs/uabc/system/View/View.php(214): include('/Applications/M...')
+#2 /Applications/MAMP/htdocs/uabc/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Applications/MAMP/htdocs/uabc/system/Common.php(1097): CodeIgniter\View\View->render('catalogo/equipo', Array, true)
+#4 /Applications/MAMP/htdocs/uabc/app/Controllers/Home.php(578): view('catalogo/equipo', Array)
+#5 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(824): App\Controllers\Home->equipo('9')
+#6 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Applications/MAMP/htdocs/uabc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-31 12:26:19 --> Attempt to read property "idEquipo" on array
+#0 /Applications/MAMP/htdocs/uabc/app/Views/catalogo/equipo.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', '/Applications/M...', 12)
+#1 /Applications/MAMP/htdocs/uabc/system/View/View.php(214): include('/Applications/M...')
+#2 /Applications/MAMP/htdocs/uabc/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Applications/MAMP/htdocs/uabc/system/Common.php(1097): CodeIgniter\View\View->render('catalogo/equipo', Array, true)
+#4 /Applications/MAMP/htdocs/uabc/app/Controllers/Home.php(578): view('catalogo/equipo', Array)
+#5 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(824): App\Controllers\Home->equipo('9')
+#6 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Applications/MAMP/htdocs/uabc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-31 12:26:39 --> Attempt to read property "idEquipo" on array
+#0 /Applications/MAMP/htdocs/uabc/app/Views/catalogo/equipo.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', '/Applications/M...', 12)
+#1 /Applications/MAMP/htdocs/uabc/system/View/View.php(214): include('/Applications/M...')
+#2 /Applications/MAMP/htdocs/uabc/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Applications/MAMP/htdocs/uabc/system/Common.php(1097): CodeIgniter\View\View->render('catalogo/equipo', Array, true)
+#4 /Applications/MAMP/htdocs/uabc/app/Controllers/Home.php(578): view('catalogo/equipo', Array)
+#5 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(824): App\Controllers\Home->equipo('9')
+#6 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Applications/MAMP/htdocs/uabc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-03-31 12:27:01 --> Unknown column 'idJuego' in 'where clause'
+CRITICAL - 2022-03-31 12:27:01 --> Call to a member function getRow() on bool
+#0 /Applications/MAMP/htdocs/uabc/app/Controllers/Home.php(576): App\Models\TorneosModel->getInfoEquipo('9')
+#1 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(824): App\Controllers\Home->equipo('9')
+#2 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/uabc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-31 12:33:06 --> Undefined variable $jugadores
+#0 /Applications/MAMP/htdocs/uabc/app/Views/catalogo/equipo.php(155): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/Applications/M...', 155)
+#1 /Applications/MAMP/htdocs/uabc/system/View/View.php(214): include('/Applications/M...')
+#2 /Applications/MAMP/htdocs/uabc/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Applications/MAMP/htdocs/uabc/system/Common.php(1097): CodeIgniter\View\View->render('catalogo/equipo', Array, true)
+#4 /Applications/MAMP/htdocs/uabc/app/Controllers/Home.php(578): view('catalogo/equipo', Array)
+#5 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(824): App\Controllers\Home->equipo('9')
+#6 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Applications/MAMP/htdocs/uabc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}

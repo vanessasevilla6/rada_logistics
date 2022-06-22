@@ -1,0 +1,53 @@
+ERROR - 2022-02-09 17:46:32 --> Unknown column 'idTorneo' in 'where clause'
+CRITICAL - 2022-02-09 17:46:32 --> Call to a member function getResult() on bool
+#0 /Applications/MAMP/htdocs/uabc/app/Controllers/Home.php(148): App\Models\CatalogoModel->getStanding('6')
+#1 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(824): App\Controllers\Home->getStandings('6')
+#2 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/uabc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-09 19:54:37 --> Invalid file: torneos.php
+#0 /Applications/MAMP/htdocs/uabc/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('torneos.php')
+#1 /Applications/MAMP/htdocs/uabc/system/Common.php(1097): CodeIgniter\View\View->render('torneos', Array, true)
+#2 /Applications/MAMP/htdocs/uabc/app/Controllers/Home.php(50): view('torneos', Array)
+#3 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(824): App\Controllers\Home->dashboard()
+#4 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Applications/MAMP/htdocs/uabc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-02-09 19:55:01 --> Invalid file: torneos.php
+#0 /Applications/MAMP/htdocs/uabc/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('torneos.php')
+#1 /Applications/MAMP/htdocs/uabc/system/Common.php(1097): CodeIgniter\View\View->render('torneos', Array, true)
+#2 /Applications/MAMP/htdocs/uabc/app/Controllers/Home.php(50): view('torneos', Array)
+#3 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(824): App\Controllers\Home->dashboard()
+#4 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Applications/MAMP/htdocs/uabc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-02-09 19:55:24 --> Invalid file: torneos.php
+#0 /Applications/MAMP/htdocs/uabc/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('torneos.php')
+#1 /Applications/MAMP/htdocs/uabc/system/Common.php(1097): CodeIgniter\View\View->render('torneos', Array, true)
+#2 /Applications/MAMP/htdocs/uabc/app/Controllers/Home.php(50): view('torneos', Array)
+#3 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(824): App\Controllers\Home->dashboard()
+#4 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Applications/MAMP/htdocs/uabc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-02-09 19:55:55 --> Invalid file: torneos.php
+#0 /Applications/MAMP/htdocs/uabc/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('torneos.php')
+#1 /Applications/MAMP/htdocs/uabc/system/Common.php(1097): CodeIgniter\View\View->render('torneos', Array, true)
+#2 /Applications/MAMP/htdocs/uabc/app/Controllers/Home.php(50): view('torneos', Array)
+#3 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(824): App\Controllers\Home->dashboard()
+#4 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Applications/MAMP/htdocs/uabc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-02-09 19:56:01 --> Invalid file: torneos.php
+#0 /Applications/MAMP/htdocs/uabc/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('torneos.php')
+#1 /Applications/MAMP/htdocs/uabc/system/Common.php(1097): CodeIgniter\View\View->render('torneos', Array, true)
+#2 /Applications/MAMP/htdocs/uabc/app/Controllers/Home.php(50): view('torneos', Array)
+#3 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(824): App\Controllers\Home->dashboard()
+#4 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Applications/MAMP/htdocs/uabc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}

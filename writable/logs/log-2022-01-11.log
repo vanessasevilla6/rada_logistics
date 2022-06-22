@@ -1,0 +1,56 @@
+CRITICAL - 2022-01-11 10:47:09 --> Array to string conversion
+#0 /opt/lampp/htdocs/mona_fitness/app/Models/HorariosModel.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', '/opt/lampp/htdo...', 57)
+#1 /opt/lampp/htdocs/mona_fitness/app/Controllers/Horario.php(36): App\Models\HorariosModel->updateTrainer(Array)
+#2 /opt/lampp/htdocs/mona_fitness/system/CodeIgniter.php(824): App\Controllers\Horario->actualizaHorarioEntrenador()
+#3 /opt/lampp/htdocs/mona_fitness/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Horario))
+#4 /opt/lampp/htdocs/mona_fitness/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /opt/lampp/htdocs/mona_fitness/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-01-11 17:53:57 --> Attempt to read property "plan" on string
+#0 /opt/lampp/htdocs/mona_fitness/app/Models/PlansModel.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', '/opt/lampp/htdo...', 59)
+#1 /opt/lampp/htdocs/mona_fitness/app/Controllers/Plans.php(46): App\Models\PlansModel->deletePlan('5')
+#2 /opt/lampp/htdocs/mona_fitness/system/CodeIgniter.php(824): App\Controllers\Plans->deletePlan()
+#3 /opt/lampp/htdocs/mona_fitness/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Plans))
+#4 /opt/lampp/htdocs/mona_fitness/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /opt/lampp/htdocs/mona_fitness/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-01-11 17:57:11 --> Attempt to read property "id" on string
+#0 /opt/lampp/htdocs/mona_fitness/app/Models/PlansModel.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', '/opt/lampp/htdo...', 59)
+#1 /opt/lampp/htdocs/mona_fitness/app/Controllers/Plans.php(46): App\Models\PlansModel->deletePlan('5')
+#2 /opt/lampp/htdocs/mona_fitness/system/CodeIgniter.php(824): App\Controllers\Plans->deletePlan()
+#3 /opt/lampp/htdocs/mona_fitness/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Plans))
+#4 /opt/lampp/htdocs/mona_fitness/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /opt/lampp/htdocs/mona_fitness/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-01-11 17:57:24 --> Attempt to read property "plan" on string
+#0 /opt/lampp/htdocs/mona_fitness/app/Models/PlansModel.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', '/opt/lampp/htdo...', 59)
+#1 /opt/lampp/htdocs/mona_fitness/app/Controllers/Plans.php(46): App\Models\PlansModel->deletePlan('5')
+#2 /opt/lampp/htdocs/mona_fitness/system/CodeIgniter.php(824): App\Controllers\Plans->deletePlan()
+#3 /opt/lampp/htdocs/mona_fitness/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Plans))
+#4 /opt/lampp/htdocs/mona_fitness/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /opt/lampp/htdocs/mona_fitness/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-01-11 17:57:53 --> Attempt to read property "plan" on string
+#0 /opt/lampp/htdocs/mona_fitness/app/Models/PlansModel.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', '/opt/lampp/htdo...', 59)
+#1 /opt/lampp/htdocs/mona_fitness/app/Controllers/Plans.php(46): App\Models\PlansModel->deletePlan('5')
+#2 /opt/lampp/htdocs/mona_fitness/system/CodeIgniter.php(824): App\Controllers\Plans->deletePlan()
+#3 /opt/lampp/htdocs/mona_fitness/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Plans))
+#4 /opt/lampp/htdocs/mona_fitness/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /opt/lampp/htdocs/mona_fitness/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-01-11 17:58:39 --> Attempt to read property "plan" on string
+#0 /opt/lampp/htdocs/mona_fitness/app/Models/PlansModel.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', '/opt/lampp/htdo...', 59)
+#1 /opt/lampp/htdocs/mona_fitness/app/Controllers/Plans.php(47): App\Models\PlansModel->deletePlan('5')
+#2 /opt/lampp/htdocs/mona_fitness/system/CodeIgniter.php(824): App\Controllers\Plans->deletePlan()
+#3 /opt/lampp/htdocs/mona_fitness/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Plans))
+#4 /opt/lampp/htdocs/mona_fitness/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /opt/lampp/htdocs/mona_fitness/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-01-11 17:59:01 --> Attempt to read property "plan" on string
+#0 /opt/lampp/htdocs/mona_fitness/app/Models/PlansModel.php(60): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', '/opt/lampp/htdo...', 60)
+#1 /opt/lampp/htdocs/mona_fitness/app/Controllers/Plans.php(47): App\Models\PlansModel->deletePlan('5')
+#2 /opt/lampp/htdocs/mona_fitness/system/CodeIgniter.php(824): App\Controllers\Plans->deletePlan()
+#3 /opt/lampp/htdocs/mona_fitness/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Plans))
+#4 /opt/lampp/htdocs/mona_fitness/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /opt/lampp/htdocs/mona_fitness/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}

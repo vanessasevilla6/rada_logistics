@@ -1,0 +1,16 @@
+ERROR - 2022-03-10 10:42:35 --> Not unique table/alias: 'Deporte'
+CRITICAL - 2022-03-10 10:42:35 --> Call to a member function getResult() on bool
+#0 /Applications/MAMP/htdocs/uabc/app/Controllers/Torneos.php(32): App\Models\TorneosModel->getTorneos('2', '2022-03-10T18:4...', '2022-03-10T18:4...', '1')
+#1 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(824): App\Controllers\Torneos->getTorneos('2', '2022-03-10T18:4...', '2022-03-10T18:4...', '1')
+#2 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Torneos))
+#3 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/uabc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-03-10 10:42:35 --> Not unique table/alias: 'Deporte'
+CRITICAL - 2022-03-10 10:42:35 --> Call to a member function getResult() on bool
+#0 /Applications/MAMP/htdocs/uabc/app/Controllers/Torneos.php(32): App\Models\TorneosModel->getTorneos('2', '2022-03-10T18:4...', '2022-03-10T18:4...', '1')
+#1 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(824): App\Controllers\Torneos->getTorneos('2', '2022-03-10T18:4...', '2022-03-10T18:4...', '1')
+#2 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Torneos))
+#3 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/uabc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

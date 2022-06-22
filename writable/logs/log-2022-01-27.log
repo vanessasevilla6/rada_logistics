@@ -1,0 +1,246 @@
+ERROR - 2022-01-27 16:45:15 --> Table 'mona_fitness.participante' doesn't exist
+ERROR - 2022-01-27 16:45:15 --> Unknown column 'idTipoUsuario' in 'where clause'
+ERROR - 2022-01-27 17:02:18 --> Unknown column 'EquipoParticipante.idParticipante' in 'on clause'
+ERROR - 2022-01-27 17:02:18 --> Table 'uabc_torneos.user' doesn't exist
+CRITICAL - 2022-01-27 17:02:18 --> Undefined property: stdClass::$tipoUsuario
+#0 /Applications/MAMP/htdocs/uabc/app/Models/UsersModel.php(63): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', '/Applications/M...', 63)
+#1 /Applications/MAMP/htdocs/uabc/app/Controllers/Users.php(66): App\Models\UsersModel->crear_usuario(Object(stdClass))
+#2 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(824): App\Controllers\Users->crear_usuario()
+#3 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#4 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/MAMP/htdocs/uabc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-01-27 17:04:57 --> Table 'uabc_torneos.user' doesn't exist
+CRITICAL - 2022-01-27 17:04:57 --> Undefined property: stdClass::$tipoUsuario
+#0 /Applications/MAMP/htdocs/uabc/app/Models/UsersModel.php(63): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', '/Applications/M...', 63)
+#1 /Applications/MAMP/htdocs/uabc/app/Controllers/Users.php(67): App\Models\UsersModel->crear_usuario(Object(stdClass))
+#2 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(824): App\Controllers\Users->crear_usuario()
+#3 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#4 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/MAMP/htdocs/uabc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-01-27 17:05:30 --> Table 'uabc_torneos.user' doesn't exist
+CRITICAL - 2022-01-27 17:05:30 --> Undefined property: stdClass::$tipoUsuario
+#0 /Applications/MAMP/htdocs/uabc/app/Models/UsersModel.php(63): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', '/Applications/M...', 63)
+#1 /Applications/MAMP/htdocs/uabc/app/Controllers/Users.php(68): App\Models\UsersModel->crear_usuario(Object(stdClass))
+#2 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(824): App\Controllers\Users->crear_usuario()
+#3 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#4 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/MAMP/htdocs/uabc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-01-27 17:05:58 --> Table 'uabc_torneos.user' doesn't exist
+CRITICAL - 2022-01-27 17:05:58 --> Undefined property: stdClass::$tipoUsuario
+#0 /Applications/MAMP/htdocs/uabc/app/Models/UsersModel.php(63): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', '/Applications/M...', 63)
+#1 /Applications/MAMP/htdocs/uabc/app/Controllers/Users.php(68): App\Models\UsersModel->crear_usuario(Object(stdClass))
+#2 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(824): App\Controllers\Users->crear_usuario()
+#3 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#4 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/MAMP/htdocs/uabc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-01-27 17:06:50 --> Table 'uabc_torneos.user' doesn't exist
+CRITICAL - 2022-01-27 17:06:50 --> Undefined property: stdClass::$tipoUsuario
+#0 /Applications/MAMP/htdocs/uabc/app/Models/UsersModel.php(63): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', '/Applications/M...', 63)
+#1 /Applications/MAMP/htdocs/uabc/app/Controllers/Users.php(68): App\Models\UsersModel->crear_usuario(Object(stdClass))
+#2 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(824): App\Controllers\Users->crear_usuario()
+#3 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#4 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/MAMP/htdocs/uabc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-01-27 17:07:05 --> Table 'uabc_torneos.user' doesn't exist
+CRITICAL - 2022-01-27 17:07:05 --> Undefined property: stdClass::$tipoUsuario
+#0 /Applications/MAMP/htdocs/uabc/app/Models/UsersModel.php(63): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', '/Applications/M...', 63)
+#1 /Applications/MAMP/htdocs/uabc/app/Controllers/Users.php(68): App\Models\UsersModel->crear_usuario(Object(stdClass))
+#2 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(824): App\Controllers\Users->crear_usuario()
+#3 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#4 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/MAMP/htdocs/uabc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-01-27 17:07:31 --> Table 'uabc_torneos.user' doesn't exist
+CRITICAL - 2022-01-27 17:07:31 --> Undefined property: stdClass::$tipoUsuario
+#0 /Applications/MAMP/htdocs/uabc/app/Models/UsersModel.php(63): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', '/Applications/M...', 63)
+#1 /Applications/MAMP/htdocs/uabc/app/Controllers/Users.php(68): App\Models\UsersModel->crear_usuario(Object(stdClass))
+#2 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(824): App\Controllers\Users->crear_usuario()
+#3 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#4 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/MAMP/htdocs/uabc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-01-27 17:07:53 --> Table 'uabc_torneos.user' doesn't exist
+ERROR - 2022-01-27 17:07:53 --> Table 'uabc_torneos.user' doesn't exist
+CRITICAL - 2022-01-27 17:07:53 --> Array to string conversion
+#0 /Applications/MAMP/htdocs/uabc/app/Controllers/Users.php(69): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', '/Applications/M...', 69)
+#1 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(824): App\Controllers\Users->crear_usuario()
+#2 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#3 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/uabc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-01-27 17:08:59 --> Unknown column 'correo' in 'field list'
+CRITICAL - 2022-01-27 18:17:26 --> Undefined property: stdClass::$idFacultad
+#0 /Applications/MAMP/htdocs/uabc/app/Models/JugadoresModel.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', '/Applications/M...', 43)
+#1 /Applications/MAMP/htdocs/uabc/app/Controllers/Users.php(72): App\Models\JugadoresModel->crear_participante(Object(stdClass))
+#2 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(824): App\Controllers\Users->crear_usuario()
+#3 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#4 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/MAMP/htdocs/uabc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-01-27 18:18:40 --> Undefined property: stdClass::$idFacultad
+#0 /Applications/MAMP/htdocs/uabc/app/Models/JugadoresModel.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', '/Applications/M...', 43)
+#1 /Applications/MAMP/htdocs/uabc/app/Controllers/Users.php(72): App\Models\JugadoresModel->crear_participante(Object(stdClass))
+#2 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(824): App\Controllers\Users->crear_usuario()
+#3 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#4 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/MAMP/htdocs/uabc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-01-27 18:19:15 --> Undefined property: stdClass::$idFacultad
+#0 /Applications/MAMP/htdocs/uabc/app/Models/JugadoresModel.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', '/Applications/M...', 43)
+#1 /Applications/MAMP/htdocs/uabc/app/Controllers/Users.php(72): App\Models\JugadoresModel->crear_participante(Object(stdClass))
+#2 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(824): App\Controllers\Users->crear_usuario()
+#3 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#4 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/MAMP/htdocs/uabc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-01-27 18:22:24 --> Undefined property: stdClass::$idFacultad
+#0 /Applications/MAMP/htdocs/uabc/app/Models/JugadoresModel.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', '/Applications/M...', 44)
+#1 /Applications/MAMP/htdocs/uabc/app/Controllers/Users.php(72): App\Models\JugadoresModel->crear_participante(Object(stdClass))
+#2 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(824): App\Controllers\Users->crear_usuario()
+#3 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#4 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/MAMP/htdocs/uabc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-01-27 18:23:22 --> Undefined property: stdClass::$idFacultad
+#0 /Applications/MAMP/htdocs/uabc/app/Models/JugadoresModel.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', '/Applications/M...', 44)
+#1 /Applications/MAMP/htdocs/uabc/app/Controllers/Users.php(72): App\Models\JugadoresModel->crear_participante(Object(stdClass))
+#2 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(824): App\Controllers\Users->crear_usuario()
+#3 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#4 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/MAMP/htdocs/uabc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-01-27 18:24:49 --> Undefined property: stdClass::$idFacultad
+#0 /Applications/MAMP/htdocs/uabc/app/Models/JugadoresModel.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', '/Applications/M...', 44)
+#1 /Applications/MAMP/htdocs/uabc/app/Controllers/Users.php(72): App\Models\JugadoresModel->crear_participante(Object(stdClass))
+#2 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(824): App\Controllers\Users->crear_usuario()
+#3 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#4 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/MAMP/htdocs/uabc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-01-27 18:30:54 --> Undefined property: stdClass::$idFacultad
+#0 /Applications/MAMP/htdocs/uabc/app/Models/JugadoresModel.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', '/Applications/M...', 44)
+#1 /Applications/MAMP/htdocs/uabc/app/Controllers/Users.php(72): App\Models\JugadoresModel->crear_participante(Object(stdClass))
+#2 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(824): App\Controllers\Users->crear_usuario()
+#3 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#4 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/MAMP/htdocs/uabc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-01-27 18:32:32 --> Undefined property: stdClass::$idFacultad
+#0 /Applications/MAMP/htdocs/uabc/app/Models/JugadoresModel.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', '/Applications/M...', 44)
+#1 /Applications/MAMP/htdocs/uabc/app/Controllers/Users.php(72): App\Models\JugadoresModel->crear_participante(Object(stdClass))
+#2 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(824): App\Controllers\Users->crear_usuario()
+#3 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#4 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/MAMP/htdocs/uabc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-01-27 18:33:11 --> Undefined property: stdClass::$idFacultad
+#0 /Applications/MAMP/htdocs/uabc/app/Models/JugadoresModel.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', '/Applications/M...', 44)
+#1 /Applications/MAMP/htdocs/uabc/app/Controllers/Users.php(72): App\Models\JugadoresModel->crear_participante(Object(stdClass))
+#2 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(824): App\Controllers\Users->crear_usuario()
+#3 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#4 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/MAMP/htdocs/uabc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-01-27 18:33:47 --> Undefined property: stdClass::$idFacultad
+#0 /Applications/MAMP/htdocs/uabc/app/Models/JugadoresModel.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', '/Applications/M...', 44)
+#1 /Applications/MAMP/htdocs/uabc/app/Controllers/Users.php(72): App\Models\JugadoresModel->crear_participante(Object(stdClass))
+#2 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(824): App\Controllers\Users->crear_usuario()
+#3 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#4 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/MAMP/htdocs/uabc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-01-27 18:38:02 --> Undefined property: stdClass::$idFacultad
+#0 /Applications/MAMP/htdocs/uabc/app/Models/JugadoresModel.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', '/Applications/M...', 44)
+#1 /Applications/MAMP/htdocs/uabc/app/Controllers/Users.php(72): App\Models\JugadoresModel->crear_participante(Object(stdClass))
+#2 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(824): App\Controllers\Users->crear_usuario()
+#3 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#4 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/MAMP/htdocs/uabc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-01-27 18:41:09 --> Undefined property: stdClass::$idFacultad
+#0 /Applications/MAMP/htdocs/uabc/app/Models/JugadoresModel.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', '/Applications/M...', 44)
+#1 /Applications/MAMP/htdocs/uabc/app/Controllers/Users.php(72): App\Models\JugadoresModel->crear_participante(Object(stdClass))
+#2 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(824): App\Controllers\Users->crear_usuario()
+#3 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#4 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/MAMP/htdocs/uabc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-01-27 18:46:00 --> Undefined property: stdClass::$idFacultad
+#0 /Applications/MAMP/htdocs/uabc/app/Models/JugadoresModel.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', '/Applications/M...', 44)
+#1 /Applications/MAMP/htdocs/uabc/app/Controllers/Users.php(72): App\Models\JugadoresModel->crear_participante(Object(stdClass))
+#2 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(824): App\Controllers\Users->crear_usuario()
+#3 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#4 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/MAMP/htdocs/uabc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-01-27 18:46:33 --> Undefined property: stdClass::$idFacultad
+#0 /Applications/MAMP/htdocs/uabc/app/Models/JugadoresModel.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', '/Applications/M...', 44)
+#1 /Applications/MAMP/htdocs/uabc/app/Controllers/Users.php(72): App\Models\JugadoresModel->crear_participante(Object(stdClass))
+#2 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(824): App\Controllers\Users->crear_usuario()
+#3 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#4 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/MAMP/htdocs/uabc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-01-27 18:46:57 --> Undefined property: stdClass::$idFacultad
+#0 /Applications/MAMP/htdocs/uabc/app/Models/JugadoresModel.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', '/Applications/M...', 44)
+#1 /Applications/MAMP/htdocs/uabc/app/Controllers/Users.php(72): App\Models\JugadoresModel->crear_participante(Object(stdClass))
+#2 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(824): App\Controllers\Users->crear_usuario()
+#3 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#4 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/MAMP/htdocs/uabc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-01-27 18:48:05 --> Undefined property: stdClass::$idFacultad
+#0 /Applications/MAMP/htdocs/uabc/app/Models/JugadoresModel.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', '/Applications/M...', 39)
+#1 /Applications/MAMP/htdocs/uabc/app/Controllers/Users.php(72): App\Models\JugadoresModel->crear_participante(Object(stdClass))
+#2 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(824): App\Controllers\Users->crear_usuario()
+#3 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#4 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/MAMP/htdocs/uabc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-01-27 18:49:12 --> Undefined array key "idPlayerNuevo"
+#0 /Applications/MAMP/htdocs/uabc/app/Controllers/Users.php(74): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/Applications/M...', 74)
+#1 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(824): App\Controllers\Users->crear_usuario()
+#2 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#3 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/uabc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-27 18:53:53 --> Undefined array key "idPlayerNuevo"
+#0 /Applications/MAMP/htdocs/uabc/app/Controllers/Users.php(74): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/Applications/M...', 74)
+#1 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(824): App\Controllers\Users->crear_usuario()
+#2 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#3 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/uabc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-27 18:55:27 --> Undefined array key "idPlayerNuevo"
+#0 /Applications/MAMP/htdocs/uabc/app/Controllers/Users.php(74): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/Applications/M...', 74)
+#1 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(824): App\Controllers\Users->crear_usuario()
+#2 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#3 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/uabc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-27 18:57:05 --> Undefined array key "idPlayerNuevo"
+#0 /Applications/MAMP/htdocs/uabc/app/Controllers/Users.php(74): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/Applications/M...', 74)
+#1 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(824): App\Controllers\Users->crear_usuario()
+#2 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#3 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/uabc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-01-27 19:07:28 --> Table 'uabc_torneos.user' doesn't exist
+CRITICAL - 2022-01-27 19:07:28 --> Call to a member function getResult() on bool
+#0 /Applications/MAMP/htdocs/uabc/app/Controllers/Users.php(22): App\Models\UsersModel->login('arenas.jorge@ua...', '123')
+#1 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(824): App\Controllers\Users->login()
+#2 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#3 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/uabc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-27 19:16:37 --> Cannot use object of type CodeIgniter\Session\Session as array
+#0 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(824): App\Controllers\Home->dashboard()
+#1 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Applications/MAMP/htdocs/uabc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}

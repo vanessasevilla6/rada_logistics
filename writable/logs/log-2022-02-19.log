@@ -1,0 +1,92 @@
+CRITICAL - 2022-02-19 16:22:01 --> Too few arguments to function App\Controllers\Torneos::getTorneos(), 3 passed in /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php on line 824 and exactly 4 expected
+#0 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(824): App\Controllers\Torneos->getTorneos('2', 'undefined', 'undefined')
+#1 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Torneos))
+#2 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Applications/MAMP/htdocs/uabc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-02-19 16:23:37 --> Too few arguments to function App\Controllers\Torneos::getTorneos(), 3 passed in /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php on line 824 and exactly 4 expected
+#0 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(824): App\Controllers\Torneos->getTorneos('2', '2022-02-20T00:2...', '2022-02-20T00:2...')
+#1 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Torneos))
+#2 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Applications/MAMP/htdocs/uabc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2022-02-19 16:24:15 --> Column 'idDeporte' in where clause is ambiguous
+CRITICAL - 2022-02-19 16:24:15 --> Call to a member function getResult() on bool
+#0 /Applications/MAMP/htdocs/uabc/app/Controllers/Torneos.php(32): App\Models\TorneosModel->getTorneos('2', '2022-02-20T00:2...', '2022-02-20T00:2...', '1')
+#1 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(824): App\Controllers\Torneos->getTorneos('2', '2022-02-20T00:2...', '2022-02-20T00:2...', '1')
+#2 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Torneos))
+#3 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/uabc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-02-19 16:30:21 --> Column 'idDeporte' in where clause is ambiguous
+CRITICAL - 2022-02-19 16:30:21 --> Call to a member function getResult() on bool
+#0 /Applications/MAMP/htdocs/uabc/app/Controllers/Torneos.php(32): App\Models\TorneosModel->getTorneos('2', '2022-02-20T00:2...', '2022-02-20T00:2...', '1')
+#1 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(824): App\Controllers\Torneos->getTorneos('2', '2022-02-20T00:2...', '2022-02-20T00:2...', '1')
+#2 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Torneos))
+#3 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/uabc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-02-19 16:30:44 --> Column 'idDeporte' in where clause is ambiguous
+CRITICAL - 2022-02-19 16:30:44 --> Call to a member function getResult() on bool
+#0 /Applications/MAMP/htdocs/uabc/app/Controllers/Torneos.php(32): App\Models\TorneosModel->getTorneos('2', '2022-02-20T00:2...', '2022-02-20T00:2...', '1')
+#1 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(824): App\Controllers\Torneos->getTorneos('2', '2022-02-20T00:2...', '2022-02-20T00:2...', '1')
+#2 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Torneos))
+#3 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/uabc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-02-19 16:32:30 --> Column 'idDeporte' in where clause is ambiguous
+CRITICAL - 2022-02-19 16:32:30 --> Call to a member function getResult() on bool
+#0 /Applications/MAMP/htdocs/uabc/app/Controllers/Torneos.php(32): App\Models\TorneosModel->getTorneos('2', '2022-02-20T00:2...', '2022-02-20T00:2...', '1')
+#1 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(824): App\Controllers\Torneos->getTorneos('2', '2022-02-20T00:2...', '2022-02-20T00:2...', '1')
+#2 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Torneos))
+#3 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/uabc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-02-19 16:32:31 --> Column 'idDeporte' in where clause is ambiguous
+CRITICAL - 2022-02-19 16:32:31 --> Call to a member function getResult() on bool
+#0 /Applications/MAMP/htdocs/uabc/app/Controllers/Torneos.php(32): App\Models\TorneosModel->getTorneos('2', '2022-02-20T00:2...', '2022-02-20T00:2...', '1')
+#1 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(824): App\Controllers\Torneos->getTorneos('2', '2022-02-20T00:2...', '2022-02-20T00:2...', '1')
+#2 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Torneos))
+#3 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/uabc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-02-19 16:32:39 --> Column 'idDeporte' in where clause is ambiguous
+CRITICAL - 2022-02-19 16:32:39 --> Call to a member function getResult() on bool
+#0 /Applications/MAMP/htdocs/uabc/app/Controllers/Torneos.php(32): App\Models\TorneosModel->getTorneos('2', '2022-02-20T00:2...', '2022-02-20T00:2...', '1')
+#1 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(824): App\Controllers\Torneos->getTorneos('2', '2022-02-20T00:2...', '2022-02-20T00:2...', '1')
+#2 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Torneos))
+#3 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/uabc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-02-19 16:32:43 --> Column 'idDeporte' in where clause is ambiguous
+CRITICAL - 2022-02-19 16:32:43 --> Call to a member function getResult() on bool
+#0 /Applications/MAMP/htdocs/uabc/app/Controllers/Torneos.php(32): App\Models\TorneosModel->getTorneos('2', '2022-02-20T00:2...', '2022-02-20T00:2...', '1')
+#1 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(824): App\Controllers\Torneos->getTorneos('2', '2022-02-20T00:2...', '2022-02-20T00:2...', '1')
+#2 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Torneos))
+#3 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/uabc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-02-19 16:35:26 --> Column 'idDeporte' in where clause is ambiguous
+CRITICAL - 2022-02-19 16:35:26 --> Call to a member function getResult() on bool
+#0 /Applications/MAMP/htdocs/uabc/app/Controllers/Torneos.php(32): App\Models\TorneosModel->getTorneos('2', '2022-02-20T00:2...', '2022-02-20T00:2...', '1')
+#1 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(824): App\Controllers\Torneos->getTorneos('2', '2022-02-20T00:2...', '2022-02-20T00:2...', '1')
+#2 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Torneos))
+#3 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/uabc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-02-19 16:35:28 --> Column 'idDeporte' in where clause is ambiguous
+CRITICAL - 2022-02-19 16:35:28 --> Call to a member function getResult() on bool
+#0 /Applications/MAMP/htdocs/uabc/app/Controllers/Torneos.php(32): App\Models\TorneosModel->getTorneos('2', '2022-02-20T00:2...', '2022-02-20T00:2...', '1')
+#1 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(824): App\Controllers\Torneos->getTorneos('2', '2022-02-20T00:2...', '2022-02-20T00:2...', '1')
+#2 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Torneos))
+#3 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/uabc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-02-19 16:35:29 --> Column 'idDeporte' in where clause is ambiguous
+CRITICAL - 2022-02-19 16:35:29 --> Call to a member function getResult() on bool
+#0 /Applications/MAMP/htdocs/uabc/app/Controllers/Torneos.php(32): App\Models\TorneosModel->getTorneos('2', '2022-02-20T00:2...', '2022-02-20T00:2...', '1')
+#1 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(824): App\Controllers\Torneos->getTorneos('2', '2022-02-20T00:2...', '2022-02-20T00:2...', '1')
+#2 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Torneos))
+#3 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/uabc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

@@ -1,0 +1,424 @@
+CRITICAL - 2022-04-04 20:09:30 --> Attempt to read property "idEquipo" on array
+#0 /Applications/MAMP/htdocs/uabc/app/Models/CatalogoModel.php(63): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', '/Applications/M...', 63)
+#1 /Applications/MAMP/htdocs/uabc/app/Controllers/Home.php(429): App\Models\CatalogoModel->getEquiposTorneo('2', 'todos')
+#2 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(824): App\Controllers\Home->getTournamentTeams('2', 'todos')
+#3 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/MAMP/htdocs/uabc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-04-04 20:09:46 --> Attempt to read property "idEquipo" on array
+#0 /Applications/MAMP/htdocs/uabc/app/Models/CatalogoModel.php(63): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', '/Applications/M...', 63)
+#1 /Applications/MAMP/htdocs/uabc/app/Controllers/Home.php(429): App\Models\CatalogoModel->getEquiposTorneo('2', 'todos')
+#2 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(824): App\Controllers\Home->getTournamentTeams('2', 'todos')
+#3 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/MAMP/htdocs/uabc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-04-04 20:10:11 --> Attempt to read property "idEquipo" on array
+#0 /Applications/MAMP/htdocs/uabc/app/Models/CatalogoModel.php(63): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', '/Applications/M...', 63)
+#1 /Applications/MAMP/htdocs/uabc/app/Controllers/Home.php(429): App\Models\CatalogoModel->getEquiposTorneo('2', 'todos')
+#2 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(824): App\Controllers\Home->getTournamentTeams('2', 'todos')
+#3 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/MAMP/htdocs/uabc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-04-04 20:10:21 --> Attempt to read property "idEquipo" on array
+#0 /Applications/MAMP/htdocs/uabc/app/Models/CatalogoModel.php(63): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', '/Applications/M...', 63)
+#1 /Applications/MAMP/htdocs/uabc/app/Controllers/Home.php(429): App\Models\CatalogoModel->getEquiposTorneo('2', 'todos')
+#2 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(824): App\Controllers\Home->getTournamentTeams('2', 'todos')
+#3 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/MAMP/htdocs/uabc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-04-04 20:11:08 --> Attempt to read property "idEquipo" on array
+#0 /Applications/MAMP/htdocs/uabc/app/Models/CatalogoModel.php(63): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', '/Applications/M...', 63)
+#1 /Applications/MAMP/htdocs/uabc/app/Controllers/Home.php(429): App\Models\CatalogoModel->getEquiposTorneo('2', 'todos')
+#2 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(824): App\Controllers\Home->getTournamentTeams('2', 'todos')
+#3 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/MAMP/htdocs/uabc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-04-04 20:13:25 --> Attempt to read property "idEquipo" on array
+#0 /Applications/MAMP/htdocs/uabc/app/Models/CatalogoModel.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', '/Applications/M...', 64)
+#1 /Applications/MAMP/htdocs/uabc/app/Controllers/Home.php(429): App\Models\CatalogoModel->getEquiposTorneo('2', 'todos')
+#2 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(824): App\Controllers\Home->getTournamentTeams('2', 'todos')
+#3 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/MAMP/htdocs/uabc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-04-04 20:13:40 --> Attempt to read property "idEquipo" on array
+#0 /Applications/MAMP/htdocs/uabc/app/Models/CatalogoModel.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', '/Applications/M...', 64)
+#1 /Applications/MAMP/htdocs/uabc/app/Controllers/Home.php(429): App\Models\CatalogoModel->getEquiposTorneo('2', 'todos')
+#2 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(824): App\Controllers\Home->getTournamentTeams('2', 'todos')
+#3 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/MAMP/htdocs/uabc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-04-04 20:14:40 --> Attempt to read property "idEquipo" on array
+#0 /Applications/MAMP/htdocs/uabc/app/Models/CatalogoModel.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', '/Applications/M...', 64)
+#1 /Applications/MAMP/htdocs/uabc/app/Controllers/Home.php(429): App\Models\CatalogoModel->getEquiposTorneo('2', 'todos')
+#2 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(824): App\Controllers\Home->getTournamentTeams('2', 'todos')
+#3 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/MAMP/htdocs/uabc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-04-04 20:15:06 --> Attempt to read property "idEquipo" on array
+#0 /Applications/MAMP/htdocs/uabc/app/Models/CatalogoModel.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', '/Applications/M...', 64)
+#1 /Applications/MAMP/htdocs/uabc/app/Controllers/Home.php(429): App\Models\CatalogoModel->getEquiposTorneo('2', 'todos')
+#2 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(824): App\Controllers\Home->getTournamentTeams('2', 'todos')
+#3 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/MAMP/htdocs/uabc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-04-04 20:15:41 --> Attempt to read property "idEquipo" on array
+#0 /Applications/MAMP/htdocs/uabc/app/Models/CatalogoModel.php(65): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', '/Applications/M...', 65)
+#1 /Applications/MAMP/htdocs/uabc/app/Controllers/Home.php(429): App\Models\CatalogoModel->getEquiposTorneo('2', 'todos')
+#2 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(824): App\Controllers\Home->getTournamentTeams('2', 'todos')
+#3 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/MAMP/htdocs/uabc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-04-04 20:16:54 --> Attempt to read property "idEquipo" on array
+#0 /Applications/MAMP/htdocs/uabc/app/Models/CatalogoModel.php(61): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', '/Applications/M...', 61)
+#1 /Applications/MAMP/htdocs/uabc/app/Controllers/Home.php(429): App\Models\CatalogoModel->getEquiposTorneo('2', 'todos')
+#2 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(824): App\Controllers\Home->getTournamentTeams('2', 'todos')
+#3 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/MAMP/htdocs/uabc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-04-04 20:17:11 --> Attempt to read property "idEquipo" on array
+#0 /Applications/MAMP/htdocs/uabc/app/Models/CatalogoModel.php(65): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', '/Applications/M...', 65)
+#1 /Applications/MAMP/htdocs/uabc/app/Controllers/Home.php(429): App\Models\CatalogoModel->getEquiposTorneo('2', 'todos')
+#2 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(824): App\Controllers\Home->getTournamentTeams('2', 'todos')
+#3 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/MAMP/htdocs/uabc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-04-04 20:37:03 --> Attempt to read property "idEquipo" on array
+#0 /Applications/MAMP/htdocs/uabc/app/Models/CatalogoModel.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', '/Applications/M...', 79)
+#1 /Applications/MAMP/htdocs/uabc/app/Controllers/Home.php(429): App\Models\CatalogoModel->getEquiposTorneo('2', 'todos')
+#2 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(824): App\Controllers\Home->getTournamentTeams('2', 'todos')
+#3 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/MAMP/htdocs/uabc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-04-04 20:37:28 --> Attempt to read property "idEquipo" on array
+#0 /Applications/MAMP/htdocs/uabc/app/Models/CatalogoModel.php(81): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', '/Applications/M...', 81)
+#1 /Applications/MAMP/htdocs/uabc/app/Controllers/Home.php(429): App\Models\CatalogoModel->getEquiposTorneo('2', 'todos')
+#2 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(824): App\Controllers\Home->getTournamentTeams('2', 'todos')
+#3 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/MAMP/htdocs/uabc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-04-04 21:00:45 --> Attempt to read property "matricula" on array
+#0 /Applications/MAMP/htdocs/uabc/app/Models/CatalogoModel.php(87): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', '/Applications/M...', 87)
+#1 /Applications/MAMP/htdocs/uabc/app/Controllers/Home.php(429): App\Models\CatalogoModel->getEquiposTorneo('2', 'todos')
+#2 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(824): App\Controllers\Home->getTournamentTeams('2', 'todos')
+#3 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/MAMP/htdocs/uabc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-04-04 21:01:12 --> Attempt to read property "matricula" on array
+#0 /Applications/MAMP/htdocs/uabc/app/Models/CatalogoModel.php(88): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', '/Applications/M...', 88)
+#1 /Applications/MAMP/htdocs/uabc/app/Controllers/Home.php(429): App\Models\CatalogoModel->getEquiposTorneo('2', 'todos')
+#2 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(824): App\Controllers\Home->getTournamentTeams('2', 'todos')
+#3 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/MAMP/htdocs/uabc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-04-04 21:01:40 --> Undefined array key "matricula"
+#0 /Applications/MAMP/htdocs/uabc/app/Models/CatalogoModel.php(88): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/Applications/M...', 88)
+#1 /Applications/MAMP/htdocs/uabc/app/Controllers/Home.php(429): App\Models\CatalogoModel->getEquiposTorneo('2', 'todos')
+#2 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(824): App\Controllers\Home->getTournamentTeams('2', 'todos')
+#3 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/MAMP/htdocs/uabc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-04-04 21:02:21 --> Undefined array key "matricula"
+#0 /Applications/MAMP/htdocs/uabc/app/Models/CatalogoModel.php(89): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/Applications/M...', 89)
+#1 /Applications/MAMP/htdocs/uabc/app/Controllers/Home.php(429): App\Models\CatalogoModel->getEquiposTorneo('2', 'todos')
+#2 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(824): App\Controllers\Home->getTournamentTeams('2', 'todos')
+#3 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/MAMP/htdocs/uabc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-04-04 21:02:35 --> Undefined variable $jugadoresEncontrados
+#0 /Applications/MAMP/htdocs/uabc/app/Models/CatalogoModel.php(86): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/Applications/M...', 86)
+#1 /Applications/MAMP/htdocs/uabc/app/Controllers/Home.php(429): App\Models\CatalogoModel->getEquiposTorneo('2', 'todos')
+#2 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(824): App\Controllers\Home->getTournamentTeams('2', 'todos')
+#3 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/MAMP/htdocs/uabc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-04-04 21:02:42 --> Undefined array key "matricula"
+#0 /Applications/MAMP/htdocs/uabc/app/Models/CatalogoModel.php(89): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/Applications/M...', 89)
+#1 /Applications/MAMP/htdocs/uabc/app/Controllers/Home.php(429): App\Models\CatalogoModel->getEquiposTorneo('2', 'todos')
+#2 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(824): App\Controllers\Home->getTournamentTeams('2', 'todos')
+#3 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/MAMP/htdocs/uabc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-04-04 21:03:03 --> Attempt to read property "matricula" on array
+#0 /Applications/MAMP/htdocs/uabc/app/Models/CatalogoModel.php(86): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', '/Applications/M...', 86)
+#1 /Applications/MAMP/htdocs/uabc/app/Controllers/Home.php(429): App\Models\CatalogoModel->getEquiposTorneo('2', 'todos')
+#2 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(824): App\Controllers\Home->getTournamentTeams('2', 'todos')
+#3 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/MAMP/htdocs/uabc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-04-04 21:03:16 --> Undefined array key "matricula"
+#0 /Applications/MAMP/htdocs/uabc/app/Models/CatalogoModel.php(86): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/Applications/M...', 86)
+#1 /Applications/MAMP/htdocs/uabc/app/Controllers/Home.php(429): App\Models\CatalogoModel->getEquiposTorneo('2', 'todos')
+#2 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(824): App\Controllers\Home->getTournamentTeams('2', 'todos')
+#3 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/MAMP/htdocs/uabc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-04-04 21:03:31 --> Undefined array key "matricula"
+#0 /Applications/MAMP/htdocs/uabc/app/Models/CatalogoModel.php(89): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/Applications/M...', 89)
+#1 /Applications/MAMP/htdocs/uabc/app/Controllers/Home.php(429): App\Models\CatalogoModel->getEquiposTorneo('2', 'todos')
+#2 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(824): App\Controllers\Home->getTournamentTeams('2', 'todos')
+#3 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/MAMP/htdocs/uabc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-04-04 21:15:37 --> Attempt to read property "matricula" on array
+#0 /Applications/MAMP/htdocs/uabc/app/Models/CatalogoModel.php(88): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', '/Applications/M...', 88)
+#1 /Applications/MAMP/htdocs/uabc/app/Controllers/Home.php(429): App\Models\CatalogoModel->getEquiposTorneo('2', 'todos')
+#2 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(824): App\Controllers\Home->getTournamentTeams('2', 'todos')
+#3 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/MAMP/htdocs/uabc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-04-04 21:16:33 --> Attempt to read property "matricula" on array
+#0 /Applications/MAMP/htdocs/uabc/app/Models/CatalogoModel.php(86): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', '/Applications/M...', 86)
+#1 /Applications/MAMP/htdocs/uabc/app/Controllers/Home.php(429): App\Models\CatalogoModel->getEquiposTorneo('2', 'todos')
+#2 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(824): App\Controllers\Home->getTournamentTeams('2', 'todos')
+#3 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/MAMP/htdocs/uabc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-04-04 21:16:56 --> Attempt to read property "matricula" on array
+#0 /Applications/MAMP/htdocs/uabc/app/Models/CatalogoModel.php(88): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', '/Applications/M...', 88)
+#1 /Applications/MAMP/htdocs/uabc/app/Controllers/Home.php(429): App\Models\CatalogoModel->getEquiposTorneo('2', 'todos')
+#2 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(824): App\Controllers\Home->getTournamentTeams('2', 'todos')
+#3 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/MAMP/htdocs/uabc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-04-04 21:17:14 --> Attempt to read property "matricula" on array
+#0 /Applications/MAMP/htdocs/uabc/app/Models/CatalogoModel.php(89): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', '/Applications/M...', 89)
+#1 /Applications/MAMP/htdocs/uabc/app/Controllers/Home.php(429): App\Models\CatalogoModel->getEquiposTorneo('2', 'todos')
+#2 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(824): App\Controllers\Home->getTournamentTeams('2', 'todos')
+#3 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/MAMP/htdocs/uabc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-04-04 21:19:23 --> Attempt to read property "matricula" on array
+#0 /Applications/MAMP/htdocs/uabc/app/Models/CatalogoModel.php(89): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', '/Applications/M...', 89)
+#1 /Applications/MAMP/htdocs/uabc/app/Controllers/Home.php(429): App\Models\CatalogoModel->getEquiposTorneo('2', 'todos')
+#2 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(824): App\Controllers\Home->getTournamentTeams('2', 'todos')
+#3 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/MAMP/htdocs/uabc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-04-04 21:36:04 --> Attempt to read property "matricula" on string
+#0 /Applications/MAMP/htdocs/uabc/app/Models/CatalogoModel.php(89): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', '/Applications/M...', 89)
+#1 /Applications/MAMP/htdocs/uabc/app/Controllers/Home.php(429): App\Models\CatalogoModel->getEquiposTorneo('2', 'todos')
+#2 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(824): App\Controllers\Home->getTournamentTeams('2', 'todos')
+#3 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/MAMP/htdocs/uabc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-04-04 21:37:57 --> Undefined array key 3
+#0 /Applications/MAMP/htdocs/uabc/app/Models/CatalogoModel.php(88): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/Applications/M...', 88)
+#1 /Applications/MAMP/htdocs/uabc/app/Controllers/Home.php(429): App\Models\CatalogoModel->getEquiposTorneo('2', 'todos')
+#2 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(824): App\Controllers\Home->getTournamentTeams('2', 'todos')
+#3 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/MAMP/htdocs/uabc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-04-04 21:38:43 --> Undefined array key 3
+#0 /Applications/MAMP/htdocs/uabc/app/Models/CatalogoModel.php(89): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/Applications/M...', 89)
+#1 /Applications/MAMP/htdocs/uabc/app/Controllers/Home.php(429): App\Models\CatalogoModel->getEquiposTorneo('2', 'todos')
+#2 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(824): App\Controllers\Home->getTournamentTeams('2', 'todos')
+#3 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/MAMP/htdocs/uabc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-04-04 21:39:05 --> Undefined array key 3
+#0 /Applications/MAMP/htdocs/uabc/app/Models/CatalogoModel.php(89): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/Applications/M...', 89)
+#1 /Applications/MAMP/htdocs/uabc/app/Controllers/Home.php(429): App\Models\CatalogoModel->getEquiposTorneo('2', 'todos')
+#2 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(824): App\Controllers\Home->getTournamentTeams('2', 'todos')
+#3 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/MAMP/htdocs/uabc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-04-04 21:39:43 --> Undefined array key 3
+#0 /Applications/MAMP/htdocs/uabc/app/Models/CatalogoModel.php(89): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/Applications/M...', 89)
+#1 /Applications/MAMP/htdocs/uabc/app/Controllers/Home.php(429): App\Models\CatalogoModel->getEquiposTorneo('2', 'todos')
+#2 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(824): App\Controllers\Home->getTournamentTeams('2', 'todos')
+#3 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/MAMP/htdocs/uabc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-04-04 21:40:24 --> Undefined array key 3
+#0 /Applications/MAMP/htdocs/uabc/app/Models/CatalogoModel.php(91): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/Applications/M...', 91)
+#1 /Applications/MAMP/htdocs/uabc/app/Controllers/Home.php(429): App\Models\CatalogoModel->getEquiposTorneo('2', 'todos')
+#2 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(824): App\Controllers\Home->getTournamentTeams('2', 'todos')
+#3 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/MAMP/htdocs/uabc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-04-04 21:40:46 --> Undefined array key 3
+#0 /Applications/MAMP/htdocs/uabc/app/Models/CatalogoModel.php(91): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/Applications/M...', 91)
+#1 /Applications/MAMP/htdocs/uabc/app/Controllers/Home.php(429): App\Models\CatalogoModel->getEquiposTorneo('2', 'todos')
+#2 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(824): App\Controllers\Home->getTournamentTeams('2', 'todos')
+#3 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/MAMP/htdocs/uabc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-04-04 21:40:53 --> Undefined array key 3
+#0 /Applications/MAMP/htdocs/uabc/app/Models/CatalogoModel.php(91): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/Applications/M...', 91)
+#1 /Applications/MAMP/htdocs/uabc/app/Controllers/Home.php(429): App\Models\CatalogoModel->getEquiposTorneo('2', 'todos')
+#2 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(824): App\Controllers\Home->getTournamentTeams('2', 'todos')
+#3 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/MAMP/htdocs/uabc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-04-04 21:41:10 --> Undefined array key 3
+#0 /Applications/MAMP/htdocs/uabc/app/Models/CatalogoModel.php(91): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/Applications/M...', 91)
+#1 /Applications/MAMP/htdocs/uabc/app/Controllers/Home.php(429): App\Models\CatalogoModel->getEquiposTorneo('2', 'todos')
+#2 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(824): App\Controllers\Home->getTournamentTeams('2', 'todos')
+#3 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/MAMP/htdocs/uabc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-04-04 21:41:59 --> Undefined array key 3
+#0 /Applications/MAMP/htdocs/uabc/app/Models/CatalogoModel.php(91): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/Applications/M...', 91)
+#1 /Applications/MAMP/htdocs/uabc/app/Controllers/Home.php(429): App\Models\CatalogoModel->getEquiposTorneo('2', 'todos')
+#2 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(824): App\Controllers\Home->getTournamentTeams('2', 'todos')
+#3 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/MAMP/htdocs/uabc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-04-04 21:42:24 --> Undefined array key 3
+#0 /Applications/MAMP/htdocs/uabc/app/Models/CatalogoModel.php(91): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/Applications/M...', 91)
+#1 /Applications/MAMP/htdocs/uabc/app/Controllers/Home.php(429): App\Models\CatalogoModel->getEquiposTorneo('2', 'todos')
+#2 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(824): App\Controllers\Home->getTournamentTeams('2', 'todos')
+#3 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/MAMP/htdocs/uabc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-04-04 21:42:36 --> Undefined array key 3
+#0 /Applications/MAMP/htdocs/uabc/app/Models/CatalogoModel.php(91): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/Applications/M...', 91)
+#1 /Applications/MAMP/htdocs/uabc/app/Controllers/Home.php(429): App\Models\CatalogoModel->getEquiposTorneo('2', 'todos')
+#2 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(824): App\Controllers\Home->getTournamentTeams('2', 'todos')
+#3 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/MAMP/htdocs/uabc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-04-04 21:42:49 --> Undefined array key 3
+#0 /Applications/MAMP/htdocs/uabc/app/Models/CatalogoModel.php(91): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/Applications/M...', 91)
+#1 /Applications/MAMP/htdocs/uabc/app/Controllers/Home.php(429): App\Models\CatalogoModel->getEquiposTorneo('2', 'todos')
+#2 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(824): App\Controllers\Home->getTournamentTeams('2', 'todos')
+#3 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/MAMP/htdocs/uabc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-04-04 21:43:06 --> Undefined array key 3
+#0 /Applications/MAMP/htdocs/uabc/app/Models/CatalogoModel.php(91): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/Applications/M...', 91)
+#1 /Applications/MAMP/htdocs/uabc/app/Controllers/Home.php(429): App\Models\CatalogoModel->getEquiposTorneo('2', 'todos')
+#2 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(824): App\Controllers\Home->getTournamentTeams('2', 'todos')
+#3 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/MAMP/htdocs/uabc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-04-04 21:43:24 --> Undefined array key 3
+#0 /Applications/MAMP/htdocs/uabc/app/Models/CatalogoModel.php(91): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/Applications/M...', 91)
+#1 /Applications/MAMP/htdocs/uabc/app/Controllers/Home.php(429): App\Models\CatalogoModel->getEquiposTorneo('2', 'todos')
+#2 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(824): App\Controllers\Home->getTournamentTeams('2', 'todos')
+#3 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/MAMP/htdocs/uabc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-04-04 21:44:06 --> Undefined array key 3
+#0 /Applications/MAMP/htdocs/uabc/app/Models/CatalogoModel.php(91): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/Applications/M...', 91)
+#1 /Applications/MAMP/htdocs/uabc/app/Controllers/Home.php(429): App\Models\CatalogoModel->getEquiposTorneo('2', 'todos')
+#2 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(824): App\Controllers\Home->getTournamentTeams('2', 'todos')
+#3 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/MAMP/htdocs/uabc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-04-04 21:44:46 --> Undefined array key 3
+#0 /Applications/MAMP/htdocs/uabc/app/Models/CatalogoModel.php(91): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/Applications/M...', 91)
+#1 /Applications/MAMP/htdocs/uabc/app/Controllers/Home.php(429): App\Models\CatalogoModel->getEquiposTorneo('2', 'todos')
+#2 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(824): App\Controllers\Home->getTournamentTeams('2', 'todos')
+#3 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/MAMP/htdocs/uabc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-04-04 21:45:01 --> Undefined array key 3
+#0 /Applications/MAMP/htdocs/uabc/app/Models/CatalogoModel.php(91): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/Applications/M...', 91)
+#1 /Applications/MAMP/htdocs/uabc/app/Controllers/Home.php(429): App\Models\CatalogoModel->getEquiposTorneo('2', 'todos')
+#2 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(824): App\Controllers\Home->getTournamentTeams('2', 'todos')
+#3 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/MAMP/htdocs/uabc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-04-04 21:45:29 --> Undefined array key 3
+#0 /Applications/MAMP/htdocs/uabc/app/Models/CatalogoModel.php(91): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/Applications/M...', 91)
+#1 /Applications/MAMP/htdocs/uabc/app/Controllers/Home.php(429): App\Models\CatalogoModel->getEquiposTorneo('2', 'todos')
+#2 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(824): App\Controllers\Home->getTournamentTeams('2', 'todos')
+#3 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/MAMP/htdocs/uabc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-04-04 21:45:38 --> Undefined array key 3
+#0 /Applications/MAMP/htdocs/uabc/app/Models/CatalogoModel.php(91): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/Applications/M...', 91)
+#1 /Applications/MAMP/htdocs/uabc/app/Controllers/Home.php(429): App\Models\CatalogoModel->getEquiposTorneo('2', 'todos')
+#2 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(824): App\Controllers\Home->getTournamentTeams('2', 'todos')
+#3 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/MAMP/htdocs/uabc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-04-04 21:46:37 --> Undefined array key 3
+#0 /Applications/MAMP/htdocs/uabc/app/Models/CatalogoModel.php(91): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/Applications/M...', 91)
+#1 /Applications/MAMP/htdocs/uabc/app/Controllers/Home.php(429): App\Models\CatalogoModel->getEquiposTorneo('2', 'todos')
+#2 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(824): App\Controllers\Home->getTournamentTeams('2', 'todos')
+#3 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/MAMP/htdocs/uabc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-04-04 21:47:23 --> Undefined array key 3
+#0 /Applications/MAMP/htdocs/uabc/app/Models/CatalogoModel.php(91): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/Applications/M...', 91)
+#1 /Applications/MAMP/htdocs/uabc/app/Controllers/Home.php(429): App\Models\CatalogoModel->getEquiposTorneo('2', 'todos')
+#2 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(824): App\Controllers\Home->getTournamentTeams('2', 'todos')
+#3 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/MAMP/htdocs/uabc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-04-04 21:47:40 --> Undefined array key 3
+#0 /Applications/MAMP/htdocs/uabc/app/Models/CatalogoModel.php(91): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/Applications/M...', 91)
+#1 /Applications/MAMP/htdocs/uabc/app/Controllers/Home.php(429): App\Models\CatalogoModel->getEquiposTorneo('2', 'todos')
+#2 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(824): App\Controllers\Home->getTournamentTeams('2', 'todos')
+#3 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/MAMP/htdocs/uabc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-04-04 21:47:49 --> Undefined array key 3
+#0 /Applications/MAMP/htdocs/uabc/app/Models/CatalogoModel.php(91): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/Applications/M...', 91)
+#1 /Applications/MAMP/htdocs/uabc/app/Controllers/Home.php(429): App\Models\CatalogoModel->getEquiposTorneo('2', 'todos')
+#2 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(824): App\Controllers\Home->getTournamentTeams('2', 'todos')
+#3 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/MAMP/htdocs/uabc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-04-04 21:47:56 --> Undefined array key 3
+#0 /Applications/MAMP/htdocs/uabc/app/Models/CatalogoModel.php(91): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/Applications/M...', 91)
+#1 /Applications/MAMP/htdocs/uabc/app/Controllers/Home.php(429): App\Models\CatalogoModel->getEquiposTorneo('2', 'todos')
+#2 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(824): App\Controllers\Home->getTournamentTeams('2', 'todos')
+#3 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/MAMP/htdocs/uabc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}

@@ -1,0 +1,233 @@
+ERROR - 2021-12-06 16:45:29 --> Cannot add or update a child row: a foreign key constraint fails (`mona_fitness`.`Membership`, CONSTRAINT `fk_Membership_Class1` FOREIGN KEY (`idClass`) REFERENCES `Class` (`idClass`) ON DELETE NO ACTION ON UPDATE NO ACTION)
+ERROR - 2021-12-06 16:45:46 --> Cannot add or update a child row: a foreign key constraint fails (`mona_fitness`.`Membership`, CONSTRAINT `fk_Membership_Class1` FOREIGN KEY (`idClass`) REFERENCES `Class` (`idClass`) ON DELETE NO ACTION ON UPDATE NO ACTION)
+ERROR - 2021-12-06 16:51:17 --> Cannot add or update a child row: a foreign key constraint fails (`mona_fitness`.`Membership`, CONSTRAINT `fk_Membership_Class1` FOREIGN KEY (`idClass`) REFERENCES `Class` (`idClass`) ON DELETE NO ACTION ON UPDATE NO ACTION)
+ERROR - 2021-12-06 16:52:27 --> Cannot add or update a child row: a foreign key constraint fails (`mona_fitness`.`Membership`, CONSTRAINT `fk_Membership_Class1` FOREIGN KEY (`idClass`) REFERENCES `Class` (`idClass`) ON DELETE NO ACTION ON UPDATE NO ACTION)
+CRITICAL - 2021-12-06 18:36:47 --> Object of class CodeIgniter\Database\MySQLi\Builder could not be converted to string
+#0 /opt/lampp/htdocs/mona_fitness/system/View/View.php(214): include()
+#1 /opt/lampp/htdocs/mona_fitness/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /opt/lampp/htdocs/mona_fitness/system/Common.php(1097): CodeIgniter\View\View->render('membresias', Array, true)
+#3 /opt/lampp/htdocs/mona_fitness/app/Controllers/Home.php(14): view('membresias', Array)
+#4 /opt/lampp/htdocs/mona_fitness/system/CodeIgniter.php(824): App\Controllers\Home->index()
+#5 /opt/lampp/htdocs/mona_fitness/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 /opt/lampp/htdocs/mona_fitness/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /opt/lampp/htdocs/mona_fitness/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-12-06 18:36:53 --> Object of class CodeIgniter\Database\MySQLi\Builder could not be converted to string
+#0 /opt/lampp/htdocs/mona_fitness/system/View/View.php(214): include()
+#1 /opt/lampp/htdocs/mona_fitness/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /opt/lampp/htdocs/mona_fitness/system/Common.php(1097): CodeIgniter\View\View->render('membresias', Array, true)
+#3 /opt/lampp/htdocs/mona_fitness/app/Controllers/Home.php(14): view('membresias', Array)
+#4 /opt/lampp/htdocs/mona_fitness/system/CodeIgniter.php(824): App\Controllers\Home->index()
+#5 /opt/lampp/htdocs/mona_fitness/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 /opt/lampp/htdocs/mona_fitness/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /opt/lampp/htdocs/mona_fitness/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-12-06 18:37:18 --> Object of class CodeIgniter\Database\MySQLi\Builder could not be converted to string
+#0 /opt/lampp/htdocs/mona_fitness/system/View/View.php(214): include()
+#1 /opt/lampp/htdocs/mona_fitness/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /opt/lampp/htdocs/mona_fitness/system/Common.php(1097): CodeIgniter\View\View->render('membresias', Array, true)
+#3 /opt/lampp/htdocs/mona_fitness/app/Controllers/Home.php(14): view('membresias', Array)
+#4 /opt/lampp/htdocs/mona_fitness/system/CodeIgniter.php(824): App\Controllers\Home->index()
+#5 /opt/lampp/htdocs/mona_fitness/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 /opt/lampp/htdocs/mona_fitness/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /opt/lampp/htdocs/mona_fitness/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-12-06 18:37:19 --> Object of class CodeIgniter\Database\MySQLi\Builder could not be converted to string
+#0 /opt/lampp/htdocs/mona_fitness/system/View/View.php(214): include()
+#1 /opt/lampp/htdocs/mona_fitness/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /opt/lampp/htdocs/mona_fitness/system/Common.php(1097): CodeIgniter\View\View->render('membresias', Array, true)
+#3 /opt/lampp/htdocs/mona_fitness/app/Controllers/Home.php(14): view('membresias', Array)
+#4 /opt/lampp/htdocs/mona_fitness/system/CodeIgniter.php(824): App\Controllers\Home->index()
+#5 /opt/lampp/htdocs/mona_fitness/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 /opt/lampp/htdocs/mona_fitness/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /opt/lampp/htdocs/mona_fitness/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-12-06 18:37:21 --> Object of class CodeIgniter\Database\MySQLi\Builder could not be converted to string
+#0 /opt/lampp/htdocs/mona_fitness/system/View/View.php(214): include()
+#1 /opt/lampp/htdocs/mona_fitness/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /opt/lampp/htdocs/mona_fitness/system/Common.php(1097): CodeIgniter\View\View->render('membresias', Array, true)
+#3 /opt/lampp/htdocs/mona_fitness/app/Controllers/Home.php(14): view('membresias', Array)
+#4 /opt/lampp/htdocs/mona_fitness/system/CodeIgniter.php(824): App\Controllers\Home->index()
+#5 /opt/lampp/htdocs/mona_fitness/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 /opt/lampp/htdocs/mona_fitness/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /opt/lampp/htdocs/mona_fitness/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-12-06 18:40:42 --> Array to string conversion
+#0 /opt/lampp/htdocs/mona_fitness/app/Views/membresias.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', '/opt/lampp/htdo...', 4)
+#1 /opt/lampp/htdocs/mona_fitness/system/View/View.php(214): include('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/mona_fitness/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /opt/lampp/htdocs/mona_fitness/system/Common.php(1097): CodeIgniter\View\View->render('membresias', Array, true)
+#4 /opt/lampp/htdocs/mona_fitness/app/Controllers/Home.php(21): view('membresias', Array)
+#5 /opt/lampp/htdocs/mona_fitness/system/CodeIgniter.php(824): App\Controllers\Home->index()
+#6 /opt/lampp/htdocs/mona_fitness/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /opt/lampp/htdocs/mona_fitness/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /opt/lampp/htdocs/mona_fitness/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-06 18:40:43 --> Array to string conversion
+#0 /opt/lampp/htdocs/mona_fitness/app/Views/membresias.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', '/opt/lampp/htdo...', 4)
+#1 /opt/lampp/htdocs/mona_fitness/system/View/View.php(214): include('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/mona_fitness/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /opt/lampp/htdocs/mona_fitness/system/Common.php(1097): CodeIgniter\View\View->render('membresias', Array, true)
+#4 /opt/lampp/htdocs/mona_fitness/app/Controllers/Home.php(21): view('membresias', Array)
+#5 /opt/lampp/htdocs/mona_fitness/system/CodeIgniter.php(824): App\Controllers\Home->index()
+#6 /opt/lampp/htdocs/mona_fitness/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /opt/lampp/htdocs/mona_fitness/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /opt/lampp/htdocs/mona_fitness/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-06 18:40:44 --> Array to string conversion
+#0 /opt/lampp/htdocs/mona_fitness/app/Views/membresias.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', '/opt/lampp/htdo...', 4)
+#1 /opt/lampp/htdocs/mona_fitness/system/View/View.php(214): include('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/mona_fitness/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /opt/lampp/htdocs/mona_fitness/system/Common.php(1097): CodeIgniter\View\View->render('membresias', Array, true)
+#4 /opt/lampp/htdocs/mona_fitness/app/Controllers/Home.php(21): view('membresias', Array)
+#5 /opt/lampp/htdocs/mona_fitness/system/CodeIgniter.php(824): App\Controllers\Home->index()
+#6 /opt/lampp/htdocs/mona_fitness/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /opt/lampp/htdocs/mona_fitness/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /opt/lampp/htdocs/mona_fitness/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-06 18:40:46 --> Array to string conversion
+#0 /opt/lampp/htdocs/mona_fitness/app/Views/membresias.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', '/opt/lampp/htdo...', 4)
+#1 /opt/lampp/htdocs/mona_fitness/system/View/View.php(214): include('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/mona_fitness/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /opt/lampp/htdocs/mona_fitness/system/Common.php(1097): CodeIgniter\View\View->render('membresias', Array, true)
+#4 /opt/lampp/htdocs/mona_fitness/app/Controllers/Home.php(21): view('membresias', Array)
+#5 /opt/lampp/htdocs/mona_fitness/system/CodeIgniter.php(824): App\Controllers\Home->index()
+#6 /opt/lampp/htdocs/mona_fitness/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /opt/lampp/htdocs/mona_fitness/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /opt/lampp/htdocs/mona_fitness/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-06 18:41:03 --> Array to string conversion
+#0 /opt/lampp/htdocs/mona_fitness/app/Views/membresias.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', '/opt/lampp/htdo...', 4)
+#1 /opt/lampp/htdocs/mona_fitness/system/View/View.php(214): include('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/mona_fitness/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /opt/lampp/htdocs/mona_fitness/system/Common.php(1097): CodeIgniter\View\View->render('membresias', Array, true)
+#4 /opt/lampp/htdocs/mona_fitness/app/Controllers/Home.php(21): view('membresias', Array)
+#5 /opt/lampp/htdocs/mona_fitness/system/CodeIgniter.php(824): App\Controllers\Home->index()
+#6 /opt/lampp/htdocs/mona_fitness/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /opt/lampp/htdocs/mona_fitness/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /opt/lampp/htdocs/mona_fitness/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-06 18:43:46 --> Array to string conversion
+#0 /opt/lampp/htdocs/mona_fitness/app/Views/membresias.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', '/opt/lampp/htdo...', 4)
+#1 /opt/lampp/htdocs/mona_fitness/system/View/View.php(214): include('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/mona_fitness/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /opt/lampp/htdocs/mona_fitness/system/Common.php(1097): CodeIgniter\View\View->render('membresias', Array, true)
+#4 /opt/lampp/htdocs/mona_fitness/app/Controllers/Home.php(21): view('membresias', Array)
+#5 /opt/lampp/htdocs/mona_fitness/system/CodeIgniter.php(824): App\Controllers\Home->index()
+#6 /opt/lampp/htdocs/mona_fitness/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /opt/lampp/htdocs/mona_fitness/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /opt/lampp/htdocs/mona_fitness/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-06 18:44:48 --> Array to string conversion
+#0 /opt/lampp/htdocs/mona_fitness/app/Views/membresias.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', '/opt/lampp/htdo...', 4)
+#1 /opt/lampp/htdocs/mona_fitness/system/View/View.php(214): include('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/mona_fitness/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /opt/lampp/htdocs/mona_fitness/system/Common.php(1097): CodeIgniter\View\View->render('membresias', Array, true)
+#4 /opt/lampp/htdocs/mona_fitness/app/Controllers/Home.php(21): view('membresias', Array)
+#5 /opt/lampp/htdocs/mona_fitness/system/CodeIgniter.php(824): App\Controllers\Home->index()
+#6 /opt/lampp/htdocs/mona_fitness/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /opt/lampp/htdocs/mona_fitness/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /opt/lampp/htdocs/mona_fitness/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-06 18:45:03 --> Array to string conversion
+#0 /opt/lampp/htdocs/mona_fitness/app/Views/membresias.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', '/opt/lampp/htdo...', 4)
+#1 /opt/lampp/htdocs/mona_fitness/system/View/View.php(214): include('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/mona_fitness/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /opt/lampp/htdocs/mona_fitness/system/Common.php(1097): CodeIgniter\View\View->render('membresias', Array, true)
+#4 /opt/lampp/htdocs/mona_fitness/app/Controllers/Home.php(21): view('membresias', Array)
+#5 /opt/lampp/htdocs/mona_fitness/system/CodeIgniter.php(824): App\Controllers\Home->index()
+#6 /opt/lampp/htdocs/mona_fitness/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /opt/lampp/htdocs/mona_fitness/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /opt/lampp/htdocs/mona_fitness/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-06 18:45:12 --> Array to string conversion
+#0 /opt/lampp/htdocs/mona_fitness/app/Views/membresias.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', '/opt/lampp/htdo...', 21)
+#1 /opt/lampp/htdocs/mona_fitness/system/View/View.php(214): include('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/mona_fitness/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /opt/lampp/htdocs/mona_fitness/system/Common.php(1097): CodeIgniter\View\View->render('membresias', Array, true)
+#4 /opt/lampp/htdocs/mona_fitness/app/Controllers/Home.php(21): view('membresias', Array)
+#5 /opt/lampp/htdocs/mona_fitness/system/CodeIgniter.php(824): App\Controllers\Home->index()
+#6 /opt/lampp/htdocs/mona_fitness/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /opt/lampp/htdocs/mona_fitness/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /opt/lampp/htdocs/mona_fitness/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-06 19:51:27 --> json_decode(): Argument #1 ($json) must be of type string, array given
+#0 /opt/lampp/htdocs/mona_fitness/app/Views/membresias.php(54): json_decode(Array)
+#1 /opt/lampp/htdocs/mona_fitness/system/View/View.php(214): include('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/mona_fitness/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /opt/lampp/htdocs/mona_fitness/system/Common.php(1097): CodeIgniter\View\View->render('membresias', Array, true)
+#4 /opt/lampp/htdocs/mona_fitness/app/Controllers/Home.php(21): view('membresias', Array)
+#5 /opt/lampp/htdocs/mona_fitness/system/CodeIgniter.php(824): App\Controllers\Home->index()
+#6 /opt/lampp/htdocs/mona_fitness/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /opt/lampp/htdocs/mona_fitness/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /opt/lampp/htdocs/mona_fitness/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-06 20:29:22 --> Array to string conversion
+#0 /opt/lampp/htdocs/mona_fitness/app/Views/membresias.php(92): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', '/opt/lampp/htdo...', 92)
+#1 /opt/lampp/htdocs/mona_fitness/system/View/View.php(214): include('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/mona_fitness/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /opt/lampp/htdocs/mona_fitness/system/Common.php(1097): CodeIgniter\View\View->render('membresias', Array, true)
+#4 /opt/lampp/htdocs/mona_fitness/app/Controllers/Home.php(21): view('membresias', Array)
+#5 /opt/lampp/htdocs/mona_fitness/system/CodeIgniter.php(824): App\Controllers\Home->index()
+#6 /opt/lampp/htdocs/mona_fitness/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /opt/lampp/htdocs/mona_fitness/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /opt/lampp/htdocs/mona_fitness/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-06 20:29:43 --> Array to string conversion
+#0 /opt/lampp/htdocs/mona_fitness/app/Views/membresias.php(92): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', '/opt/lampp/htdo...', 92)
+#1 /opt/lampp/htdocs/mona_fitness/system/View/View.php(214): include('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/mona_fitness/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /opt/lampp/htdocs/mona_fitness/system/Common.php(1097): CodeIgniter\View\View->render('membresias', Array, true)
+#4 /opt/lampp/htdocs/mona_fitness/app/Controllers/Home.php(21): view('membresias', Array)
+#5 /opt/lampp/htdocs/mona_fitness/system/CodeIgniter.php(824): App\Controllers\Home->index()
+#6 /opt/lampp/htdocs/mona_fitness/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /opt/lampp/htdocs/mona_fitness/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /opt/lampp/htdocs/mona_fitness/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-06 20:29:44 --> Array to string conversion
+#0 /opt/lampp/htdocs/mona_fitness/app/Views/membresias.php(92): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', '/opt/lampp/htdo...', 92)
+#1 /opt/lampp/htdocs/mona_fitness/system/View/View.php(214): include('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/mona_fitness/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /opt/lampp/htdocs/mona_fitness/system/Common.php(1097): CodeIgniter\View\View->render('membresias', Array, true)
+#4 /opt/lampp/htdocs/mona_fitness/app/Controllers/Home.php(21): view('membresias', Array)
+#5 /opt/lampp/htdocs/mona_fitness/system/CodeIgniter.php(824): App\Controllers\Home->index()
+#6 /opt/lampp/htdocs/mona_fitness/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /opt/lampp/htdocs/mona_fitness/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /opt/lampp/htdocs/mona_fitness/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-06 21:17:25 --> syntax error, unexpected variable "$builder"
+#0 /opt/lampp/htdocs/mona_fitness/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/opt/lampp/htdo...')
+#1 /opt/lampp/htdocs/mona_fitness/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Clie...')
+#2 /opt/lampp/htdocs/mona_fitness/app/Controllers/Client.php(66): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Clie...')
+#3 /opt/lampp/htdocs/mona_fitness/system/CodeIgniter.php(824): App\Controllers\Client->getAllClientes()
+#4 /opt/lampp/htdocs/mona_fitness/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+#5 /opt/lampp/htdocs/mona_fitness/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /opt/lampp/htdocs/mona_fitness/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2021-12-06 21:59:02 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'as TRUE) as status
+FROM `Client`
+JOIN `Membership` ON `Membership`.`idClient`...' at line 1
+ERROR - 2021-12-06 21:59:11 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'as TRUE) as status
+FROM `Client`
+JOIN `Membership` ON `Membership`.`idClient`...' at line 1
+ERROR - 2021-12-06 21:59:29 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ') as status
+FROM `Client`
+JOIN `Membership` ON `Membership`.`idClient` = `Cli...' at line 1
+ERROR - 2021-12-06 21:59:31 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ') as status
+FROM `Client`
+JOIN `Membership` ON `Membership`.`idClient` = `Cli...' at line 1
+ERROR - 2021-12-06 22:05:00 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'dueDate 
+            then true 
+            else false
+       end) as status
+...' at line 1
+ERROR - 2021-12-06 22:05:03 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'dueDate 
+            then true 
+            else false
+       end) as status
+...' at line 1
+ERROR - 2021-12-06 22:06:02 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'dueDate 
+            then true 
+            else false
+       end) as status
+...' at line 1

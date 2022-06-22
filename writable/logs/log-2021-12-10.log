@@ -1,0 +1,149 @@
+CRITICAL - 2021-12-10 20:29:02 --> Object of class App\Models\HorariosModel could not be converted to string
+#0 /opt/lampp/htdocs/mona_fitness/system/CodeIgniter.php(824): App\Controllers\Horario->getHorarios()
+#1 /opt/lampp/htdocs/mona_fitness/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Horario))
+#2 /opt/lampp/htdocs/mona_fitness/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /opt/lampp/htdocs/mona_fitness/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-12-10 20:29:12 --> Object of class App\Models\HorariosModel could not be converted to string
+#0 /opt/lampp/htdocs/mona_fitness/system/CodeIgniter.php(824): App\Controllers\Horario->getHorarios()
+#1 /opt/lampp/htdocs/mona_fitness/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Horario))
+#2 /opt/lampp/htdocs/mona_fitness/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /opt/lampp/htdocs/mona_fitness/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-12-10 20:29:44 --> Object of class App\Models\HorariosModel could not be converted to string
+#0 /opt/lampp/htdocs/mona_fitness/system/CodeIgniter.php(824): App\Controllers\Horario->getHorarios()
+#1 /opt/lampp/htdocs/mona_fitness/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Horario))
+#2 /opt/lampp/htdocs/mona_fitness/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /opt/lampp/htdocs/mona_fitness/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-12-10 20:29:51 --> Object of class App\Models\HorariosModel could not be converted to string
+#0 /opt/lampp/htdocs/mona_fitness/system/CodeIgniter.php(824): App\Controllers\Horario->getHorarios()
+#1 /opt/lampp/htdocs/mona_fitness/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Horario))
+#2 /opt/lampp/htdocs/mona_fitness/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /opt/lampp/htdocs/mona_fitness/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-12-10 20:30:10 --> Object of class App\Models\HorariosModel could not be converted to string
+#0 /opt/lampp/htdocs/mona_fitness/system/CodeIgniter.php(824): App\Controllers\Horario->getHorarios()
+#1 /opt/lampp/htdocs/mona_fitness/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Horario))
+#2 /opt/lampp/htdocs/mona_fitness/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /opt/lampp/htdocs/mona_fitness/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-12-10 20:30:24 --> Object of class App\Models\HorariosModel could not be converted to string
+#0 /opt/lampp/htdocs/mona_fitness/system/CodeIgniter.php(824): App\Controllers\Horario->getHorarios()
+#1 /opt/lampp/htdocs/mona_fitness/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Horario))
+#2 /opt/lampp/htdocs/mona_fitness/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /opt/lampp/htdocs/mona_fitness/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-12-10 20:30:56 --> Object of class App\Models\HorariosModel could not be converted to string
+#0 /opt/lampp/htdocs/mona_fitness/system/CodeIgniter.php(824): App\Controllers\Horario->getHorarios()
+#1 /opt/lampp/htdocs/mona_fitness/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Horario))
+#2 /opt/lampp/htdocs/mona_fitness/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /opt/lampp/htdocs/mona_fitness/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-12-10 20:31:53 --> Object of class App\Models\HorariosModel could not be converted to string
+#0 /opt/lampp/htdocs/mona_fitness/system/CodeIgniter.php(824): App\Controllers\Horario->getHorarios()
+#1 /opt/lampp/htdocs/mona_fitness/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Horario))
+#2 /opt/lampp/htdocs/mona_fitness/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /opt/lampp/htdocs/mona_fitness/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-12-10 20:32:45 --> Object of class App\Models\HorariosModel could not be converted to string
+#0 /opt/lampp/htdocs/mona_fitness/system/CodeIgniter.php(824): App\Controllers\Horario->getHorarios()
+#1 /opt/lampp/htdocs/mona_fitness/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Horario))
+#2 /opt/lampp/htdocs/mona_fitness/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /opt/lampp/htdocs/mona_fitness/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-12-10 20:32:46 --> Object of class App\Models\HorariosModel could not be converted to string
+#0 /opt/lampp/htdocs/mona_fitness/system/CodeIgniter.php(824): App\Controllers\Horario->getHorarios()
+#1 /opt/lampp/htdocs/mona_fitness/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Horario))
+#2 /opt/lampp/htdocs/mona_fitness/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /opt/lampp/htdocs/mona_fitness/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-12-10 20:32:47 --> Object of class App\Models\HorariosModel could not be converted to string
+#0 /opt/lampp/htdocs/mona_fitness/system/CodeIgniter.php(824): App\Controllers\Horario->getHorarios()
+#1 /opt/lampp/htdocs/mona_fitness/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Horario))
+#2 /opt/lampp/htdocs/mona_fitness/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /opt/lampp/htdocs/mona_fitness/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-12-10 20:33:38 --> Object of class App\Models\HorariosModel could not be converted to string
+#0 /opt/lampp/htdocs/mona_fitness/system/CodeIgniter.php(824): App\Controllers\Horario->getHorarios()
+#1 /opt/lampp/htdocs/mona_fitness/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Horario))
+#2 /opt/lampp/htdocs/mona_fitness/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /opt/lampp/htdocs/mona_fitness/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-12-10 20:34:14 --> Object of class App\Models\HorariosModel could not be converted to string
+#0 /opt/lampp/htdocs/mona_fitness/system/CodeIgniter.php(824): App\Controllers\Horario->getHorarios()
+#1 /opt/lampp/htdocs/mona_fitness/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Horario))
+#2 /opt/lampp/htdocs/mona_fitness/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /opt/lampp/htdocs/mona_fitness/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-12-10 20:35:39 --> Object of class App\Models\HorariosModel could not be converted to string
+#0 /opt/lampp/htdocs/mona_fitness/system/CodeIgniter.php(824): App\Controllers\Horario->getHorarios()
+#1 /opt/lampp/htdocs/mona_fitness/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Horario))
+#2 /opt/lampp/htdocs/mona_fitness/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /opt/lampp/htdocs/mona_fitness/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-12-10 20:36:06 --> Object of class App\Models\HorariosModel could not be converted to string
+#0 /opt/lampp/htdocs/mona_fitness/system/CodeIgniter.php(824): App\Controllers\Horario->getHorarios()
+#1 /opt/lampp/htdocs/mona_fitness/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Horario))
+#2 /opt/lampp/htdocs/mona_fitness/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /opt/lampp/htdocs/mona_fitness/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-12-10 20:36:15 --> Object of class App\Models\HorariosModel could not be converted to string
+#0 /opt/lampp/htdocs/mona_fitness/system/CodeIgniter.php(824): App\Controllers\Horario->getHorarios()
+#1 /opt/lampp/htdocs/mona_fitness/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Horario))
+#2 /opt/lampp/htdocs/mona_fitness/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /opt/lampp/htdocs/mona_fitness/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-12-10 20:36:52 --> Object of class App\Models\HorariosModel could not be converted to string
+#0 /opt/lampp/htdocs/mona_fitness/system/CodeIgniter.php(824): App\Controllers\Horario->getHorarios()
+#1 /opt/lampp/htdocs/mona_fitness/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Horario))
+#2 /opt/lampp/htdocs/mona_fitness/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /opt/lampp/htdocs/mona_fitness/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-12-10 20:38:22 --> Object of class App\Models\HorariosModel could not be converted to string
+#0 /opt/lampp/htdocs/mona_fitness/system/CodeIgniter.php(824): App\Controllers\Horario->getHorarios()
+#1 /opt/lampp/htdocs/mona_fitness/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Horario))
+#2 /opt/lampp/htdocs/mona_fitness/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /opt/lampp/htdocs/mona_fitness/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-12-10 20:39:38 --> Object of class App\Models\HorariosModel could not be converted to string
+#0 /opt/lampp/htdocs/mona_fitness/system/CodeIgniter.php(824): App\Controllers\Horario->getHorarios()
+#1 /opt/lampp/htdocs/mona_fitness/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Horario))
+#2 /opt/lampp/htdocs/mona_fitness/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /opt/lampp/htdocs/mona_fitness/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-12-10 20:39:39 --> Object of class App\Models\HorariosModel could not be converted to string
+#0 /opt/lampp/htdocs/mona_fitness/system/CodeIgniter.php(824): App\Controllers\Horario->getHorarios()
+#1 /opt/lampp/htdocs/mona_fitness/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Horario))
+#2 /opt/lampp/htdocs/mona_fitness/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /opt/lampp/htdocs/mona_fitness/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-12-10 20:40:05 --> Object of class App\Models\HorariosModel could not be converted to string
+#0 /opt/lampp/htdocs/mona_fitness/system/CodeIgniter.php(824): App\Controllers\Horario->getHorarios()
+#1 /opt/lampp/htdocs/mona_fitness/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Horario))
+#2 /opt/lampp/htdocs/mona_fitness/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /opt/lampp/htdocs/mona_fitness/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-12-10 20:40:06 --> Object of class App\Models\HorariosModel could not be converted to string
+#0 /opt/lampp/htdocs/mona_fitness/system/CodeIgniter.php(824): App\Controllers\Horario->getHorarios()
+#1 /opt/lampp/htdocs/mona_fitness/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Horario))
+#2 /opt/lampp/htdocs/mona_fitness/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /opt/lampp/htdocs/mona_fitness/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-12-10 20:40:21 --> Object of class App\Models\HorariosModel could not be converted to string
+#0 /opt/lampp/htdocs/mona_fitness/system/CodeIgniter.php(824): App\Controllers\Horario->getHorarios()
+#1 /opt/lampp/htdocs/mona_fitness/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Horario))
+#2 /opt/lampp/htdocs/mona_fitness/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /opt/lampp/htdocs/mona_fitness/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-12-10 20:41:09 --> Unclosed '[' does not match ')'
+#0 /opt/lampp/htdocs/mona_fitness/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/opt/lampp/htdo...')
+#1 /opt/lampp/htdocs/mona_fitness/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 /opt/lampp/htdocs/mona_fitness/system/CodeIgniter.php(789): class_exists('\\App\\Controller...', true)
+#4 /opt/lampp/htdocs/mona_fitness/system/CodeIgniter.php(397): CodeIgniter\CodeIgniter->startController()
+#5 /opt/lampp/htdocs/mona_fitness/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /opt/lampp/htdocs/mona_fitness/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2021-12-10 20:51:04 --> Column 'idClass' in field list is ambiguous
+ERROR - 2021-12-10 20:51:07 --> Column 'idClass' in field list is ambiguous

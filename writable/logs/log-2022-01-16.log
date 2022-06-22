@@ -1,0 +1,420 @@
+CRITICAL - 2022-01-16 15:11:26 --> Undefined variable $ivan@mail
+#0 /opt/lampp/htdocs/mona_fitness/app/Controllers/Client.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/opt/lampp/htdo...', 40)
+#1 /opt/lampp/htdocs/mona_fitness/system/CodeIgniter.php(824): App\Controllers\Client->existsClient('ivan@mail', '642673833')
+#2 /opt/lampp/htdocs/mona_fitness/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+#3 /opt/lampp/htdocs/mona_fitness/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/mona_fitness/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-16 15:11:48 --> Undefined variable $ivan@mail
+#0 /opt/lampp/htdocs/mona_fitness/app/Controllers/Client.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/opt/lampp/htdo...', 40)
+#1 /opt/lampp/htdocs/mona_fitness/system/CodeIgniter.php(824): App\Controllers\Client->existsClient('ivan@mail', '642673833')
+#2 /opt/lampp/htdocs/mona_fitness/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+#3 /opt/lampp/htdocs/mona_fitness/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/mona_fitness/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-16 15:12:20 --> Undefined variable $ivan@mail
+#0 /opt/lampp/htdocs/mona_fitness/app/Controllers/Client.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/opt/lampp/htdo...', 40)
+#1 /opt/lampp/htdocs/mona_fitness/system/CodeIgniter.php(824): App\Controllers\Client->existsClient('ivan@mail', '642673833')
+#2 /opt/lampp/htdocs/mona_fitness/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+#3 /opt/lampp/htdocs/mona_fitness/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/mona_fitness/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-01-16 15:36:12 --> Error connecting to the database: Connection refused
+CRITICAL - 2022-01-16 15:36:12 --> Unable to connect to the database.
+Main connection [MySQLi]: Connection refused
+#0 /opt/lampp/htdocs/mona_fitness/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /opt/lampp/htdocs/mona_fitness/system/Database/BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /opt/lampp/htdocs/mona_fitness/app/Models/HorariosModel.php(18): CodeIgniter\Database\BaseBuilder->get()
+#3 /opt/lampp/htdocs/mona_fitness/app/Controllers/Horario.php(22): App\Models\HorariosModel->getHorarios()
+#4 /opt/lampp/htdocs/mona_fitness/system/CodeIgniter.php(824): App\Controllers\Horario->getHorarios()
+#5 /opt/lampp/htdocs/mona_fitness/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Horario))
+#6 /opt/lampp/htdocs/mona_fitness/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /opt/lampp/htdocs/mona_fitness/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-01-16 15:36:12 --> Error connecting to the database: Connection refused
+ERROR - 2022-01-16 15:36:12 --> Error connecting to the database: Connection refused
+CRITICAL - 2022-01-16 15:36:12 --> Unable to connect to the database.
+Main connection [MySQLi]: Connection refused
+#0 /opt/lampp/htdocs/mona_fitness/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /opt/lampp/htdocs/mona_fitness/system/Database/BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /opt/lampp/htdocs/mona_fitness/app/Models/PlansModel.php(17): CodeIgniter\Database\BaseBuilder->get()
+#3 /opt/lampp/htdocs/mona_fitness/app/Controllers/Plans.php(18): App\Models\PlansModel->getPlans()
+#4 /opt/lampp/htdocs/mona_fitness/system/CodeIgniter.php(824): App\Controllers\Plans->getPlans()
+#5 /opt/lampp/htdocs/mona_fitness/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Plans))
+#6 /opt/lampp/htdocs/mona_fitness/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /opt/lampp/htdocs/mona_fitness/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-01-16 15:36:14 --> Error connecting to the database: Connection refused
+CRITICAL - 2022-01-16 15:36:14 --> Unable to connect to the database.
+Main connection [MySQLi]: Connection refused
+#0 /opt/lampp/htdocs/mona_fitness/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /opt/lampp/htdocs/mona_fitness/system/Database/BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /opt/lampp/htdocs/mona_fitness/app/Models/HorariosModel.php(18): CodeIgniter\Database\BaseBuilder->get()
+#3 /opt/lampp/htdocs/mona_fitness/app/Controllers/Horario.php(22): App\Models\HorariosModel->getHorarios()
+#4 /opt/lampp/htdocs/mona_fitness/system/CodeIgniter.php(824): App\Controllers\Horario->getHorarios()
+#5 /opt/lampp/htdocs/mona_fitness/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Horario))
+#6 /opt/lampp/htdocs/mona_fitness/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /opt/lampp/htdocs/mona_fitness/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-01-16 15:36:14 --> Error connecting to the database: Connection refused
+CRITICAL - 2022-01-16 15:36:14 --> Unable to connect to the database.
+Main connection [MySQLi]: Connection refused
+#0 /opt/lampp/htdocs/mona_fitness/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /opt/lampp/htdocs/mona_fitness/system/Database/BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /opt/lampp/htdocs/mona_fitness/app/Models/PlansModel.php(17): CodeIgniter\Database\BaseBuilder->get()
+#3 /opt/lampp/htdocs/mona_fitness/app/Controllers/Plans.php(18): App\Models\PlansModel->getPlans()
+#4 /opt/lampp/htdocs/mona_fitness/system/CodeIgniter.php(824): App\Controllers\Plans->getPlans()
+#5 /opt/lampp/htdocs/mona_fitness/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Plans))
+#6 /opt/lampp/htdocs/mona_fitness/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /opt/lampp/htdocs/mona_fitness/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-01-16 20:42:16 --> Error connecting to the database: Access denied for user '****'@'localhost' (using password: NO)
+CRITICAL - 2022-01-16 20:42:16 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: NO)
+#0 /Applications/MAMP/htdocs/mona_fitness/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /Applications/MAMP/htdocs/mona_fitness/system/Database/BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /Applications/MAMP/htdocs/mona_fitness/app/Models/PlansModel.php(17): CodeIgniter\Database\BaseBuilder->get()
+#3 /Applications/MAMP/htdocs/mona_fitness/app/Controllers/Plans.php(18): App\Models\PlansModel->getPlans()
+#4 /Applications/MAMP/htdocs/mona_fitness/system/CodeIgniter.php(824): App\Controllers\Plans->getPlans()
+#5 /Applications/MAMP/htdocs/mona_fitness/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Plans))
+#6 /Applications/MAMP/htdocs/mona_fitness/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Applications/MAMP/htdocs/mona_fitness/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-01-16 20:42:16 --> Error connecting to the database: Access denied for user '****'@'localhost' (using password: NO)
+ERROR - 2022-01-16 20:42:16 --> Error connecting to the database: Access denied for user '****'@'localhost' (using password: NO)
+CRITICAL - 2022-01-16 20:42:16 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: NO)
+#0 /Applications/MAMP/htdocs/mona_fitness/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /Applications/MAMP/htdocs/mona_fitness/system/Database/BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /Applications/MAMP/htdocs/mona_fitness/app/Models/HorariosModel.php(18): CodeIgniter\Database\BaseBuilder->get()
+#3 /Applications/MAMP/htdocs/mona_fitness/app/Controllers/Horario.php(22): App\Models\HorariosModel->getHorarios()
+#4 /Applications/MAMP/htdocs/mona_fitness/system/CodeIgniter.php(824): App\Controllers\Horario->getHorarios()
+#5 /Applications/MAMP/htdocs/mona_fitness/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Horario))
+#6 /Applications/MAMP/htdocs/mona_fitness/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Applications/MAMP/htdocs/mona_fitness/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-01-16 20:42:18 --> Error connecting to the database: Access denied for user '****'@'localhost' (using password: NO)
+CRITICAL - 2022-01-16 20:42:18 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: NO)
+#0 /Applications/MAMP/htdocs/mona_fitness/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /Applications/MAMP/htdocs/mona_fitness/system/Database/BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /Applications/MAMP/htdocs/mona_fitness/app/Models/PlansModel.php(17): CodeIgniter\Database\BaseBuilder->get()
+#3 /Applications/MAMP/htdocs/mona_fitness/app/Controllers/Plans.php(18): App\Models\PlansModel->getPlans()
+#4 /Applications/MAMP/htdocs/mona_fitness/system/CodeIgniter.php(824): App\Controllers\Plans->getPlans()
+#5 /Applications/MAMP/htdocs/mona_fitness/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Plans))
+#6 /Applications/MAMP/htdocs/mona_fitness/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Applications/MAMP/htdocs/mona_fitness/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-01-16 20:42:18 --> Error connecting to the database: Access denied for user '****'@'localhost' (using password: NO)
+CRITICAL - 2022-01-16 20:42:18 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: NO)
+#0 /Applications/MAMP/htdocs/mona_fitness/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /Applications/MAMP/htdocs/mona_fitness/system/Database/BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /Applications/MAMP/htdocs/mona_fitness/app/Models/HorariosModel.php(18): CodeIgniter\Database\BaseBuilder->get()
+#3 /Applications/MAMP/htdocs/mona_fitness/app/Controllers/Horario.php(22): App\Models\HorariosModel->getHorarios()
+#4 /Applications/MAMP/htdocs/mona_fitness/system/CodeIgniter.php(824): App\Controllers\Horario->getHorarios()
+#5 /Applications/MAMP/htdocs/mona_fitness/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Horario))
+#6 /Applications/MAMP/htdocs/mona_fitness/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Applications/MAMP/htdocs/mona_fitness/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-01-16 20:42:18 --> Error connecting to the database: Access denied for user '****'@'localhost' (using password: NO)
+ERROR - 2022-01-16 20:42:21 --> Error connecting to the database: Access denied for user '****'@'localhost' (using password: NO)
+CRITICAL - 2022-01-16 20:42:21 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: NO)
+#0 /Applications/MAMP/htdocs/mona_fitness/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /Applications/MAMP/htdocs/mona_fitness/system/Database/BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /Applications/MAMP/htdocs/mona_fitness/app/Models/PlansModel.php(17): CodeIgniter\Database\BaseBuilder->get()
+#3 /Applications/MAMP/htdocs/mona_fitness/app/Controllers/Plans.php(18): App\Models\PlansModel->getPlans()
+#4 /Applications/MAMP/htdocs/mona_fitness/system/CodeIgniter.php(824): App\Controllers\Plans->getPlans()
+#5 /Applications/MAMP/htdocs/mona_fitness/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Plans))
+#6 /Applications/MAMP/htdocs/mona_fitness/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Applications/MAMP/htdocs/mona_fitness/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-01-16 20:42:21 --> Error connecting to the database: Access denied for user '****'@'localhost' (using password: NO)
+CRITICAL - 2022-01-16 20:42:21 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: NO)
+#0 /Applications/MAMP/htdocs/mona_fitness/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /Applications/MAMP/htdocs/mona_fitness/system/Database/BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /Applications/MAMP/htdocs/mona_fitness/app/Models/HorariosModel.php(18): CodeIgniter\Database\BaseBuilder->get()
+#3 /Applications/MAMP/htdocs/mona_fitness/app/Controllers/Horario.php(22): App\Models\HorariosModel->getHorarios()
+#4 /Applications/MAMP/htdocs/mona_fitness/system/CodeIgniter.php(824): App\Controllers\Horario->getHorarios()
+#5 /Applications/MAMP/htdocs/mona_fitness/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Horario))
+#6 /Applications/MAMP/htdocs/mona_fitness/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Applications/MAMP/htdocs/mona_fitness/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-01-16 20:45:29 --> Error connecting to the database: Access denied for user '****'@'localhost' (using password: NO)
+ERROR - 2022-01-16 20:45:29 --> Error connecting to the database: Access denied for user '****'@'localhost' (using password: NO)
+ERROR - 2022-01-16 20:45:29 --> Error connecting to the database: Access denied for user '****'@'localhost' (using password: NO)
+CRITICAL - 2022-01-16 20:45:29 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: NO)
+#0 /Applications/MAMP/htdocs/mona_fitness/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /Applications/MAMP/htdocs/mona_fitness/system/Database/BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /Applications/MAMP/htdocs/mona_fitness/app/Models/PlansModel.php(17): CodeIgniter\Database\BaseBuilder->get()
+#3 /Applications/MAMP/htdocs/mona_fitness/app/Controllers/Plans.php(18): App\Models\PlansModel->getPlans()
+#4 /Applications/MAMP/htdocs/mona_fitness/system/CodeIgniter.php(824): App\Controllers\Plans->getPlans()
+#5 /Applications/MAMP/htdocs/mona_fitness/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Plans))
+#6 /Applications/MAMP/htdocs/mona_fitness/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Applications/MAMP/htdocs/mona_fitness/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-01-16 20:45:29 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: NO)
+#0 /Applications/MAMP/htdocs/mona_fitness/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /Applications/MAMP/htdocs/mona_fitness/system/Database/BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /Applications/MAMP/htdocs/mona_fitness/app/Models/HorariosModel.php(18): CodeIgniter\Database\BaseBuilder->get()
+#3 /Applications/MAMP/htdocs/mona_fitness/app/Controllers/Horario.php(22): App\Models\HorariosModel->getHorarios()
+#4 /Applications/MAMP/htdocs/mona_fitness/system/CodeIgniter.php(824): App\Controllers\Horario->getHorarios()
+#5 /Applications/MAMP/htdocs/mona_fitness/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Horario))
+#6 /Applications/MAMP/htdocs/mona_fitness/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Applications/MAMP/htdocs/mona_fitness/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-01-16 21:58:04 --> Error connecting to the database: Access denied for user '****'@'localhost' (using password: NO)
+CRITICAL - 2022-01-16 21:58:04 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: NO)
+#0 /Applications/MAMP/htdocs/mona_fitness/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /Applications/MAMP/htdocs/mona_fitness/system/Database/BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /Applications/MAMP/htdocs/mona_fitness/app/Models/UsersModel.php(20): CodeIgniter\Database\BaseBuilder->get()
+#3 /Applications/MAMP/htdocs/mona_fitness/app/Controllers/Users.php(24): App\Models\UsersModel->login('test', 'mail')
+#4 /Applications/MAMP/htdocs/mona_fitness/system/CodeIgniter.php(824): App\Controllers\Users->login()
+#5 /Applications/MAMP/htdocs/mona_fitness/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#6 /Applications/MAMP/htdocs/mona_fitness/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Applications/MAMP/htdocs/mona_fitness/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-01-16 21:58:33 --> Error connecting to the database: Access denied for user '****'@'localhost' (using password: NO)
+CRITICAL - 2022-01-16 21:58:33 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: NO)
+#0 /Applications/MAMP/htdocs/mona_fitness/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /Applications/MAMP/htdocs/mona_fitness/system/Database/BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /Applications/MAMP/htdocs/mona_fitness/app/Models/UsersModel.php(20): CodeIgniter\Database\BaseBuilder->get()
+#3 /Applications/MAMP/htdocs/mona_fitness/app/Controllers/Users.php(21): App\Models\UsersModel->login('test', 'mail')
+#4 /Applications/MAMP/htdocs/mona_fitness/system/CodeIgniter.php(824): App\Controllers\Users->login()
+#5 /Applications/MAMP/htdocs/mona_fitness/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#6 /Applications/MAMP/htdocs/mona_fitness/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Applications/MAMP/htdocs/mona_fitness/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-01-16 21:59:06 --> Error connecting to the database: Access denied for user '****'@'localhost' (using password: NO)
+CRITICAL - 2022-01-16 21:59:06 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: NO)
+#0 /Applications/MAMP/htdocs/mona_fitness/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /Applications/MAMP/htdocs/mona_fitness/system/Database/BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /Applications/MAMP/htdocs/mona_fitness/app/Models/UsersModel.php(20): CodeIgniter\Database\BaseBuilder->get()
+#3 /Applications/MAMP/htdocs/mona_fitness/app/Controllers/Users.php(21): App\Models\UsersModel->login('test', 'mail')
+#4 /Applications/MAMP/htdocs/mona_fitness/system/CodeIgniter.php(824): App\Controllers\Users->login()
+#5 /Applications/MAMP/htdocs/mona_fitness/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#6 /Applications/MAMP/htdocs/mona_fitness/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Applications/MAMP/htdocs/mona_fitness/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-01-16 21:59:23 --> Error connecting to the database: Access denied for user '****'@'localhost' (using password: NO)
+CRITICAL - 2022-01-16 21:59:23 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: NO)
+#0 /Applications/MAMP/htdocs/mona_fitness/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /Applications/MAMP/htdocs/mona_fitness/system/Database/BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /Applications/MAMP/htdocs/mona_fitness/app/Models/UsersModel.php(20): CodeIgniter\Database\BaseBuilder->get()
+#3 /Applications/MAMP/htdocs/mona_fitness/app/Controllers/Users.php(21): App\Models\UsersModel->login('test', 'mail')
+#4 /Applications/MAMP/htdocs/mona_fitness/system/CodeIgniter.php(824): App\Controllers\Users->login()
+#5 /Applications/MAMP/htdocs/mona_fitness/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#6 /Applications/MAMP/htdocs/mona_fitness/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Applications/MAMP/htdocs/mona_fitness/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-01-16 21:59:23 --> Error connecting to the database: Access denied for user '****'@'localhost' (using password: NO)
+CRITICAL - 2022-01-16 21:59:23 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: NO)
+#0 /Applications/MAMP/htdocs/mona_fitness/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /Applications/MAMP/htdocs/mona_fitness/system/Database/BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /Applications/MAMP/htdocs/mona_fitness/app/Models/UsersModel.php(20): CodeIgniter\Database\BaseBuilder->get()
+#3 /Applications/MAMP/htdocs/mona_fitness/app/Controllers/Users.php(21): App\Models\UsersModel->login('test', 'mail')
+#4 /Applications/MAMP/htdocs/mona_fitness/system/CodeIgniter.php(824): App\Controllers\Users->login()
+#5 /Applications/MAMP/htdocs/mona_fitness/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#6 /Applications/MAMP/htdocs/mona_fitness/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Applications/MAMP/htdocs/mona_fitness/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-01-16 21:59:57 --> Error connecting to the database: Access denied for user '****'@'localhost' (using password: NO)
+CRITICAL - 2022-01-16 21:59:57 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: NO)
+#0 /Applications/MAMP/htdocs/mona_fitness/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /Applications/MAMP/htdocs/mona_fitness/system/Database/BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /Applications/MAMP/htdocs/mona_fitness/app/Models/UsersModel.php(19): CodeIgniter\Database\BaseBuilder->get()
+#3 /Applications/MAMP/htdocs/mona_fitness/app/Controllers/Users.php(21): App\Models\UsersModel->login('test', 'mail')
+#4 /Applications/MAMP/htdocs/mona_fitness/system/CodeIgniter.php(824): App\Controllers\Users->login()
+#5 /Applications/MAMP/htdocs/mona_fitness/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#6 /Applications/MAMP/htdocs/mona_fitness/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Applications/MAMP/htdocs/mona_fitness/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-01-16 22:00:02 --> Error connecting to the database: Access denied for user '****'@'localhost' (using password: NO)
+CRITICAL - 2022-01-16 22:00:02 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: NO)
+#0 /Applications/MAMP/htdocs/mona_fitness/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /Applications/MAMP/htdocs/mona_fitness/system/Database/BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /Applications/MAMP/htdocs/mona_fitness/app/Models/UsersModel.php(19): CodeIgniter\Database\BaseBuilder->get()
+#3 /Applications/MAMP/htdocs/mona_fitness/app/Controllers/Users.php(21): App\Models\UsersModel->login('test', 'mail')
+#4 /Applications/MAMP/htdocs/mona_fitness/system/CodeIgniter.php(824): App\Controllers\Users->login()
+#5 /Applications/MAMP/htdocs/mona_fitness/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#6 /Applications/MAMP/htdocs/mona_fitness/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Applications/MAMP/htdocs/mona_fitness/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-01-16 22:00:13 --> Error connecting to the database: Access denied for user '****'@'localhost' (using password: NO)
+CRITICAL - 2022-01-16 22:00:13 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: NO)
+#0 /Applications/MAMP/htdocs/mona_fitness/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /Applications/MAMP/htdocs/mona_fitness/system/Database/BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /Applications/MAMP/htdocs/mona_fitness/app/Models/UsersModel.php(19): CodeIgniter\Database\BaseBuilder->get()
+#3 /Applications/MAMP/htdocs/mona_fitness/app/Controllers/Users.php(21): App\Models\UsersModel->login('test', 'mail')
+#4 /Applications/MAMP/htdocs/mona_fitness/system/CodeIgniter.php(824): App\Controllers\Users->login()
+#5 /Applications/MAMP/htdocs/mona_fitness/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#6 /Applications/MAMP/htdocs/mona_fitness/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Applications/MAMP/htdocs/mona_fitness/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-01-16 22:01:01 --> Error connecting to the database: Access denied for user '****'@'localhost' (using password: NO)
+CRITICAL - 2022-01-16 22:01:01 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: NO)
+#0 /Applications/MAMP/htdocs/mona_fitness/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /Applications/MAMP/htdocs/mona_fitness/system/Database/BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /Applications/MAMP/htdocs/mona_fitness/app/Models/UsersModel.php(19): CodeIgniter\Database\BaseBuilder->get()
+#3 /Applications/MAMP/htdocs/mona_fitness/app/Controllers/Users.php(21): App\Models\UsersModel->login('test', 'mail')
+#4 /Applications/MAMP/htdocs/mona_fitness/system/CodeIgniter.php(824): App\Controllers\Users->login()
+#5 /Applications/MAMP/htdocs/mona_fitness/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#6 /Applications/MAMP/htdocs/mona_fitness/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Applications/MAMP/htdocs/mona_fitness/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-01-16 22:01:16 --> Error connecting to the database: Access denied for user '****'@'localhost' (using password: NO)
+CRITICAL - 2022-01-16 22:01:16 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: NO)
+#0 /Applications/MAMP/htdocs/mona_fitness/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /Applications/MAMP/htdocs/mona_fitness/system/Database/BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /Applications/MAMP/htdocs/mona_fitness/app/Models/UsersModel.php(19): CodeIgniter\Database\BaseBuilder->get()
+#3 /Applications/MAMP/htdocs/mona_fitness/app/Controllers/Users.php(21): App\Models\UsersModel->login('test', 'mail')
+#4 /Applications/MAMP/htdocs/mona_fitness/system/CodeIgniter.php(824): App\Controllers\Users->login()
+#5 /Applications/MAMP/htdocs/mona_fitness/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#6 /Applications/MAMP/htdocs/mona_fitness/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Applications/MAMP/htdocs/mona_fitness/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-01-16 22:01:39 --> Error connecting to the database: Access denied for user '****'@'localhost' (using password: NO)
+CRITICAL - 2022-01-16 22:01:39 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: NO)
+#0 /Applications/MAMP/htdocs/mona_fitness/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /Applications/MAMP/htdocs/mona_fitness/system/Database/BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /Applications/MAMP/htdocs/mona_fitness/app/Models/UsersModel.php(19): CodeIgniter\Database\BaseBuilder->get()
+#3 /Applications/MAMP/htdocs/mona_fitness/app/Controllers/Users.php(21): App\Models\UsersModel->login('test', 'mail')
+#4 /Applications/MAMP/htdocs/mona_fitness/system/CodeIgniter.php(824): App\Controllers\Users->login()
+#5 /Applications/MAMP/htdocs/mona_fitness/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#6 /Applications/MAMP/htdocs/mona_fitness/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Applications/MAMP/htdocs/mona_fitness/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-01-16 22:02:03 --> Error connecting to the database: Access denied for user '****'@'localhost' (using password: NO)
+CRITICAL - 2022-01-16 22:02:03 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: NO)
+#0 /Applications/MAMP/htdocs/mona_fitness/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /Applications/MAMP/htdocs/mona_fitness/system/Database/BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /Applications/MAMP/htdocs/mona_fitness/app/Models/UsersModel.php(19): CodeIgniter\Database\BaseBuilder->get()
+#3 /Applications/MAMP/htdocs/mona_fitness/app/Controllers/Users.php(21): App\Models\UsersModel->login('test', 'mail')
+#4 /Applications/MAMP/htdocs/mona_fitness/system/CodeIgniter.php(824): App\Controllers\Users->login()
+#5 /Applications/MAMP/htdocs/mona_fitness/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#6 /Applications/MAMP/htdocs/mona_fitness/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Applications/MAMP/htdocs/mona_fitness/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-01-16 22:02:30 --> Error connecting to the database: Access denied for user '****'@'localhost' (using password: NO)
+CRITICAL - 2022-01-16 22:02:30 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: NO)
+#0 /Applications/MAMP/htdocs/mona_fitness/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /Applications/MAMP/htdocs/mona_fitness/system/Database/BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /Applications/MAMP/htdocs/mona_fitness/app/Models/UsersModel.php(19): CodeIgniter\Database\BaseBuilder->get()
+#3 /Applications/MAMP/htdocs/mona_fitness/app/Controllers/Users.php(21): App\Models\UsersModel->login('test', 'mail')
+#4 /Applications/MAMP/htdocs/mona_fitness/system/CodeIgniter.php(824): App\Controllers\Users->login()
+#5 /Applications/MAMP/htdocs/mona_fitness/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#6 /Applications/MAMP/htdocs/mona_fitness/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Applications/MAMP/htdocs/mona_fitness/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-01-16 22:02:37 --> Error connecting to the database: Access denied for user '****'@'localhost' (using password: NO)
+CRITICAL - 2022-01-16 22:02:37 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: NO)
+#0 /Applications/MAMP/htdocs/mona_fitness/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /Applications/MAMP/htdocs/mona_fitness/system/Database/BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /Applications/MAMP/htdocs/mona_fitness/app/Models/UsersModel.php(20): CodeIgniter\Database\BaseBuilder->get()
+#3 /Applications/MAMP/htdocs/mona_fitness/app/Controllers/Users.php(21): App\Models\UsersModel->login('test', 'mail')
+#4 /Applications/MAMP/htdocs/mona_fitness/system/CodeIgniter.php(824): App\Controllers\Users->login()
+#5 /Applications/MAMP/htdocs/mona_fitness/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#6 /Applications/MAMP/htdocs/mona_fitness/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Applications/MAMP/htdocs/mona_fitness/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-01-16 22:10:02 --> Error connecting to the database: Access denied for user '****'@'localhost' (using password: YES)
+CRITICAL - 2022-01-16 22:10:02 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+#0 /Applications/MAMP/htdocs/mona_fitness/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /Applications/MAMP/htdocs/mona_fitness/system/Database/BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /Applications/MAMP/htdocs/mona_fitness/app/Models/UsersModel.php(33): CodeIgniter\Database\BaseBuilder->get()
+#3 /Applications/MAMP/htdocs/mona_fitness/app/Controllers/Users.php(49): App\Models\UsersModel->get_users()
+#4 /Applications/MAMP/htdocs/mona_fitness/system/CodeIgniter.php(824): App\Controllers\Users->get_users()
+#5 /Applications/MAMP/htdocs/mona_fitness/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#6 /Applications/MAMP/htdocs/mona_fitness/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Applications/MAMP/htdocs/mona_fitness/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-01-16 22:10:29 --> Error connecting to the database: Access denied for user '****'@'localhost' (using password: YES)
+CRITICAL - 2022-01-16 22:10:29 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+#0 /Applications/MAMP/htdocs/mona_fitness/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /Applications/MAMP/htdocs/mona_fitness/system/Database/BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /Applications/MAMP/htdocs/mona_fitness/app/Models/UsersModel.php(33): CodeIgniter\Database\BaseBuilder->get()
+#3 /Applications/MAMP/htdocs/mona_fitness/app/Controllers/Users.php(49): App\Models\UsersModel->get_users()
+#4 /Applications/MAMP/htdocs/mona_fitness/system/CodeIgniter.php(824): App\Controllers\Users->get_users()
+#5 /Applications/MAMP/htdocs/mona_fitness/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#6 /Applications/MAMP/htdocs/mona_fitness/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Applications/MAMP/htdocs/mona_fitness/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-01-16 22:10:56 --> Error connecting to the database: Access denied for user '****'@'localhost' (using password: YES)
+CRITICAL - 2022-01-16 22:10:56 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+#0 /Applications/MAMP/htdocs/mona_fitness/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /Applications/MAMP/htdocs/mona_fitness/system/Database/BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /Applications/MAMP/htdocs/mona_fitness/app/Models/UsersModel.php(33): CodeIgniter\Database\BaseBuilder->get()
+#3 /Applications/MAMP/htdocs/mona_fitness/app/Controllers/Users.php(50): App\Models\UsersModel->get_users()
+#4 /Applications/MAMP/htdocs/mona_fitness/system/CodeIgniter.php(824): App\Controllers\Users->get_users()
+#5 /Applications/MAMP/htdocs/mona_fitness/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#6 /Applications/MAMP/htdocs/mona_fitness/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Applications/MAMP/htdocs/mona_fitness/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-01-16 22:12:57 --> Undefined array key "idUser"
+#0 /Applications/MAMP/htdocs/mona_fitness/app/Controllers/Users.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/Applications/M...', 25)
+#1 /Applications/MAMP/htdocs/mona_fitness/system/CodeIgniter.php(824): App\Controllers\Users->login()
+#2 /Applications/MAMP/htdocs/mona_fitness/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#3 /Applications/MAMP/htdocs/mona_fitness/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/mona_fitness/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-16 22:13:42 --> Undefined array key "idUser"
+#0 /Applications/MAMP/htdocs/mona_fitness/app/Controllers/Users.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/Applications/M...', 26)
+#1 /Applications/MAMP/htdocs/mona_fitness/system/CodeIgniter.php(824): App\Controllers\Users->login()
+#2 /Applications/MAMP/htdocs/mona_fitness/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#3 /Applications/MAMP/htdocs/mona_fitness/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/mona_fitness/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-16 22:14:04 --> Undefined array key "idUser"
+#0 /Applications/MAMP/htdocs/mona_fitness/app/Controllers/Users.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/Applications/M...', 26)
+#1 /Applications/MAMP/htdocs/mona_fitness/system/CodeIgniter.php(824): App\Controllers\Users->login()
+#2 /Applications/MAMP/htdocs/mona_fitness/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#3 /Applications/MAMP/htdocs/mona_fitness/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/mona_fitness/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-16 22:14:04 --> Undefined array key "idUser"
+#0 /Applications/MAMP/htdocs/mona_fitness/app/Controllers/Users.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/Applications/M...', 26)
+#1 /Applications/MAMP/htdocs/mona_fitness/system/CodeIgniter.php(824): App\Controllers\Users->login()
+#2 /Applications/MAMP/htdocs/mona_fitness/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#3 /Applications/MAMP/htdocs/mona_fitness/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/mona_fitness/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-16 22:14:08 --> Undefined array key "idUser"
+#0 /Applications/MAMP/htdocs/mona_fitness/app/Controllers/Users.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/Applications/M...', 26)
+#1 /Applications/MAMP/htdocs/mona_fitness/system/CodeIgniter.php(824): App\Controllers\Users->login()
+#2 /Applications/MAMP/htdocs/mona_fitness/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#3 /Applications/MAMP/htdocs/mona_fitness/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/mona_fitness/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-16 22:14:41 --> Cannot use object of type stdClass as array
+#0 /Applications/MAMP/htdocs/mona_fitness/system/CodeIgniter.php(824): App\Controllers\Users->login()
+#1 /Applications/MAMP/htdocs/mona_fitness/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#2 /Applications/MAMP/htdocs/mona_fitness/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Applications/MAMP/htdocs/mona_fitness/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-16 22:14:51 --> Cannot use object of type stdClass as array
+#0 /Applications/MAMP/htdocs/mona_fitness/system/CodeIgniter.php(824): App\Controllers\Users->login()
+#1 /Applications/MAMP/htdocs/mona_fitness/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#2 /Applications/MAMP/htdocs/mona_fitness/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Applications/MAMP/htdocs/mona_fitness/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}

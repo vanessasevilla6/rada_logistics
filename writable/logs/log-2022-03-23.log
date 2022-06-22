@@ -1,0 +1,135 @@
+CRITICAL - 2022-03-23 19:47:30 --> Undefined property: stdClass::$apellido
+#0 /Applications/MAMP/htdocs/uabc/app/Controllers/Users.php(117): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', '/Applications/M...', 117)
+#1 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(824): App\Controllers\Users->crear_usuario_jugador()
+#2 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#3 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/uabc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-23 19:53:56 --> Undefined property: stdClass::$apellido
+#0 /Applications/MAMP/htdocs/uabc/app/Controllers/Users.php(117): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', '/Applications/M...', 117)
+#1 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(824): App\Controllers\Users->crear_usuario_jugador()
+#2 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#3 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/uabc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-03-23 19:57:51 --> Cannot add or update a child row: a foreign key constraint fails (`uabc_torneos`.`participante`, CONSTRAINT `fk_Jugador_Usuario1` FOREIGN KEY (`idUsuario`) REFERENCES `Usuario` (`idUsuario`) ON DELETE NO ACTION ON UPDATE NO ACTION)
+CRITICAL - 2022-03-23 19:57:51 --> Object of class stdClass could not be converted to string
+#0 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(824): App\Controllers\Users->crear_usuario_jugador()
+#1 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#2 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Applications/MAMP/htdocs/uabc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2022-03-23 19:59:26 --> Cannot add or update a child row: a foreign key constraint fails (`uabc_torneos`.`participante`, CONSTRAINT `fk_Jugador_Usuario1` FOREIGN KEY (`idUsuario`) REFERENCES `Usuario` (`idUsuario`) ON DELETE NO ACTION ON UPDATE NO ACTION)
+CRITICAL - 2022-03-23 19:59:26 --> Object of class stdClass could not be converted to string
+#0 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(824): App\Controllers\Users->crear_usuario_jugador()
+#1 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#2 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Applications/MAMP/htdocs/uabc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-23 20:04:23 --> Undefined property: stdClass::$carrera
+#0 /Applications/MAMP/htdocs/uabc/app/Models/JugadoresModel.php(68): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', '/Applications/M...', 68)
+#1 /Applications/MAMP/htdocs/uabc/app/Controllers/Users.php(122): App\Models\JugadoresModel->crear_participante(Object(stdClass))
+#2 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(824): App\Controllers\Users->crear_usuario_jugador()
+#3 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#4 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/MAMP/htdocs/uabc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-03-23 20:10:32 --> Cannot add or update a child row: a foreign key constraint fails (`uabc_torneos`.`participante`, CONSTRAINT `fk_Jugador_Usuario1` FOREIGN KEY (`idUsuario`) REFERENCES `Usuario` (`idUsuario`) ON DELETE NO ACTION ON UPDATE NO ACTION)
+CRITICAL - 2022-03-23 20:10:32 --> Object of class stdClass could not be converted to string
+#0 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(824): App\Controllers\Users->crear_usuario_jugador()
+#1 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#2 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Applications/MAMP/htdocs/uabc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2022-03-23 20:12:47 --> Cannot add or update a child row: a foreign key constraint fails (`uabc_torneos`.`participante`, CONSTRAINT `fk_Jugador_Usuario1` FOREIGN KEY (`idUsuario`) REFERENCES `Usuario` (`idUsuario`) ON DELETE NO ACTION ON UPDATE NO ACTION)
+CRITICAL - 2022-03-23 20:12:47 --> Object of class stdClass could not be converted to string
+#0 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(824): App\Controllers\Users->crear_usuario_jugador()
+#1 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#2 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Applications/MAMP/htdocs/uabc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2022-03-23 20:13:50 --> Cannot add or update a child row: a foreign key constraint fails (`uabc_torneos`.`participante`, CONSTRAINT `fk_Jugador_Usuario1` FOREIGN KEY (`idUsuario`) REFERENCES `Usuario` (`idUsuario`) ON DELETE NO ACTION ON UPDATE NO ACTION)
+CRITICAL - 2022-03-23 20:13:50 --> Object of class stdClass could not be converted to string
+#0 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(824): App\Controllers\Users->crear_usuario_jugador()
+#1 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#2 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Applications/MAMP/htdocs/uabc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2022-03-23 20:15:45 --> Cannot add or update a child row: a foreign key constraint fails (`uabc_torneos`.`participante`, CONSTRAINT `fk_Jugador_Usuario1` FOREIGN KEY (`idUsuario`) REFERENCES `Usuario` (`idUsuario`) ON DELETE NO ACTION ON UPDATE NO ACTION)
+CRITICAL - 2022-03-23 20:15:45 --> Object of class stdClass could not be converted to string
+#0 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(824): App\Controllers\Users->crear_usuario_jugador()
+#1 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#2 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Applications/MAMP/htdocs/uabc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2022-03-23 20:17:13 --> Cannot add or update a child row: a foreign key constraint fails (`uabc_torneos`.`participante`, CONSTRAINT `fk_Jugador_Usuario1` FOREIGN KEY (`idUsuario`) REFERENCES `Usuario` (`idUsuario`) ON DELETE NO ACTION ON UPDATE NO ACTION)
+CRITICAL - 2022-03-23 20:17:13 --> Object of class stdClass could not be converted to string
+#0 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(824): App\Controllers\Users->crear_usuario_jugador()
+#1 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#2 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Applications/MAMP/htdocs/uabc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2022-03-23 20:17:43 --> Cannot add or update a child row: a foreign key constraint fails (`uabc_torneos`.`participante`, CONSTRAINT `fk_Jugador_Usuario1` FOREIGN KEY (`idUsuario`) REFERENCES `Usuario` (`idUsuario`) ON DELETE NO ACTION ON UPDATE NO ACTION)
+CRITICAL - 2022-03-23 20:17:43 --> Object of class stdClass could not be converted to string
+#0 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(824): App\Controllers\Users->crear_usuario_jugador()
+#1 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#2 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Applications/MAMP/htdocs/uabc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2022-03-23 20:19:06 --> Cannot add or update a child row: a foreign key constraint fails (`uabc_torneos`.`participante`, CONSTRAINT `fk_Jugador_Usuario1` FOREIGN KEY (`idUsuario`) REFERENCES `Usuario` (`idUsuario`) ON DELETE NO ACTION ON UPDATE NO ACTION)
+CRITICAL - 2022-03-23 20:19:06 --> Object of class stdClass could not be converted to string
+#0 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(824): App\Controllers\Users->crear_usuario_jugador()
+#1 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#2 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Applications/MAMP/htdocs/uabc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2022-03-23 20:20:58 --> Cannot add or update a child row: a foreign key constraint fails (`uabc_torneos`.`participante`, CONSTRAINT `fk_Jugador_Usuario1` FOREIGN KEY (`idUsuario`) REFERENCES `Usuario` (`idUsuario`) ON DELETE NO ACTION ON UPDATE NO ACTION)
+CRITICAL - 2022-03-23 20:20:58 --> Object of class stdClass could not be converted to string
+#0 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(824): App\Controllers\Users->crear_usuario_jugador()
+#1 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#2 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Applications/MAMP/htdocs/uabc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-23 20:22:50 --> Attempt to read property "insert_id" on bool
+#0 /Applications/MAMP/htdocs/uabc/system/Database/MySQLi/Connection.php(563): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', '/Applications/M...', 563)
+#1 /Applications/MAMP/htdocs/uabc/app/Models/UsersModel.php(65): CodeIgniter\Database\MySQLi\Connection->insertID()
+#2 /Applications/MAMP/htdocs/uabc/app/Controllers/Users.php(126): App\Models\UsersModel->crear_usuario(Object(stdClass))
+#3 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(824): App\Controllers\Users->crear_usuario_jugador()
+#4 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#5 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Applications/MAMP/htdocs/uabc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-03-23 20:25:01 --> Attempt to read property "insert_id" on bool
+#0 /Applications/MAMP/htdocs/uabc/system/Database/MySQLi/Connection.php(563): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', '/Applications/M...', 563)
+#1 /Applications/MAMP/htdocs/uabc/app/Models/UsersModel.php(65): CodeIgniter\Database\MySQLi\Connection->insertID()
+#2 /Applications/MAMP/htdocs/uabc/app/Controllers/Users.php(126): App\Models\UsersModel->crear_usuario(Object(stdClass))
+#3 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(824): App\Controllers\Users->crear_usuario_jugador()
+#4 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#5 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Applications/MAMP/htdocs/uabc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-03-23 20:25:44 --> Attempt to read property "nombre" on string
+#0 /Applications/MAMP/htdocs/uabc/app/Models/JugadoresModel.php(215): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', '/Applications/M...', 215)
+#1 /Applications/MAMP/htdocs/uabc/app/Controllers/Users.php(134): App\Models\JugadoresModel->addToTeam(Object(stdClass), '1')
+#2 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(824): App\Controllers\Users->crear_usuario_jugador()
+#3 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#4 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/MAMP/htdocs/uabc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-03-23 20:35:08 --> You must set the database table to be used with your query.
+#0 /Applications/MAMP/htdocs/uabc/system/Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 /Applications/MAMP/htdocs/uabc/system/Model.php(717): CodeIgniter\Model->builder()
+#2 /Applications/MAMP/htdocs/uabc/app/Controllers/Users.php(128): CodeIgniter\Model->__call('getInfoEquipo', Array)
+#3 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(824): App\Controllers\Users->crear_usuario_jugador()
+#4 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#5 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Applications/MAMP/htdocs/uabc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-03-23 20:36:12 --> Attempt to read property "nombre" on string
+#0 /Applications/MAMP/htdocs/uabc/app/Models/JugadoresModel.php(215): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', '/Applications/M...', 215)
+#1 /Applications/MAMP/htdocs/uabc/app/Controllers/Users.php(139): App\Models\JugadoresModel->addToTeam(Object(stdClass), '1')
+#2 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(824): App\Controllers\Users->crear_usuario_jugador()
+#3 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#4 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/MAMP/htdocs/uabc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}

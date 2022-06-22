@@ -1,0 +1,189 @@
+CRITICAL - 2022-02-22 13:31:30 --> Unsupported operand types: string + string
+#0 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(824): App\Controllers\Home->facultades()
+#1 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Applications/MAMP/htdocs/uabc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-02-22 13:31:53 --> Unsupported operand types: string + string
+#0 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(824): App\Controllers\Home->facultades()
+#1 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Applications/MAMP/htdocs/uabc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-02-22 13:32:09 --> Unsupported operand types: string + string
+#0 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(824): App\Controllers\Home->facultades()
+#1 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Applications/MAMP/htdocs/uabc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-02-22 13:32:40 --> Unsupported operand types: string + string
+#0 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(824): App\Controllers\Home->facultades()
+#1 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Applications/MAMP/htdocs/uabc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-02-22 13:35:08 -->  route cannot be found while reverse-routing.
+#0 /Applications/MAMP/htdocs/uabc/system/HTTP/RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 /Applications/MAMP/htdocs/uabc/system/Common.php(840): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 /Applications/MAMP/htdocs/uabc/app/Controllers/Home.php(157): redirect('/login', 'refresh')
+#3 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(824): App\Controllers\Home->facultades()
+#4 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Applications/MAMP/htdocs/uabc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-02-22 13:35:40 --> Unsupported operand types: string + string
+#0 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(824): App\Controllers\Home->facultades()
+#1 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Applications/MAMP/htdocs/uabc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-02-22 13:35:52 --> Unsupported operand types: string + string
+#0 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(824): App\Controllers\Home->facultades()
+#1 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Applications/MAMP/htdocs/uabc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-02-22 13:36:25 --> Undefined property: App\Controllers\Home::$load
+#0 /Applications/MAMP/htdocs/uabc/app/Controllers/Home.php(157): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', '/Applications/M...', 157)
+#1 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(824): App\Controllers\Home->facultades()
+#2 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/uabc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-22 13:36:26 --> Undefined property: App\Controllers\Home::$load
+#0 /Applications/MAMP/htdocs/uabc/app/Controllers/Home.php(157): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', '/Applications/M...', 157)
+#1 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(824): App\Controllers\Home->facultades()
+#2 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/uabc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-22 13:36:27 --> Undefined property: App\Controllers\Home::$load
+#0 /Applications/MAMP/htdocs/uabc/app/Controllers/Home.php(157): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', '/Applications/M...', 157)
+#1 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(824): App\Controllers\Home->facultades()
+#2 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/uabc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-22 13:37:05 --> Undefined property: App\Controllers\Home::$load
+#0 /Applications/MAMP/htdocs/uabc/app/Controllers/Home.php(146): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', '/Applications/M...', 146)
+#1 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(824): App\Controllers\Home->facultades()
+#2 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/uabc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-22 13:37:06 --> Undefined property: App\Controllers\Home::$load
+#0 /Applications/MAMP/htdocs/uabc/app/Controllers/Home.php(146): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', '/Applications/M...', 146)
+#1 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(824): App\Controllers\Home->facultades()
+#2 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/uabc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-22 13:37:06 --> Undefined property: App\Controllers\Home::$load
+#0 /Applications/MAMP/htdocs/uabc/app/Controllers/Home.php(146): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', '/Applications/M...', 146)
+#1 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(824): App\Controllers\Home->facultades()
+#2 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/uabc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-22 13:37:07 --> Undefined property: App\Controllers\Home::$load
+#0 /Applications/MAMP/htdocs/uabc/app/Controllers/Home.php(146): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', '/Applications/M...', 146)
+#1 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(824): App\Controllers\Home->facultades()
+#2 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/uabc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-22 13:38:23 --> Unsupported operand types: string + string
+#0 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(824): App\Controllers\Home->facultades()
+#1 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Applications/MAMP/htdocs/uabc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-02-22 13:39:45 -->  route cannot be found while reverse-routing.
+#0 /Applications/MAMP/htdocs/uabc/system/HTTP/RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 /Applications/MAMP/htdocs/uabc/system/Common.php(840): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 /Applications/MAMP/htdocs/uabc/app/Controllers/Home.php(159): redirect('/login')
+#3 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(824): App\Controllers\Home->facultades()
+#4 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Applications/MAMP/htdocs/uabc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-02-22 15:04:32 --> Too few arguments to function App\Controllers\Torneos::inscribirEquipo(), 1 passed in /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php on line 824 and exactly 2 expected
+#0 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(824): App\Controllers\Torneos->inscribirEquipo('9,1')
+#1 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Torneos))
+#2 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Applications/MAMP/htdocs/uabc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-02-22 15:05:30 --> Too few arguments to function App\Controllers\Torneos::inscribirEquipo(), 1 passed in /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php on line 824 and exactly 2 expected
+#0 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(824): App\Controllers\Torneos->inscribirEquipo('9,1')
+#1 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Torneos))
+#2 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Applications/MAMP/htdocs/uabc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-02-22 15:06:32 --> Too few arguments to function App\Controllers\Torneos::inscribirEquipo(), 1 passed in /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php on line 824 and exactly 2 expected
+#0 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(824): App\Controllers\Torneos->inscribirEquipo('9,1')
+#1 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Torneos))
+#2 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Applications/MAMP/htdocs/uabc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-02-22 15:06:54 --> Too few arguments to function App\Controllers\Torneos::inscribirEquipo(), 1 passed in /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php on line 824 and exactly 2 expected
+#0 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(824): App\Controllers\Torneos->inscribirEquipo('9,1')
+#1 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Torneos))
+#2 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Applications/MAMP/htdocs/uabc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2022-02-22 15:23:36 --> Table 'uabc_torneos.torneosinscritos' doesn't exist
+CRITICAL - 2022-02-22 15:23:36 --> Call to a member function getResult() on bool
+#0 /Applications/MAMP/htdocs/uabc/app/Controllers/Torneos.php(32): App\Models\TorneosModel->getTorneos('2', '2022-02-22T23:2...', '2022-02-22T23:2...', '1')
+#1 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(824): App\Controllers\Torneos->getTorneos('2', '2022-02-22T23:2...', '2022-02-22T23:2...', '1')
+#2 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Torneos))
+#3 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/uabc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-02-22 15:23:49 --> Table 'uabc_torneos.torneosinscritos' doesn't exist
+CRITICAL - 2022-02-22 15:23:49 --> Call to a member function getResult() on bool
+#0 /Applications/MAMP/htdocs/uabc/app/Controllers/Torneos.php(32): App\Models\TorneosModel->getTorneos('2', '2022-02-22T23:2...', '2022-02-22T23:2...', '1')
+#1 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(824): App\Controllers\Torneos->getTorneos('2', '2022-02-22T23:2...', '2022-02-22T23:2...', '1')
+#2 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Torneos))
+#3 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/uabc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-02-22 15:24:14 --> Table 'uabc_torneos.torneosinscritos' doesn't exist
+CRITICAL - 2022-02-22 15:24:14 --> Call to a member function getResult() on bool
+#0 /Applications/MAMP/htdocs/uabc/app/Controllers/Torneos.php(32): App\Models\TorneosModel->getTorneos('2', '2022-02-22T23:2...', '2022-02-22T23:2...', '1')
+#1 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(824): App\Controllers\Torneos->getTorneos('2', '2022-02-22T23:2...', '2022-02-22T23:2...', '1')
+#2 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Torneos))
+#3 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/uabc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-02-22 21:16:04 --> Unknown column 'EquiposInscritos.idEquipo' in 'where clause'
+CRITICAL - 2022-02-22 21:16:04 --> Call to a member function getResult() on bool
+#0 /Applications/MAMP/htdocs/uabc/app/Controllers/Torneos.php(32): App\Models\TorneosModel->getTorneos('2', '2022-02-23T05:1...', '2022-02-23T05:1...', '1')
+#1 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(824): App\Controllers\Torneos->getTorneos('2', '2022-02-23T05:1...', '2022-02-23T05:1...', '1')
+#2 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Torneos))
+#3 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/uabc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-02-22 21:16:31 --> Unknown column 'EquiposInscritos.idEquipo' in 'where clause'
+CRITICAL - 2022-02-22 21:16:31 --> Call to a member function getResult() on bool
+#0 /Applications/MAMP/htdocs/uabc/app/Controllers/Torneos.php(32): App\Models\TorneosModel->getTorneos('2', '2022-02-23T05:1...', '2022-02-23T05:1...', '1')
+#1 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(824): App\Controllers\Torneos->getTorneos('2', '2022-02-23T05:1...', '2022-02-23T05:1...', '1')
+#2 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Torneos))
+#3 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/uabc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-02-22 21:17:36 --> Unknown column 'EquiposInscritos.idEquipo' in 'where clause'
+CRITICAL - 2022-02-22 21:17:36 --> Call to a member function getResult() on bool
+#0 /Applications/MAMP/htdocs/uabc/app/Controllers/Torneos.php(32): App\Models\TorneosModel->getTorneos('2', '2022-02-23T05:1...', '2022-02-23T05:1...', '1')
+#1 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(824): App\Controllers\Torneos->getTorneos('2', '2022-02-23T05:1...', '2022-02-23T05:1...', '1')
+#2 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Torneos))
+#3 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/uabc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-02-22 21:17:49 --> Unknown column 'EquiposInscritos.idEquipo' in 'where clause'
+CRITICAL - 2022-02-22 21:17:49 --> Call to a member function getResult() on bool
+#0 /Applications/MAMP/htdocs/uabc/app/Controllers/Torneos.php(32): App\Models\TorneosModel->getTorneos('2', '2022-02-23T05:1...', '2022-02-23T05:1...', '1')
+#1 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(824): App\Controllers\Torneos->getTorneos('2', '2022-02-23T05:1...', '2022-02-23T05:1...', '1')
+#2 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Torneos))
+#3 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/uabc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

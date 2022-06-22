@@ -1,0 +1,153 @@
+CRITICAL - 2022-01-29 12:57:00 --> Invalid file: campus.php
+#0 /Applications/MAMP/htdocs/uabc/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('campus.php')
+#1 /Applications/MAMP/htdocs/uabc/system/Common.php(1097): CodeIgniter\View\View->render('campus', Array, true)
+#2 /Applications/MAMP/htdocs/uabc/app/Controllers/Home.php(64): view('campus', Array)
+#3 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(824): App\Controllers\Home->campus()
+#4 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Applications/MAMP/htdocs/uabc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-01-29 12:57:45 --> Invalid file: campus.php
+#0 /Applications/MAMP/htdocs/uabc/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('campus.php')
+#1 /Applications/MAMP/htdocs/uabc/system/Common.php(1097): CodeIgniter\View\View->render('campus', Array, true)
+#2 /Applications/MAMP/htdocs/uabc/app/Controllers/Home.php(61): view('campus', Array)
+#3 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(824): App\Controllers\Home->campus()
+#4 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Applications/MAMP/htdocs/uabc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-01-29 12:57:46 --> Invalid file: campus.php
+#0 /Applications/MAMP/htdocs/uabc/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('campus.php')
+#1 /Applications/MAMP/htdocs/uabc/system/Common.php(1097): CodeIgniter\View\View->render('campus', Array, true)
+#2 /Applications/MAMP/htdocs/uabc/app/Controllers/Home.php(61): view('campus', Array)
+#3 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(824): App\Controllers\Home->campus()
+#4 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Applications/MAMP/htdocs/uabc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-01-29 12:58:11 --> Invalid file: campus.php
+#0 /Applications/MAMP/htdocs/uabc/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('campus.php')
+#1 /Applications/MAMP/htdocs/uabc/system/Common.php(1097): CodeIgniter\View\View->render('campus', Array, true)
+#2 /Applications/MAMP/htdocs/uabc/app/Controllers/Home.php(61): view('campus', Array)
+#3 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(824): App\Controllers\Home->campus()
+#4 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Applications/MAMP/htdocs/uabc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-01-29 12:59:32 --> Invalid file: campus.php
+#0 /Applications/MAMP/htdocs/uabc/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('campus.php')
+#1 /Applications/MAMP/htdocs/uabc/system/Common.php(1097): CodeIgniter\View\View->render('campus', Array, true)
+#2 /Applications/MAMP/htdocs/uabc/app/Controllers/Home.php(61): view('campus', Array)
+#3 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(824): App\Controllers\Home->campus()
+#4 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Applications/MAMP/htdocs/uabc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-01-29 13:02:09 --> Invalid file: campus.php
+#0 /Applications/MAMP/htdocs/uabc/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('campus.php')
+#1 /Applications/MAMP/htdocs/uabc/system/Common.php(1097): CodeIgniter\View\View->render('campus', Array, true)
+#2 /Applications/MAMP/htdocs/uabc/app/Controllers/Home.php(59): view('campus')
+#3 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(824): App\Controllers\Home->campus()
+#4 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Applications/MAMP/htdocs/uabc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-01-29 13:02:10 --> Invalid file: campus.php
+#0 /Applications/MAMP/htdocs/uabc/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('campus.php')
+#1 /Applications/MAMP/htdocs/uabc/system/Common.php(1097): CodeIgniter\View\View->render('campus', Array, true)
+#2 /Applications/MAMP/htdocs/uabc/app/Controllers/Home.php(59): view('campus')
+#3 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(824): App\Controllers\Home->campus()
+#4 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Applications/MAMP/htdocs/uabc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-01-29 13:02:10 --> Invalid file: campus.php
+#0 /Applications/MAMP/htdocs/uabc/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('campus.php')
+#1 /Applications/MAMP/htdocs/uabc/system/Common.php(1097): CodeIgniter\View\View->render('campus', Array, true)
+#2 /Applications/MAMP/htdocs/uabc/app/Controllers/Home.php(59): view('campus')
+#3 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(824): App\Controllers\Home->campus()
+#4 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Applications/MAMP/htdocs/uabc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-01-29 13:02:11 --> Invalid file: campus.php
+#0 /Applications/MAMP/htdocs/uabc/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('campus.php')
+#1 /Applications/MAMP/htdocs/uabc/system/Common.php(1097): CodeIgniter\View\View->render('campus', Array, true)
+#2 /Applications/MAMP/htdocs/uabc/app/Controllers/Home.php(59): view('campus')
+#3 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(824): App\Controllers\Home->campus()
+#4 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Applications/MAMP/htdocs/uabc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-01-29 13:02:44 --> Invalid file: campus.php
+#0 /Applications/MAMP/htdocs/uabc/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('campus.php')
+#1 /Applications/MAMP/htdocs/uabc/system/Common.php(1097): CodeIgniter\View\View->render('campus', Array, true)
+#2 /Applications/MAMP/htdocs/uabc/app/Controllers/Home.php(59): view('campus')
+#3 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(824): App\Controllers\Home->campus()
+#4 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Applications/MAMP/htdocs/uabc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-01-29 13:02:56 --> Invalid file: campus.php
+#0 /Applications/MAMP/htdocs/uabc/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('campus.php')
+#1 /Applications/MAMP/htdocs/uabc/system/Common.php(1097): CodeIgniter\View\View->render('campus', Array, true)
+#2 /Applications/MAMP/htdocs/uabc/app/Controllers/Home.php(59): view('campus')
+#3 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(824): App\Controllers\Home->campus()
+#4 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Applications/MAMP/htdocs/uabc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-01-29 13:19:14 --> Call to undefined function base_ur()
+#0 /Applications/MAMP/htdocs/uabc/system/View/View.php(214): include()
+#1 /Applications/MAMP/htdocs/uabc/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /Applications/MAMP/htdocs/uabc/system/Common.php(1097): CodeIgniter\View\View->render('catalogo/deport...', Array, true)
+#3 /Applications/MAMP/htdocs/uabc/app/Controllers/Home.php(23): view('catalogo/deport...')
+#4 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(824): App\Controllers\Home->deportes()
+#5 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Applications/MAMP/htdocs/uabc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-01-29 13:43:08 --> Too few arguments to function App\Controllers\Torneos::getTorneos(), 0 passed in /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php on line 824 and exactly 3 expected
+#0 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(824): App\Controllers\Torneos->getTorneos()
+#1 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Torneos))
+#2 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Applications/MAMP/htdocs/uabc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-29 13:43:46 --> Too few arguments to function App\Controllers\Torneos::getTorneos(), 0 passed in /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php on line 824 and exactly 3 expected
+#0 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(824): App\Controllers\Torneos->getTorneos()
+#1 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Torneos))
+#2 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Applications/MAMP/htdocs/uabc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2022-01-29 13:44:32 --> Table 'uabc_torneos.torneos' doesn't exist
+CRITICAL - 2022-01-29 13:44:32 --> Call to a member function getResult() on bool
+#0 /Applications/MAMP/htdocs/uabc/app/Controllers/Torneos.php(14): App\Models\TorneosModel->getTorneos('0', 'hola', 'hola')
+#1 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(824): App\Controllers\Torneos->getTorneos('0', 'hola', 'hola')
+#2 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Torneos))
+#3 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/uabc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-01-29 13:44:59 --> Table 'uabc_torneos.torneos' doesn't exist
+CRITICAL - 2022-01-29 13:44:59 --> Call to a member function getResult() on bool
+#0 /Applications/MAMP/htdocs/uabc/app/Controllers/Torneos.php(13): App\Models\TorneosModel->getTorneos('0', 'hola', 'hola')
+#1 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(824): App\Controllers\Torneos->getTorneos('0', 'hola', 'hola')
+#2 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Torneos))
+#3 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/uabc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-01-29 13:45:23 --> Table 'uabc_torneos.torneos' doesn't exist
+CRITICAL - 2022-01-29 13:45:23 --> Call to a member function getResult() on bool
+#0 /Applications/MAMP/htdocs/uabc/app/Controllers/Torneos.php(13): App\Models\TorneosModel->getTorneos('0', 'hola', 'hola')
+#1 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(824): App\Controllers\Torneos->getTorneos('0', 'hola', 'hola')
+#2 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Torneos))
+#3 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/uabc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-01-29 13:45:53 --> Table 'uabc_torneos.torneos' doesn't exist
+CRITICAL - 2022-01-29 13:45:53 --> Call to a member function getResult() on bool
+#0 /Applications/MAMP/htdocs/uabc/app/Controllers/Torneos.php(13): App\Models\TorneosModel->getTorneos('0', 'hola', 'hola')
+#1 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(824): App\Controllers\Torneos->getTorneos('0', 'hola', 'hola')
+#2 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Torneos))
+#3 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/uabc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

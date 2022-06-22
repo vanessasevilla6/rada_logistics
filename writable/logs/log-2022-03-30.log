@@ -1,0 +1,170 @@
+ERROR - 2022-03-30 20:18:03 --> Cannot add or update a child row: a foreign key constraint fails (`uabc_torneos`.`equipoparticipante`, CONSTRAINT `fk_Equipo_has_Participante_Equipo1` FOREIGN KEY (`idEquipo`) REFERENCES `Equipo` (`idEquipo`) ON DELETE NO ACTION ON UPDATE NO ACTION)
+ERROR - 2022-03-30 20:26:33 --> Cannot add or update a child row: a foreign key constraint fails (`uabc_torneos`.`equipoparticipante`, CONSTRAINT `fk_Equipo_has_Participante_Equipo1` FOREIGN KEY (`idEquipo`) REFERENCES `Equipo` (`idEquipo`) ON DELETE NO ACTION ON UPDATE NO ACTION)
+CRITICAL - 2022-03-30 20:27:42 --> Undefined property: stdClass::$nombres
+#0 /Applications/MAMP/htdocs/uabc/app/Controllers/Home.php(551): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', '/Applications/M...', 551)
+#1 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(824): App\Controllers\Home->agregarEquipo()
+#2 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/uabc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-30 20:28:04 --> Undefined property: stdClass::$nombres
+#0 /Applications/MAMP/htdocs/uabc/app/Controllers/Home.php(551): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', '/Applications/M...', 551)
+#1 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(824): App\Controllers\Home->agregarEquipo()
+#2 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/uabc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-03-30 20:29:04 --> Cannot add or update a child row: a foreign key constraint fails (`uabc_torneos`.`equipoparticipante`, CONSTRAINT `fk_Equipo_has_Participante_Equipo1` FOREIGN KEY (`idEquipo`) REFERENCES `Equipo` (`idEquipo`) ON DELETE NO ACTION ON UPDATE NO ACTION)
+ERROR - 2022-03-30 20:30:19 --> Cannot add or update a child row: a foreign key constraint fails (`uabc_torneos`.`equipoparticipante`, CONSTRAINT `fk_Equipo_has_Participante_Equipo1` FOREIGN KEY (`idEquipo`) REFERENCES `Equipo` (`idEquipo`) ON DELETE NO ACTION ON UPDATE NO ACTION)
+ERROR - 2022-03-30 20:54:23 --> Not unique table/alias: 'Deporte'
+CRITICAL - 2022-03-30 20:54:23 --> Call to a member function getResult() on bool
+#0 /Applications/MAMP/htdocs/uabc/app/Controllers/Torneos.php(32): App\Models\TorneosModel->getTorneos('2', '2022-03-31T03:5...', '2022-03-31T03:5...', '9')
+#1 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(824): App\Controllers\Torneos->getTorneos('2', '2022-03-31T03:5...', '2022-03-31T03:5...', '9')
+#2 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Torneos))
+#3 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/uabc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-03-30 20:54:48 --> Not unique table/alias: 'Deporte'
+CRITICAL - 2022-03-30 20:54:48 --> Call to a member function getResult() on bool
+#0 /Applications/MAMP/htdocs/uabc/app/Controllers/Torneos.php(32): App\Models\TorneosModel->getTorneos('2', '2022-03-31T03:5...', '2022-03-31T03:5...', '9')
+#1 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(824): App\Controllers\Torneos->getTorneos('2', '2022-03-31T03:5...', '2022-03-31T03:5...', '9')
+#2 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Torneos))
+#3 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/uabc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-03-30 20:59:21 --> Not unique table/alias: 'Deporte'
+CRITICAL - 2022-03-30 20:59:21 --> Call to a member function getResult() on bool
+#0 /Applications/MAMP/htdocs/uabc/app/Controllers/Torneos.php(32): App\Models\TorneosModel->getTorneos('2', '2022-03-31T03:5...', '2022-03-31T03:5...', '9')
+#1 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(824): App\Controllers\Torneos->getTorneos('2', '2022-03-31T03:5...', '2022-03-31T03:5...', '9')
+#2 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Torneos))
+#3 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/uabc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-03-30 21:17:11 --> Not unique table/alias: 'Deporte'
+CRITICAL - 2022-03-30 21:17:11 --> Call to a member function getResult() on bool
+#0 /Applications/MAMP/htdocs/uabc/app/Controllers/Torneos.php(32): App\Models\TorneosModel->getTorneos('2', '2022-03-31T03:5...', '2022-03-31T03:5...', '9')
+#1 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(824): App\Controllers\Torneos->getTorneos('2', '2022-03-31T03:5...', '2022-03-31T03:5...', '9')
+#2 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Torneos))
+#3 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/uabc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-03-30 21:17:19 --> Not unique table/alias: 'Deporte'
+CRITICAL - 2022-03-30 21:17:19 --> Call to a member function getResultArray() on bool
+#0 /Applications/MAMP/htdocs/uabc/app/Controllers/Torneos.php(32): App\Models\TorneosModel->getTorneos('2', '2022-03-31T03:5...', '2022-03-31T03:5...', '9')
+#1 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(824): App\Controllers\Torneos->getTorneos('2', '2022-03-31T03:5...', '2022-03-31T03:5...', '9')
+#2 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Torneos))
+#3 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/uabc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-03-30 21:17:20 --> Not unique table/alias: 'Deporte'
+CRITICAL - 2022-03-30 21:17:20 --> Call to a member function getResultArray() on bool
+#0 /Applications/MAMP/htdocs/uabc/app/Controllers/Torneos.php(32): App\Models\TorneosModel->getTorneos('2', '2022-03-31T03:5...', '2022-03-31T03:5...', '9')
+#1 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(824): App\Controllers\Torneos->getTorneos('2', '2022-03-31T03:5...', '2022-03-31T03:5...', '9')
+#2 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Torneos))
+#3 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/uabc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-03-30 21:17:31 --> Not unique table/alias: 'Deporte'
+CRITICAL - 2022-03-30 21:17:31 --> Call to a member function getResultObject() on bool
+#0 /Applications/MAMP/htdocs/uabc/app/Controllers/Torneos.php(32): App\Models\TorneosModel->getTorneos('2', '2022-03-31T03:5...', '2022-03-31T03:5...', '9')
+#1 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(824): App\Controllers\Torneos->getTorneos('2', '2022-03-31T03:5...', '2022-03-31T03:5...', '9')
+#2 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Torneos))
+#3 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/uabc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-03-30 21:17:40 --> Not unique table/alias: 'Deporte'
+CRITICAL - 2022-03-30 21:17:40 --> Call to a member function getResult() on bool
+#0 /Applications/MAMP/htdocs/uabc/app/Controllers/Torneos.php(32): App\Models\TorneosModel->getTorneos('2', '2022-03-31T03:5...', '2022-03-31T03:5...', '9')
+#1 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(824): App\Controllers\Torneos->getTorneos('2', '2022-03-31T03:5...', '2022-03-31T03:5...', '9')
+#2 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Torneos))
+#3 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/uabc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-03-30 21:17:41 --> Not unique table/alias: 'Deporte'
+CRITICAL - 2022-03-30 21:17:41 --> Call to a member function getResult() on bool
+#0 /Applications/MAMP/htdocs/uabc/app/Controllers/Torneos.php(32): App\Models\TorneosModel->getTorneos('2', '2022-03-31T03:5...', '2022-03-31T03:5...', '9')
+#1 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(824): App\Controllers\Torneos->getTorneos('2', '2022-03-31T03:5...', '2022-03-31T03:5...', '9')
+#2 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Torneos))
+#3 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/uabc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-03-30 21:17:47 --> Not unique table/alias: 'Deporte'
+CRITICAL - 2022-03-30 21:17:47 --> Call to a member function getResult() on bool
+#0 /Applications/MAMP/htdocs/uabc/app/Controllers/Torneos.php(32): App\Models\TorneosModel->getTorneos('2', '2022-03-31T03:5...', '2022-03-31T03:5...', '9')
+#1 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(824): App\Controllers\Torneos->getTorneos('2', '2022-03-31T03:5...', '2022-03-31T03:5...', '9')
+#2 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Torneos))
+#3 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/uabc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-03-30 21:19:39 --> Not unique table/alias: 'Deporte'
+CRITICAL - 2022-03-30 21:19:39 --> Call to a member function getResult() on bool
+#0 /Applications/MAMP/htdocs/uabc/app/Controllers/Torneos.php(32): App\Models\TorneosModel->getTorneos('2', '2022-03-31T03:5...', '2022-03-31T03:5...', '9')
+#1 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(824): App\Controllers\Torneos->getTorneos('2', '2022-03-31T03:5...', '2022-03-31T03:5...', '9')
+#2 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Torneos))
+#3 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/uabc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-03-30 21:19:40 --> Not unique table/alias: 'Deporte'
+CRITICAL - 2022-03-30 21:19:40 --> Call to a member function getResult() on bool
+#0 /Applications/MAMP/htdocs/uabc/app/Controllers/Torneos.php(32): App\Models\TorneosModel->getTorneos('2', '2022-03-31T03:5...', '2022-03-31T03:5...', '9')
+#1 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(824): App\Controllers\Torneos->getTorneos('2', '2022-03-31T03:5...', '2022-03-31T03:5...', '9')
+#2 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Torneos))
+#3 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/uabc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-03-30 21:19:41 --> Not unique table/alias: 'Deporte'
+CRITICAL - 2022-03-30 21:19:41 --> Call to a member function getResult() on bool
+#0 /Applications/MAMP/htdocs/uabc/app/Controllers/Torneos.php(32): App\Models\TorneosModel->getTorneos('2', '2022-03-31T03:5...', '2022-03-31T03:5...', '9')
+#1 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(824): App\Controllers\Torneos->getTorneos('2', '2022-03-31T03:5...', '2022-03-31T03:5...', '9')
+#2 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Torneos))
+#3 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/uabc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-03-30 21:19:41 --> Not unique table/alias: 'Deporte'
+CRITICAL - 2022-03-30 21:19:41 --> Call to a member function getResult() on bool
+#0 /Applications/MAMP/htdocs/uabc/app/Controllers/Torneos.php(32): App\Models\TorneosModel->getTorneos('2', '2022-03-31T03:5...', '2022-03-31T03:5...', '9')
+#1 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(824): App\Controllers\Torneos->getTorneos('2', '2022-03-31T03:5...', '2022-03-31T03:5...', '9')
+#2 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Torneos))
+#3 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/uabc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-03-30 21:19:41 --> Not unique table/alias: 'Deporte'
+CRITICAL - 2022-03-30 21:19:41 --> Call to a member function getResult() on bool
+#0 /Applications/MAMP/htdocs/uabc/app/Controllers/Torneos.php(32): App\Models\TorneosModel->getTorneos('2', '2022-03-31T03:5...', '2022-03-31T03:5...', '9')
+#1 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(824): App\Controllers\Torneos->getTorneos('2', '2022-03-31T03:5...', '2022-03-31T03:5...', '9')
+#2 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Torneos))
+#3 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/uabc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-30 22:13:59 --> Object of class stdClass could not be converted to string
+#0 /Applications/MAMP/htdocs/uabc/app/Models/TorneosModel.php(67): array_unique(Array)
+#1 /Applications/MAMP/htdocs/uabc/app/Controllers/Torneos.php(32): App\Models\TorneosModel->getTorneos('2', '2022-03-31T03:5...', '2022-03-31T03:5...', '1')
+#2 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(824): App\Controllers\Torneos->getTorneos('2', '2022-03-31T03:5...', '2022-03-31T03:5...', '1')
+#3 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Torneos))
+#4 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/MAMP/htdocs/uabc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-03-30 22:18:00 --> Array to string conversion
+#0 /Applications/MAMP/htdocs/uabc/app/Models/TorneosModel.php(69): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', '/Applications/M...', 69)
+#1 /Applications/MAMP/htdocs/uabc/app/Controllers/Torneos.php(32): App\Models\TorneosModel->getTorneos('2', '2022-03-31T03:5...', '2022-03-31T03:5...', '1')
+#2 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(824): App\Controllers\Torneos->getTorneos('2', '2022-03-31T03:5...', '2022-03-31T03:5...', '1')
+#3 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Torneos))
+#4 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/MAMP/htdocs/uabc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-03-30 22:27:26 --> Unknown column 'EquiposInscritos.idEquipo' in 'field list'
+CRITICAL - 2022-03-30 22:27:26 --> Call to a member function getResult() on bool
+#0 /Applications/MAMP/htdocs/uabc/app/Controllers/Torneos.php(32): App\Models\TorneosModel->getTorneos('2', '2022-03-31T03:5...', '2022-03-31T03:5...', '1')
+#1 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(824): App\Controllers\Torneos->getTorneos('2', '2022-03-31T03:5...', '2022-03-31T03:5...', '1')
+#2 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Torneos))
+#3 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/uabc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-30 22:36:23 --> array_values() expects exactly 1 argument, 2 given
+#0 /Applications/MAMP/htdocs/uabc/app/Models/TorneosModel.php(61): array_values(Array, 'idTorneo')
+#1 /Applications/MAMP/htdocs/uabc/app/Controllers/Torneos.php(32): App\Models\TorneosModel->getTorneos('2', '2022-03-31T03:5...', '2022-03-31T03:5...', '1')
+#2 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(824): App\Controllers\Torneos->getTorneos('2', '2022-03-31T03:5...', '2022-03-31T03:5...', '1')
+#3 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Torneos))
+#4 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/MAMP/htdocs/uabc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}

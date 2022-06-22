@@ -1,0 +1,342 @@
+CRITICAL - 2022-01-07 13:42:34 --> syntax error, unexpected token ";", expecting "]"
+#0 /opt/lampp/htdocs/mona_fitness/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/opt/lampp/htdo...')
+#1 /opt/lampp/htdocs/mona_fitness/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 /opt/lampp/htdocs/mona_fitness/system/CodeIgniter.php(789): class_exists('\\App\\Controller...', true)
+#4 /opt/lampp/htdocs/mona_fitness/system/CodeIgniter.php(397): CodeIgniter\CodeIgniter->startController()
+#5 /opt/lampp/htdocs/mona_fitness/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /opt/lampp/htdocs/mona_fitness/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-01-07 13:42:37 --> syntax error, unexpected token ";", expecting "]"
+#0 /opt/lampp/htdocs/mona_fitness/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/opt/lampp/htdo...')
+#1 /opt/lampp/htdocs/mona_fitness/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 /opt/lampp/htdocs/mona_fitness/system/CodeIgniter.php(789): class_exists('\\App\\Controller...', true)
+#4 /opt/lampp/htdocs/mona_fitness/system/CodeIgniter.php(397): CodeIgniter\CodeIgniter->startController()
+#5 /opt/lampp/htdocs/mona_fitness/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /opt/lampp/htdocs/mona_fitness/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-01-07 13:42:42 --> syntax error, unexpected token ";", expecting "]"
+#0 /opt/lampp/htdocs/mona_fitness/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/opt/lampp/htdo...')
+#1 /opt/lampp/htdocs/mona_fitness/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 /opt/lampp/htdocs/mona_fitness/system/CodeIgniter.php(789): class_exists('\\App\\Controller...', true)
+#4 /opt/lampp/htdocs/mona_fitness/system/CodeIgniter.php(397): CodeIgniter\CodeIgniter->startController()
+#5 /opt/lampp/htdocs/mona_fitness/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /opt/lampp/htdocs/mona_fitness/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-01-07 13:42:42 --> syntax error, unexpected token ";", expecting "]"
+#0 /opt/lampp/htdocs/mona_fitness/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/opt/lampp/htdo...')
+#1 /opt/lampp/htdocs/mona_fitness/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 /opt/lampp/htdocs/mona_fitness/system/CodeIgniter.php(789): class_exists('\\App\\Controller...', true)
+#4 /opt/lampp/htdocs/mona_fitness/system/CodeIgniter.php(397): CodeIgniter\CodeIgniter->startController()
+#5 /opt/lampp/htdocs/mona_fitness/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /opt/lampp/htdocs/mona_fitness/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-01-07 13:42:44 --> syntax error, unexpected token ";", expecting "]"
+#0 /opt/lampp/htdocs/mona_fitness/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/opt/lampp/htdo...')
+#1 /opt/lampp/htdocs/mona_fitness/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 /opt/lampp/htdocs/mona_fitness/system/CodeIgniter.php(789): class_exists('\\App\\Controller...', true)
+#4 /opt/lampp/htdocs/mona_fitness/system/CodeIgniter.php(397): CodeIgniter\CodeIgniter->startController()
+#5 /opt/lampp/htdocs/mona_fitness/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /opt/lampp/htdocs/mona_fitness/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-01-07 13:42:45 --> syntax error, unexpected token ";", expecting "]"
+#0 /opt/lampp/htdocs/mona_fitness/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/opt/lampp/htdo...')
+#1 /opt/lampp/htdocs/mona_fitness/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 /opt/lampp/htdocs/mona_fitness/system/CodeIgniter.php(789): class_exists('\\App\\Controller...', true)
+#4 /opt/lampp/htdocs/mona_fitness/system/CodeIgniter.php(397): CodeIgniter\CodeIgniter->startController()
+#5 /opt/lampp/htdocs/mona_fitness/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /opt/lampp/htdocs/mona_fitness/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-01-07 13:42:47 --> syntax error, unexpected token ";", expecting "]"
+#0 /opt/lampp/htdocs/mona_fitness/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/opt/lampp/htdo...')
+#1 /opt/lampp/htdocs/mona_fitness/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 /opt/lampp/htdocs/mona_fitness/system/CodeIgniter.php(789): class_exists('\\App\\Controller...', true)
+#4 /opt/lampp/htdocs/mona_fitness/system/CodeIgniter.php(397): CodeIgniter\CodeIgniter->startController()
+#5 /opt/lampp/htdocs/mona_fitness/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /opt/lampp/htdocs/mona_fitness/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-01-07 13:42:50 --> syntax error, unexpected token ";", expecting "]"
+#0 /opt/lampp/htdocs/mona_fitness/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/opt/lampp/htdo...')
+#1 /opt/lampp/htdocs/mona_fitness/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 /opt/lampp/htdocs/mona_fitness/system/CodeIgniter.php(789): class_exists('\\App\\Controller...', true)
+#4 /opt/lampp/htdocs/mona_fitness/system/CodeIgniter.php(397): CodeIgniter\CodeIgniter->startController()
+#5 /opt/lampp/htdocs/mona_fitness/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /opt/lampp/htdocs/mona_fitness/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-01-07 13:42:52 --> syntax error, unexpected token ";", expecting "]"
+#0 /opt/lampp/htdocs/mona_fitness/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/opt/lampp/htdo...')
+#1 /opt/lampp/htdocs/mona_fitness/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 /opt/lampp/htdocs/mona_fitness/system/CodeIgniter.php(789): class_exists('\\App\\Controller...', true)
+#4 /opt/lampp/htdocs/mona_fitness/system/CodeIgniter.php(397): CodeIgniter\CodeIgniter->startController()
+#5 /opt/lampp/htdocs/mona_fitness/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /opt/lampp/htdocs/mona_fitness/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-01-07 13:42:59 --> syntax error, unexpected token ";", expecting "]"
+#0 /opt/lampp/htdocs/mona_fitness/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/opt/lampp/htdo...')
+#1 /opt/lampp/htdocs/mona_fitness/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 /opt/lampp/htdocs/mona_fitness/system/CodeIgniter.php(789): class_exists('\\App\\Controller...', true)
+#4 /opt/lampp/htdocs/mona_fitness/system/CodeIgniter.php(397): CodeIgniter\CodeIgniter->startController()
+#5 /opt/lampp/htdocs/mona_fitness/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /opt/lampp/htdocs/mona_fitness/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-01-07 13:43:07 --> syntax error, unexpected token ";", expecting "]"
+#0 /opt/lampp/htdocs/mona_fitness/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/opt/lampp/htdo...')
+#1 /opt/lampp/htdocs/mona_fitness/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 /opt/lampp/htdocs/mona_fitness/system/CodeIgniter.php(789): class_exists('\\App\\Controller...', true)
+#4 /opt/lampp/htdocs/mona_fitness/system/CodeIgniter.php(397): CodeIgniter\CodeIgniter->startController()
+#5 /opt/lampp/htdocs/mona_fitness/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /opt/lampp/htdocs/mona_fitness/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-01-07 13:44:10 --> syntax error, unexpected token ";", expecting "]"
+#0 /opt/lampp/htdocs/mona_fitness/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/opt/lampp/htdo...')
+#1 /opt/lampp/htdocs/mona_fitness/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 /opt/lampp/htdocs/mona_fitness/system/CodeIgniter.php(789): class_exists('\\App\\Controller...', true)
+#4 /opt/lampp/htdocs/mona_fitness/system/CodeIgniter.php(397): CodeIgniter\CodeIgniter->startController()
+#5 /opt/lampp/htdocs/mona_fitness/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /opt/lampp/htdocs/mona_fitness/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-01-07 13:44:35 --> syntax error, unexpected token ";", expecting "]"
+#0 /opt/lampp/htdocs/mona_fitness/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/opt/lampp/htdo...')
+#1 /opt/lampp/htdocs/mona_fitness/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 /opt/lampp/htdocs/mona_fitness/system/CodeIgniter.php(789): class_exists('\\App\\Controller...', true)
+#4 /opt/lampp/htdocs/mona_fitness/system/CodeIgniter.php(397): CodeIgniter\CodeIgniter->startController()
+#5 /opt/lampp/htdocs/mona_fitness/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /opt/lampp/htdocs/mona_fitness/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-01-07 13:44:37 --> syntax error, unexpected token ";", expecting "]"
+#0 /opt/lampp/htdocs/mona_fitness/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/opt/lampp/htdo...')
+#1 /opt/lampp/htdocs/mona_fitness/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 /opt/lampp/htdocs/mona_fitness/system/CodeIgniter.php(789): class_exists('\\App\\Controller...', true)
+#4 /opt/lampp/htdocs/mona_fitness/system/CodeIgniter.php(397): CodeIgniter\CodeIgniter->startController()
+#5 /opt/lampp/htdocs/mona_fitness/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /opt/lampp/htdocs/mona_fitness/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-01-07 13:44:40 --> syntax error, unexpected token ";", expecting "]"
+#0 /opt/lampp/htdocs/mona_fitness/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/opt/lampp/htdo...')
+#1 /opt/lampp/htdocs/mona_fitness/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 /opt/lampp/htdocs/mona_fitness/system/CodeIgniter.php(789): class_exists('\\App\\Controller...', true)
+#4 /opt/lampp/htdocs/mona_fitness/system/CodeIgniter.php(397): CodeIgniter\CodeIgniter->startController()
+#5 /opt/lampp/htdocs/mona_fitness/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /opt/lampp/htdocs/mona_fitness/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-01-07 13:46:04 --> syntax error, unexpected token ";", expecting "]"
+#0 /opt/lampp/htdocs/mona_fitness/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/opt/lampp/htdo...')
+#1 /opt/lampp/htdocs/mona_fitness/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 /opt/lampp/htdocs/mona_fitness/system/CodeIgniter.php(789): class_exists('\\App\\Controller...', true)
+#4 /opt/lampp/htdocs/mona_fitness/system/CodeIgniter.php(397): CodeIgniter\CodeIgniter->startController()
+#5 /opt/lampp/htdocs/mona_fitness/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /opt/lampp/htdocs/mona_fitness/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-01-07 13:46:58 --> syntax error, unexpected token ";", expecting "]"
+#0 /opt/lampp/htdocs/mona_fitness/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/opt/lampp/htdo...')
+#1 /opt/lampp/htdocs/mona_fitness/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 /opt/lampp/htdocs/mona_fitness/system/CodeIgniter.php(789): class_exists('\\App\\Controller...', true)
+#4 /opt/lampp/htdocs/mona_fitness/system/CodeIgniter.php(397): CodeIgniter\CodeIgniter->startController()
+#5 /opt/lampp/htdocs/mona_fitness/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /opt/lampp/htdocs/mona_fitness/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-01-07 13:47:13 --> syntax error, unexpected token ";", expecting "]"
+#0 /opt/lampp/htdocs/mona_fitness/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/opt/lampp/htdo...')
+#1 /opt/lampp/htdocs/mona_fitness/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 /opt/lampp/htdocs/mona_fitness/system/CodeIgniter.php(789): class_exists('\\App\\Controller...', true)
+#4 /opt/lampp/htdocs/mona_fitness/system/CodeIgniter.php(397): CodeIgniter\CodeIgniter->startController()
+#5 /opt/lampp/htdocs/mona_fitness/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /opt/lampp/htdocs/mona_fitness/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-01-07 13:49:49 --> syntax error, unexpected token ";", expecting "]"
+#0 /opt/lampp/htdocs/mona_fitness/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/opt/lampp/htdo...')
+#1 /opt/lampp/htdocs/mona_fitness/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 /opt/lampp/htdocs/mona_fitness/system/CodeIgniter.php(789): class_exists('\\App\\Controller...', true)
+#4 /opt/lampp/htdocs/mona_fitness/system/CodeIgniter.php(397): CodeIgniter\CodeIgniter->startController()
+#5 /opt/lampp/htdocs/mona_fitness/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /opt/lampp/htdocs/mona_fitness/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-01-07 13:50:52 --> syntax error, unexpected token ";", expecting "]"
+#0 /opt/lampp/htdocs/mona_fitness/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/opt/lampp/htdo...')
+#1 /opt/lampp/htdocs/mona_fitness/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 /opt/lampp/htdocs/mona_fitness/system/CodeIgniter.php(789): class_exists('\\App\\Controller...', true)
+#4 /opt/lampp/htdocs/mona_fitness/system/CodeIgniter.php(397): CodeIgniter\CodeIgniter->startController()
+#5 /opt/lampp/htdocs/mona_fitness/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /opt/lampp/htdocs/mona_fitness/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-01-07 13:52:39 --> syntax error, unexpected token ";", expecting "]"
+#0 /opt/lampp/htdocs/mona_fitness/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/opt/lampp/htdo...')
+#1 /opt/lampp/htdocs/mona_fitness/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 /opt/lampp/htdocs/mona_fitness/system/CodeIgniter.php(789): class_exists('\\App\\Controller...', true)
+#4 /opt/lampp/htdocs/mona_fitness/system/CodeIgniter.php(397): CodeIgniter\CodeIgniter->startController()
+#5 /opt/lampp/htdocs/mona_fitness/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /opt/lampp/htdocs/mona_fitness/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-01-07 13:53:08 --> syntax error, unexpected token ";", expecting "]"
+#0 /opt/lampp/htdocs/mona_fitness/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/opt/lampp/htdo...')
+#1 /opt/lampp/htdocs/mona_fitness/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 /opt/lampp/htdocs/mona_fitness/system/CodeIgniter.php(789): class_exists('\\App\\Controller...', true)
+#4 /opt/lampp/htdocs/mona_fitness/system/CodeIgniter.php(397): CodeIgniter\CodeIgniter->startController()
+#5 /opt/lampp/htdocs/mona_fitness/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /opt/lampp/htdocs/mona_fitness/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-01-07 13:53:25 --> syntax error, unexpected token ";", expecting "]"
+#0 /opt/lampp/htdocs/mona_fitness/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/opt/lampp/htdo...')
+#1 /opt/lampp/htdocs/mona_fitness/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 /opt/lampp/htdocs/mona_fitness/system/CodeIgniter.php(789): class_exists('\\App\\Controller...', true)
+#4 /opt/lampp/htdocs/mona_fitness/system/CodeIgniter.php(397): CodeIgniter\CodeIgniter->startController()
+#5 /opt/lampp/htdocs/mona_fitness/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /opt/lampp/htdocs/mona_fitness/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-01-07 13:53:35 --> syntax error, unexpected token ";", expecting "]"
+#0 /opt/lampp/htdocs/mona_fitness/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/opt/lampp/htdo...')
+#1 /opt/lampp/htdocs/mona_fitness/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 /opt/lampp/htdocs/mona_fitness/system/CodeIgniter.php(789): class_exists('\\App\\Controller...', true)
+#4 /opt/lampp/htdocs/mona_fitness/system/CodeIgniter.php(397): CodeIgniter\CodeIgniter->startController()
+#5 /opt/lampp/htdocs/mona_fitness/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /opt/lampp/htdocs/mona_fitness/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-01-07 13:54:20 --> syntax error, unexpected token ";", expecting "]"
+#0 /opt/lampp/htdocs/mona_fitness/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/opt/lampp/htdo...')
+#1 /opt/lampp/htdocs/mona_fitness/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 /opt/lampp/htdocs/mona_fitness/system/CodeIgniter.php(789): class_exists('\\App\\Controller...', true)
+#4 /opt/lampp/htdocs/mona_fitness/system/CodeIgniter.php(397): CodeIgniter\CodeIgniter->startController()
+#5 /opt/lampp/htdocs/mona_fitness/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /opt/lampp/htdocs/mona_fitness/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-01-07 13:55:47 --> syntax error, unexpected token ";", expecting "]"
+#0 /opt/lampp/htdocs/mona_fitness/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/opt/lampp/htdo...')
+#1 /opt/lampp/htdocs/mona_fitness/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 /opt/lampp/htdocs/mona_fitness/system/CodeIgniter.php(789): class_exists('\\App\\Controller...', true)
+#4 /opt/lampp/htdocs/mona_fitness/system/CodeIgniter.php(397): CodeIgniter\CodeIgniter->startController()
+#5 /opt/lampp/htdocs/mona_fitness/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /opt/lampp/htdocs/mona_fitness/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-01-07 13:56:31 --> syntax error, unexpected token ";", expecting "]"
+#0 /opt/lampp/htdocs/mona_fitness/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/opt/lampp/htdo...')
+#1 /opt/lampp/htdocs/mona_fitness/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 /opt/lampp/htdocs/mona_fitness/system/CodeIgniter.php(789): class_exists('\\App\\Controller...', true)
+#4 /opt/lampp/htdocs/mona_fitness/system/CodeIgniter.php(397): CodeIgniter\CodeIgniter->startController()
+#5 /opt/lampp/htdocs/mona_fitness/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /opt/lampp/htdocs/mona_fitness/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-01-07 13:57:28 --> syntax error, unexpected token ";", expecting "]"
+#0 /opt/lampp/htdocs/mona_fitness/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/opt/lampp/htdo...')
+#1 /opt/lampp/htdocs/mona_fitness/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 /opt/lampp/htdocs/mona_fitness/system/CodeIgniter.php(789): class_exists('\\App\\Controller...', true)
+#4 /opt/lampp/htdocs/mona_fitness/system/CodeIgniter.php(397): CodeIgniter\CodeIgniter->startController()
+#5 /opt/lampp/htdocs/mona_fitness/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /opt/lampp/htdocs/mona_fitness/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-01-07 13:57:40 --> syntax error, unexpected token ";", expecting "]"
+#0 /opt/lampp/htdocs/mona_fitness/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/opt/lampp/htdo...')
+#1 /opt/lampp/htdocs/mona_fitness/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 /opt/lampp/htdocs/mona_fitness/system/CodeIgniter.php(789): class_exists('\\App\\Controller...', true)
+#4 /opt/lampp/htdocs/mona_fitness/system/CodeIgniter.php(397): CodeIgniter\CodeIgniter->startController()
+#5 /opt/lampp/htdocs/mona_fitness/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /opt/lampp/htdocs/mona_fitness/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-01-07 13:57:51 --> syntax error, unexpected token ";", expecting "]"
+#0 /opt/lampp/htdocs/mona_fitness/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/opt/lampp/htdo...')
+#1 /opt/lampp/htdocs/mona_fitness/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 /opt/lampp/htdocs/mona_fitness/system/CodeIgniter.php(789): class_exists('\\App\\Controller...', true)
+#4 /opt/lampp/htdocs/mona_fitness/system/CodeIgniter.php(397): CodeIgniter\CodeIgniter->startController()
+#5 /opt/lampp/htdocs/mona_fitness/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /opt/lampp/htdocs/mona_fitness/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-01-07 13:58:31 --> syntax error, unexpected token ";", expecting "]"
+#0 /opt/lampp/htdocs/mona_fitness/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/opt/lampp/htdo...')
+#1 /opt/lampp/htdocs/mona_fitness/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 /opt/lampp/htdocs/mona_fitness/system/CodeIgniter.php(789): class_exists('\\App\\Controller...', true)
+#4 /opt/lampp/htdocs/mona_fitness/system/CodeIgniter.php(397): CodeIgniter\CodeIgniter->startController()
+#5 /opt/lampp/htdocs/mona_fitness/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /opt/lampp/htdocs/mona_fitness/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-01-07 13:58:33 --> syntax error, unexpected token ";", expecting "]"
+#0 /opt/lampp/htdocs/mona_fitness/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/opt/lampp/htdo...')
+#1 /opt/lampp/htdocs/mona_fitness/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 /opt/lampp/htdocs/mona_fitness/system/CodeIgniter.php(789): class_exists('\\App\\Controller...', true)
+#4 /opt/lampp/htdocs/mona_fitness/system/CodeIgniter.php(397): CodeIgniter\CodeIgniter->startController()
+#5 /opt/lampp/htdocs/mona_fitness/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /opt/lampp/htdocs/mona_fitness/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-01-07 13:58:36 --> syntax error, unexpected token ";", expecting "]"
+#0 /opt/lampp/htdocs/mona_fitness/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/opt/lampp/htdo...')
+#1 /opt/lampp/htdocs/mona_fitness/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 /opt/lampp/htdocs/mona_fitness/system/CodeIgniter.php(789): class_exists('\\App\\Controller...', true)
+#4 /opt/lampp/htdocs/mona_fitness/system/CodeIgniter.php(397): CodeIgniter\CodeIgniter->startController()
+#5 /opt/lampp/htdocs/mona_fitness/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /opt/lampp/htdocs/mona_fitness/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-01-07 13:58:38 --> syntax error, unexpected token ";", expecting "]"
+#0 /opt/lampp/htdocs/mona_fitness/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/opt/lampp/htdo...')
+#1 /opt/lampp/htdocs/mona_fitness/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 /opt/lampp/htdocs/mona_fitness/system/CodeIgniter.php(789): class_exists('\\App\\Controller...', true)
+#4 /opt/lampp/htdocs/mona_fitness/system/CodeIgniter.php(397): CodeIgniter\CodeIgniter->startController()
+#5 /opt/lampp/htdocs/mona_fitness/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /opt/lampp/htdocs/mona_fitness/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-01-07 13:58:40 --> syntax error, unexpected token ";", expecting "]"
+#0 /opt/lampp/htdocs/mona_fitness/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/opt/lampp/htdo...')
+#1 /opt/lampp/htdocs/mona_fitness/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 /opt/lampp/htdocs/mona_fitness/system/CodeIgniter.php(789): class_exists('\\App\\Controller...', true)
+#4 /opt/lampp/htdocs/mona_fitness/system/CodeIgniter.php(397): CodeIgniter\CodeIgniter->startController()
+#5 /opt/lampp/htdocs/mona_fitness/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /opt/lampp/htdocs/mona_fitness/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-01-07 14:14:38 --> Undefined variable $05
+#0 /opt/lampp/htdocs/mona_fitness/app/Models/ClientesModel.php(258): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/opt/lampp/htdo...', 258)
+#1 /opt/lampp/htdocs/mona_fitness/app/Models/ClientesModel.php(62): App\Models\ClientesModel->addNutritionPlan(36, 4, 1)
+#2 /opt/lampp/htdocs/mona_fitness/app/Controllers/Client.php(82): App\Models\ClientesModel->saveClient(Array)
+#3 /opt/lampp/htdocs/mona_fitness/system/CodeIgniter.php(824): App\Controllers\Client->saveNewClient()
+#4 /opt/lampp/htdocs/mona_fitness/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+#5 /opt/lampp/htdocs/mona_fitness/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /opt/lampp/htdocs/mona_fitness/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-01-07 19:45:26 --> Invalid file: instructores.php
+#0 /opt/lampp/htdocs/mona_fitness/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('instructores.ph...')
+#1 /opt/lampp/htdocs/mona_fitness/system/Common.php(1097): CodeIgniter\View\View->render('instructores', Array, true)
+#2 /opt/lampp/htdocs/mona_fitness/app/Controllers/Trainer.php(16): view('instructores')
+#3 /opt/lampp/htdocs/mona_fitness/system/CodeIgniter.php(824): App\Controllers\Trainer->index()
+#4 /opt/lampp/htdocs/mona_fitness/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Trainer))
+#5 /opt/lampp/htdocs/mona_fitness/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /opt/lampp/htdocs/mona_fitness/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-01-07 19:46:27 --> Invalid file: instructores.php
+#0 /opt/lampp/htdocs/mona_fitness/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('instructores.ph...')
+#1 /opt/lampp/htdocs/mona_fitness/system/Common.php(1097): CodeIgniter\View\View->render('instructores', Array, true)
+#2 /opt/lampp/htdocs/mona_fitness/app/Controllers/Trainer.php(16): view('instructores')
+#3 /opt/lampp/htdocs/mona_fitness/system/CodeIgniter.php(824): App\Controllers\Trainer->index()
+#4 /opt/lampp/htdocs/mona_fitness/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Trainer))
+#5 /opt/lampp/htdocs/mona_fitness/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /opt/lampp/htdocs/mona_fitness/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}

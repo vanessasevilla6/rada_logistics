@@ -1,0 +1,36 @@
+.roboto-font{
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.oswald-font{
+    font-family: 'Oswald', sans-serif;
+}
+.bebas-font{
+    font-family: 'Bebas Neue', serif;
+    
+}
+
+
+.text-yellow-rada{
+    color: #FDDE2D;
+}
+.text-gray-rada{
+    color: #A3A3AF;
+}
+
+.text-red-rada{
+    color: #FD0A09;
+}
+
+.bg-yellow-rada{
+    background-color: #FDDE2D;
+}
+
+.bg-gray-rada{
+    background-color: #A3A3AF;
+}
+
+.bg-red-rada{
+    background-color: #FD0A09;
+}

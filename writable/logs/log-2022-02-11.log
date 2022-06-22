@@ -1,0 +1,135 @@
+CRITICAL - 2022-02-11 11:15:50 --> You must set the database table to be used with your query.
+#0 /Applications/MAMP/htdocs/uabc/system/Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 /Applications/MAMP/htdocs/uabc/system/Model.php(717): CodeIgniter\Model->builder()
+#2 /Applications/MAMP/htdocs/uabc/app/Controllers/Home.php(161): CodeIgniter\Model->__call('getEquiposUsuar...', Array)
+#3 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(824): App\Controllers\Home->getUserTeams('2')
+#4 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Applications/MAMP/htdocs/uabc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-02-11 11:16:38 --> You must set the database table to be used with your query.
+#0 /Applications/MAMP/htdocs/uabc/system/Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 /Applications/MAMP/htdocs/uabc/system/Model.php(717): CodeIgniter\Model->builder()
+#2 /Applications/MAMP/htdocs/uabc/app/Controllers/Home.php(161): CodeIgniter\Model->__call('getEquiposUsuar...', Array)
+#3 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(824): App\Controllers\Home->getUserTeams('2')
+#4 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Applications/MAMP/htdocs/uabc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-02-11 11:16:49 --> You must set the database table to be used with your query.
+#0 /Applications/MAMP/htdocs/uabc/system/Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 /Applications/MAMP/htdocs/uabc/system/Model.php(717): CodeIgniter\Model->builder()
+#2 /Applications/MAMP/htdocs/uabc/app/Controllers/Home.php(161): CodeIgniter\Model->__call('getEquiposUsuar...', Array)
+#3 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(824): App\Controllers\Home->getUserTeams('2')
+#4 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Applications/MAMP/htdocs/uabc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-02-11 11:17:26 --> You must set the database table to be used with your query.
+#0 /Applications/MAMP/htdocs/uabc/system/Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 /Applications/MAMP/htdocs/uabc/system/Model.php(717): CodeIgniter\Model->builder()
+#2 /Applications/MAMP/htdocs/uabc/app/Controllers/Home.php(161): CodeIgniter\Model->__call('getEquiposUsuar...', Array)
+#3 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(824): App\Controllers\Home->getUserTeams('2')
+#4 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Applications/MAMP/htdocs/uabc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-02-11 13:48:00 --> Undefined variable $tipoUsuario
+#0 /Applications/MAMP/htdocs/uabc/app/Views/menu.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/Applications/M...', 50)
+#1 /Applications/MAMP/htdocs/uabc/system/View/View.php(214): include('/Applications/M...')
+#2 /Applications/MAMP/htdocs/uabc/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Applications/MAMP/htdocs/uabc/system/Common.php(1097): CodeIgniter\View\View->render('menu', Array, true)
+#4 /Applications/MAMP/htdocs/uabc/app/Controllers/Home.php(57): view('menu')
+#5 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(824): App\Controllers\Home->dashboard()
+#6 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Applications/MAMP/htdocs/uabc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-11 14:00:50 --> Undefined variable $tipoUsuario
+#0 /Applications/MAMP/htdocs/uabc/app/Views/menu.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/Applications/M...', 50)
+#1 /Applications/MAMP/htdocs/uabc/system/View/View.php(214): include('/Applications/M...')
+#2 /Applications/MAMP/htdocs/uabc/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Applications/MAMP/htdocs/uabc/system/Common.php(1097): CodeIgniter\View\View->render('menu', Array, true)
+#4 /Applications/MAMP/htdocs/uabc/app/Controllers/Home.php(70): view('menu')
+#5 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(824): App\Controllers\Home->campus()
+#6 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Applications/MAMP/htdocs/uabc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-11 14:00:53 --> Undefined variable $tipoUsuario
+#0 /Applications/MAMP/htdocs/uabc/app/Views/menu.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/Applications/M...', 50)
+#1 /Applications/MAMP/htdocs/uabc/system/View/View.php(214): include('/Applications/M...')
+#2 /Applications/MAMP/htdocs/uabc/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Applications/MAMP/htdocs/uabc/system/Common.php(1097): CodeIgniter\View\View->render('menu', Array, true)
+#4 /Applications/MAMP/htdocs/uabc/app/Controllers/Home.php(70): view('menu')
+#5 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(824): App\Controllers\Home->campus()
+#6 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Applications/MAMP/htdocs/uabc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-11 16:55:23 --> Undefined variable $tipoUsuario
+#0 /Applications/MAMP/htdocs/uabc/app/Views/menu.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/Applications/M...', 58)
+#1 /Applications/MAMP/htdocs/uabc/system/View/View.php(214): include('/Applications/M...')
+#2 /Applications/MAMP/htdocs/uabc/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Applications/MAMP/htdocs/uabc/system/Common.php(1097): CodeIgniter\View\View->render('menu', Array, true)
+#4 /Applications/MAMP/htdocs/uabc/app/Controllers/Home.php(23): view('menu')
+#5 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(824): App\Controllers\Home->deportes()
+#6 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Applications/MAMP/htdocs/uabc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-11 16:55:26 --> Undefined variable $tipoUsuario
+#0 /Applications/MAMP/htdocs/uabc/app/Views/menu.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/Applications/M...', 58)
+#1 /Applications/MAMP/htdocs/uabc/system/View/View.php(214): include('/Applications/M...')
+#2 /Applications/MAMP/htdocs/uabc/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Applications/MAMP/htdocs/uabc/system/Common.php(1097): CodeIgniter\View\View->render('menu', Array, true)
+#4 /Applications/MAMP/htdocs/uabc/app/Controllers/Home.php(23): view('menu')
+#5 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(824): App\Controllers\Home->deportes()
+#6 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Applications/MAMP/htdocs/uabc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-11 16:56:21 --> Undefined variable $tipoUsuario
+#0 /Applications/MAMP/htdocs/uabc/app/Views/menu.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/Applications/M...', 58)
+#1 /Applications/MAMP/htdocs/uabc/system/View/View.php(214): include('/Applications/M...')
+#2 /Applications/MAMP/htdocs/uabc/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Applications/MAMP/htdocs/uabc/system/Common.php(1097): CodeIgniter\View\View->render('menu', Array, true)
+#4 /Applications/MAMP/htdocs/uabc/app/Controllers/Home.php(32): view('menu')
+#5 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(824): App\Controllers\Home->deportes()
+#6 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Applications/MAMP/htdocs/uabc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-11 16:56:22 --> Undefined variable $tipoUsuario
+#0 /Applications/MAMP/htdocs/uabc/app/Views/menu.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/Applications/M...', 58)
+#1 /Applications/MAMP/htdocs/uabc/system/View/View.php(214): include('/Applications/M...')
+#2 /Applications/MAMP/htdocs/uabc/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Applications/MAMP/htdocs/uabc/system/Common.php(1097): CodeIgniter\View\View->render('menu', Array, true)
+#4 /Applications/MAMP/htdocs/uabc/app/Controllers/Home.php(32): view('menu')
+#5 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(824): App\Controllers\Home->deportes()
+#6 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Applications/MAMP/htdocs/uabc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-11 16:57:28 --> Undefined variable $tipoUsuario
+#0 /Applications/MAMP/htdocs/uabc/app/Views/menu.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/Applications/M...', 58)
+#1 /Applications/MAMP/htdocs/uabc/system/View/View.php(214): include('/Applications/M...')
+#2 /Applications/MAMP/htdocs/uabc/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Applications/MAMP/htdocs/uabc/system/Common.php(1097): CodeIgniter\View\View->render('menu', Array, true)
+#4 /Applications/MAMP/htdocs/uabc/app/Controllers/Home.php(118): view('menu')
+#5 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(824): App\Controllers\Home->facultades()
+#6 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Applications/MAMP/htdocs/uabc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-11 16:58:03 --> Undefined variable $tipoUsuario
+#0 /Applications/MAMP/htdocs/uabc/app/Views/menu.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/Applications/M...', 58)
+#1 /Applications/MAMP/htdocs/uabc/system/View/View.php(214): include('/Applications/M...')
+#2 /Applications/MAMP/htdocs/uabc/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Applications/MAMP/htdocs/uabc/system/Common.php(1097): CodeIgniter\View\View->render('menu', Array, true)
+#4 /Applications/MAMP/htdocs/uabc/app/Controllers/Home.php(127): view('menu')
+#5 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(824): App\Controllers\Home->facultades()
+#6 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Applications/MAMP/htdocs/uabc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}

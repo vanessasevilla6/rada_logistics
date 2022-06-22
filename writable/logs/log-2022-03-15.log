@@ -1,0 +1,448 @@
+ERROR - 2022-03-15 09:53:12 --> Subquery returns more than 1 row
+CRITICAL - 2022-03-15 09:53:12 --> Call to a member function getResult() on bool
+#0 /Applications/MAMP/htdocs/uabc/app/Controllers/Home.php(446): App\Models\CatalogoModel->obtenerUltimosResultados('6', '10', true)
+#1 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(824): App\Controllers\Home->getResults('6', '10')
+#2 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/uabc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-03-15 10:32:50 --> Subquery returns more than 1 row
+CRITICAL - 2022-03-15 10:32:50 --> Call to a member function getResult() on bool
+#0 /Applications/MAMP/htdocs/uabc/app/Controllers/Home.php(446): App\Models\CatalogoModel->obtenerUltimosResultados('6', '10', true)
+#1 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(824): App\Controllers\Home->getResults('6', '10')
+#2 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/uabc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-15 11:40:15 --> Cannot use object of type stdClass as array
+#0 /Applications/MAMP/htdocs/uabc/system/View/View.php(214): include()
+#1 /Applications/MAMP/htdocs/uabc/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /Applications/MAMP/htdocs/uabc/system/Common.php(1097): CodeIgniter\View\View->render('catalogo/juego', Array, true)
+#3 /Applications/MAMP/htdocs/uabc/app/Controllers/Home.php(325): view('catalogo/juego', Array)
+#4 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(824): App\Controllers\Home->detalle_juego('2')
+#5 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Applications/MAMP/htdocs/uabc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-03-15 19:24:51 --> Subquery returns more than 1 row
+CRITICAL - 2022-03-15 19:24:51 --> Call to a member function getResult() on bool
+#0 /Applications/MAMP/htdocs/uabc/app/Controllers/Home.php(446): App\Models\CatalogoModel->obtenerUltimosResultados('6', '10', true)
+#1 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(824): App\Controllers\Home->getResults('6', '10')
+#2 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/uabc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-03-15 19:25:21 --> Subquery returns more than 1 row
+CRITICAL - 2022-03-15 19:25:21 --> Call to a member function getResult() on bool
+#0 /Applications/MAMP/htdocs/uabc/app/Controllers/Home.php(446): App\Models\CatalogoModel->obtenerUltimosResultados('6', '10', true)
+#1 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(824): App\Controllers\Home->getResults('6', '10')
+#2 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/uabc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-03-15 19:29:35 --> Subquery returns more than 1 row
+CRITICAL - 2022-03-15 19:29:35 --> Call to a member function getResult() on bool
+#0 /Applications/MAMP/htdocs/uabc/app/Controllers/Home.php(446): App\Models\CatalogoModel->obtenerUltimosResultados('6', '10', true)
+#1 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(824): App\Controllers\Home->getResults('6', '10')
+#2 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/uabc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-03-15 19:33:18 --> Column 'idEquipo' in where clause is ambiguous
+CRITICAL - 2022-03-15 19:33:18 --> Call to a member function getResult() on bool
+#0 /Applications/MAMP/htdocs/uabc/app/Controllers/Home.php(520): App\Models\TorneosModel->obtener_jugadores(Object(stdClass), 'home')
+#1 /Applications/MAMP/htdocs/uabc/app/Controllers/Home.php(320): App\Controllers\Home->get_jugadores('2', 'home')
+#2 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(824): App\Controllers\Home->detalle_juego('2')
+#3 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/MAMP/htdocs/uabc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-03-15 19:37:25 --> Column 'idEquipo' in where clause is ambiguous
+CRITICAL - 2022-03-15 19:37:25 --> Call to a member function getResult() on bool
+#0 /Applications/MAMP/htdocs/uabc/app/Controllers/Home.php(520): App\Models\TorneosModel->obtener_jugadores('1', 'home')
+#1 /Applications/MAMP/htdocs/uabc/app/Controllers/Home.php(320): App\Controllers\Home->get_jugadores('1', 'home')
+#2 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(824): App\Controllers\Home->detalle_juego('2')
+#3 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/MAMP/htdocs/uabc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-03-15 19:37:47 --> Column 'idEquipo' in where clause is ambiguous
+CRITICAL - 2022-03-15 19:37:47 --> Call to a member function getResult() on bool
+#0 /Applications/MAMP/htdocs/uabc/app/Controllers/Home.php(520): App\Models\TorneosModel->obtener_jugadores('1', 'home')
+#1 /Applications/MAMP/htdocs/uabc/app/Controllers/Home.php(320): App\Controllers\Home->get_jugadores('1', 'home')
+#2 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(824): App\Controllers\Home->detalle_juego('2')
+#3 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/MAMP/htdocs/uabc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-03-15 19:39:50 --> Column 'idEquipo' in where clause is ambiguous
+CRITICAL - 2022-03-15 19:39:50 --> Call to a member function getResult() on bool
+#0 /Applications/MAMP/htdocs/uabc/app/Controllers/Home.php(520): App\Models\TorneosModel->obtener_jugadores('1', 'home')
+#1 /Applications/MAMP/htdocs/uabc/app/Controllers/Home.php(320): App\Controllers\Home->get_jugadores('1', 'home')
+#2 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(824): App\Controllers\Home->detalle_juego('2')
+#3 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/MAMP/htdocs/uabc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-03-15 19:39:59 --> Unknown column 'EquipoParticipante=idEquipo' in 'on clause'
+CRITICAL - 2022-03-15 19:39:59 --> Call to a member function getResult() on bool
+#0 /Applications/MAMP/htdocs/uabc/app/Controllers/Home.php(520): App\Models\TorneosModel->obtener_jugadores('1', 'home')
+#1 /Applications/MAMP/htdocs/uabc/app/Controllers/Home.php(320): App\Controllers\Home->get_jugadores('1', 'home')
+#2 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(824): App\Controllers\Home->detalle_juego('2')
+#3 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/MAMP/htdocs/uabc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-03-15 19:40:05 --> Unknown column 'EquipoParticipante=idEquipo' in 'on clause'
+CRITICAL - 2022-03-15 19:40:05 --> Call to a member function getResult() on bool
+#0 /Applications/MAMP/htdocs/uabc/app/Controllers/Home.php(520): App\Models\TorneosModel->obtener_jugadores('1', 'home')
+#1 /Applications/MAMP/htdocs/uabc/app/Controllers/Home.php(320): App\Controllers\Home->get_jugadores('1', 'home')
+#2 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(824): App\Controllers\Home->detalle_juego('2')
+#3 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/MAMP/htdocs/uabc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-03-15 19:43:11 --> Unknown column 'EquipoParticipante=idEquipo' in 'on clause'
+CRITICAL - 2022-03-15 19:43:11 --> Call to a member function getResult() on bool
+#0 /Applications/MAMP/htdocs/uabc/app/Controllers/Home.php(520): App\Models\TorneosModel->obtener_jugadores('1', 'home')
+#1 /Applications/MAMP/htdocs/uabc/app/Controllers/Home.php(320): App\Controllers\Home->get_jugadores('1', 'home')
+#2 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(824): App\Controllers\Home->detalle_juego('2')
+#3 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/MAMP/htdocs/uabc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-03-15 19:44:50 --> Array to string conversion
+#0 /Applications/MAMP/htdocs/uabc/app/Views/catalogo/juego.php(317): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', '/Applications/M...', 317)
+#1 /Applications/MAMP/htdocs/uabc/system/View/View.php(214): include('/Applications/M...')
+#2 /Applications/MAMP/htdocs/uabc/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Applications/MAMP/htdocs/uabc/system/Common.php(1097): CodeIgniter\View\View->render('catalogo/juego', Array, true)
+#4 /Applications/MAMP/htdocs/uabc/app/Controllers/Home.php(327): view('catalogo/juego', Array)
+#5 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(824): App\Controllers\Home->detalle_juego('2')
+#6 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Applications/MAMP/htdocs/uabc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-03-15 20:10:46 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '(select nombre  from Equipo e2 inner join Juego j2 on e2.idEquipo =j2.equipoCasa' at line 1
+CRITICAL - 2022-03-15 20:10:46 --> Call to a member function getRow() on bool
+#0 /Applications/MAMP/htdocs/uabc/app/Controllers/Home.php(515): App\Models\TorneosModel->obtener_info_juego('2')
+#1 /Applications/MAMP/htdocs/uabc/app/Controllers/Home.php(316): App\Controllers\Home->getInfoJuego('2')
+#2 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(824): App\Controllers\Home->detalle_juego('2')
+#3 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/MAMP/htdocs/uabc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-03-15 20:11:13 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '(select nombre  from Equipo e2 inner join Juego j2 on e2.idEquipo =j2.equipoCasa' at line 1
+CRITICAL - 2022-03-15 20:11:13 --> Call to a member function getRow() on bool
+#0 /Applications/MAMP/htdocs/uabc/app/Controllers/Home.php(515): App\Models\TorneosModel->obtener_info_juego('2')
+#1 /Applications/MAMP/htdocs/uabc/app/Controllers/Home.php(316): App\Controllers\Home->getInfoJuego('2')
+#2 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(824): App\Controllers\Home->detalle_juego('2')
+#3 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/MAMP/htdocs/uabc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-03-15 20:11:49 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '(select nombre  from Equipo e2 inner join Juego j2 on e2.idEquipo =j2.equipoCasa' at line 1
+CRITICAL - 2022-03-15 20:11:49 --> Call to a member function getRow() on bool
+#0 /Applications/MAMP/htdocs/uabc/app/Controllers/Home.php(515): App\Models\TorneosModel->obtener_info_juego('2')
+#1 /Applications/MAMP/htdocs/uabc/app/Controllers/Home.php(316): App\Controllers\Home->getInfoJuego('2')
+#2 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(824): App\Controllers\Home->detalle_juego('2')
+#3 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/MAMP/htdocs/uabc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-03-15 20:12:02 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '(select nombre  from Equipo e2 inner join Juego j2 on e2.idEquipo =j2.equipoCasa' at line 1
+CRITICAL - 2022-03-15 20:12:02 --> Call to a member function getRow() on bool
+#0 /Applications/MAMP/htdocs/uabc/app/Controllers/Home.php(515): App\Models\TorneosModel->obtener_info_juego('2')
+#1 /Applications/MAMP/htdocs/uabc/app/Controllers/Home.php(316): App\Controllers\Home->getInfoJuego('2')
+#2 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(824): App\Controllers\Home->detalle_juego('2')
+#3 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/MAMP/htdocs/uabc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-03-15 20:12:26 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '(select nombre  from Equipo e2 inner join Juego j2 on e2.idEquipo =j2.equipoCasa' at line 1
+CRITICAL - 2022-03-15 20:12:26 --> Call to a member function getRow() on bool
+#0 /Applications/MAMP/htdocs/uabc/app/Controllers/Home.php(515): App\Models\TorneosModel->obtener_info_juego('2')
+#1 /Applications/MAMP/htdocs/uabc/app/Controllers/Home.php(316): App\Controllers\Home->getInfoJuego('2')
+#2 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(824): App\Controllers\Home->detalle_juego('2')
+#3 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/MAMP/htdocs/uabc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-03-15 20:14:00 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '(select nombre  from Equipo e2 inner join Juego j2 on e2.idEquipo =j2.equipoCasa' at line 1
+CRITICAL - 2022-03-15 20:14:00 --> Call to a member function getRow() on bool
+#0 /Applications/MAMP/htdocs/uabc/app/Controllers/Home.php(515): App\Models\TorneosModel->obtener_info_juego('2')
+#1 /Applications/MAMP/htdocs/uabc/app/Controllers/Home.php(316): App\Controllers\Home->getInfoJuego('2')
+#2 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(824): App\Controllers\Home->detalle_juego('2')
+#3 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/MAMP/htdocs/uabc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-03-15 20:16:49 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '(select nombre  from Equipo e2 inner join Juego j2 on e2.idEquipo =j2.equipoCasa' at line 1
+CRITICAL - 2022-03-15 20:16:49 --> Call to a member function getRow() on bool
+#0 /Applications/MAMP/htdocs/uabc/app/Controllers/Home.php(515): App\Models\TorneosModel->obtener_info_juego('2')
+#1 /Applications/MAMP/htdocs/uabc/app/Controllers/Home.php(316): App\Controllers\Home->getInfoJuego('2')
+#2 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(824): App\Controllers\Home->detalle_juego('2')
+#3 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/MAMP/htdocs/uabc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-03-15 20:17:20 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '(select nombre  from Equipo e2 inner join Juego j2 on e2.idEquipo =j2.equipoCasa' at line 1
+CRITICAL - 2022-03-15 20:17:20 --> Call to a member function getRow() on bool
+#0 /Applications/MAMP/htdocs/uabc/app/Controllers/Home.php(515): App\Models\TorneosModel->obtener_info_juego('2')
+#1 /Applications/MAMP/htdocs/uabc/app/Controllers/Home.php(316): App\Controllers\Home->getInfoJuego('2')
+#2 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(824): App\Controllers\Home->detalle_juego('2')
+#3 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/MAMP/htdocs/uabc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-03-15 20:17:21 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '(select nombre  from Equipo e2 inner join Juego j2 on e2.idEquipo =j2.equipoCasa' at line 1
+CRITICAL - 2022-03-15 20:17:21 --> Call to a member function getRow() on bool
+#0 /Applications/MAMP/htdocs/uabc/app/Controllers/Home.php(515): App\Models\TorneosModel->obtener_info_juego('2')
+#1 /Applications/MAMP/htdocs/uabc/app/Controllers/Home.php(316): App\Controllers\Home->getInfoJuego('2')
+#2 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(824): App\Controllers\Home->detalle_juego('2')
+#3 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/MAMP/htdocs/uabc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-03-15 20:17:54 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '(select nombre  from Equipo e2 inner join Juego j2 on e2.idEquipo =j2.equipoCasa' at line 1
+CRITICAL - 2022-03-15 20:17:54 --> Call to a member function getRow() on bool
+#0 /Applications/MAMP/htdocs/uabc/app/Controllers/Home.php(515): App\Models\TorneosModel->obtener_info_juego('2')
+#1 /Applications/MAMP/htdocs/uabc/app/Controllers/Home.php(316): App\Controllers\Home->getInfoJuego('2')
+#2 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(824): App\Controllers\Home->detalle_juego('2')
+#3 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/MAMP/htdocs/uabc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-03-15 20:17:55 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '(select nombre  from Equipo e2 inner join Juego j2 on e2.idEquipo =j2.equipoCasa' at line 1
+CRITICAL - 2022-03-15 20:17:55 --> Call to a member function getRow() on bool
+#0 /Applications/MAMP/htdocs/uabc/app/Controllers/Home.php(515): App\Models\TorneosModel->obtener_info_juego('2')
+#1 /Applications/MAMP/htdocs/uabc/app/Controllers/Home.php(316): App\Controllers\Home->getInfoJuego('2')
+#2 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(824): App\Controllers\Home->detalle_juego('2')
+#3 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/MAMP/htdocs/uabc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-03-15 20:18:17 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '(select nombre  from Equipo e2 inner join Juego j2 on e2.idEquipo =j2.equipoCasa' at line 1
+CRITICAL - 2022-03-15 20:18:17 --> Call to a member function getRow() on bool
+#0 /Applications/MAMP/htdocs/uabc/app/Controllers/Home.php(515): App\Models\TorneosModel->obtener_info_juego('2')
+#1 /Applications/MAMP/htdocs/uabc/app/Controllers/Home.php(316): App\Controllers\Home->getInfoJuego('2')
+#2 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(824): App\Controllers\Home->detalle_juego('2')
+#3 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/MAMP/htdocs/uabc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-03-15 20:18:37 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '(select nombre  from Equipo e2 inner join Juego j2 on e2.idEquipo =j2.equipoCasa' at line 1
+CRITICAL - 2022-03-15 20:18:37 --> Call to a member function getRow() on bool
+#0 /Applications/MAMP/htdocs/uabc/app/Controllers/Home.php(515): App\Models\TorneosModel->obtener_info_juego('2')
+#1 /Applications/MAMP/htdocs/uabc/app/Controllers/Home.php(316): App\Controllers\Home->getInfoJuego('2')
+#2 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(824): App\Controllers\Home->detalle_juego('2')
+#3 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/MAMP/htdocs/uabc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-03-15 20:19:03 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '(select nombre  from Equipo e2 inner join Juego j2 on e2.idEquipo =j2.equipoCasa' at line 1
+CRITICAL - 2022-03-15 20:19:03 --> Call to a member function getRow() on bool
+#0 /Applications/MAMP/htdocs/uabc/app/Controllers/Home.php(515): App\Models\TorneosModel->obtener_info_juego('2')
+#1 /Applications/MAMP/htdocs/uabc/app/Controllers/Home.php(316): App\Controllers\Home->getInfoJuego('2')
+#2 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(824): App\Controllers\Home->detalle_juego('2')
+#3 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/MAMP/htdocs/uabc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-03-15 20:19:24 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '(select nombre  from Equipo e2 inner join Juego j2 on e2.idEquipo =j2.equipoCasa' at line 1
+CRITICAL - 2022-03-15 20:19:24 --> Call to a member function getRow() on bool
+#0 /Applications/MAMP/htdocs/uabc/app/Controllers/Home.php(515): App\Models\TorneosModel->obtener_info_juego('2')
+#1 /Applications/MAMP/htdocs/uabc/app/Controllers/Home.php(316): App\Controllers\Home->getInfoJuego('2')
+#2 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(824): App\Controllers\Home->detalle_juego('2')
+#3 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/MAMP/htdocs/uabc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-03-15 20:19:34 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '(select nombre  from Equipo e2 inner join Juego j2 on e2.idEquipo =j2.equipoCasa' at line 1
+CRITICAL - 2022-03-15 20:19:34 --> Call to a member function getRow() on bool
+#0 /Applications/MAMP/htdocs/uabc/app/Controllers/Home.php(515): App\Models\TorneosModel->obtener_info_juego('2')
+#1 /Applications/MAMP/htdocs/uabc/app/Controllers/Home.php(316): App\Controllers\Home->getInfoJuego('2')
+#2 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(824): App\Controllers\Home->detalle_juego('2')
+#3 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/MAMP/htdocs/uabc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-03-15 20:20:02 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '(select nombre  from Equipo e2 inner join Juego j2 on e2.idEquipo =j2.equipoCasa' at line 1
+CRITICAL - 2022-03-15 20:20:02 --> Call to a member function getRow() on bool
+#0 /Applications/MAMP/htdocs/uabc/app/Controllers/Home.php(515): App\Models\TorneosModel->obtener_info_juego('2')
+#1 /Applications/MAMP/htdocs/uabc/app/Controllers/Home.php(316): App\Controllers\Home->getInfoJuego('2')
+#2 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(824): App\Controllers\Home->detalle_juego('2')
+#3 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/MAMP/htdocs/uabc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-03-15 20:20:21 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '(select nombre  from Equipo e2 inner join Juego j2 on e2.idEquipo =j2.equipoCasa' at line 1
+CRITICAL - 2022-03-15 20:20:21 --> Call to a member function getRow() on bool
+#0 /Applications/MAMP/htdocs/uabc/app/Controllers/Home.php(515): App\Models\TorneosModel->obtener_info_juego('2')
+#1 /Applications/MAMP/htdocs/uabc/app/Controllers/Home.php(316): App\Controllers\Home->getInfoJuego('2')
+#2 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(824): App\Controllers\Home->detalle_juego('2')
+#3 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/MAMP/htdocs/uabc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-03-15 20:20:34 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '(select nombre  from Equipo e2 inner join Juego j2 on e2.idEquipo =j2.equipoCasa' at line 1
+CRITICAL - 2022-03-15 20:20:34 --> Call to a member function getRow() on bool
+#0 /Applications/MAMP/htdocs/uabc/app/Controllers/Home.php(515): App\Models\TorneosModel->obtener_info_juego('2')
+#1 /Applications/MAMP/htdocs/uabc/app/Controllers/Home.php(316): App\Controllers\Home->getInfoJuego('2')
+#2 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(824): App\Controllers\Home->detalle_juego('2')
+#3 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/MAMP/htdocs/uabc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-03-15 20:20:39 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '(select nombre  from Equipo e2 inner join Juego j2 on e2.idEquipo =j2.equipoCasa' at line 1
+CRITICAL - 2022-03-15 20:20:39 --> Call to a member function getRow() on bool
+#0 /Applications/MAMP/htdocs/uabc/app/Controllers/Home.php(515): App\Models\TorneosModel->obtener_info_juego('2')
+#1 /Applications/MAMP/htdocs/uabc/app/Controllers/Home.php(316): App\Controllers\Home->getInfoJuego('2')
+#2 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(824): App\Controllers\Home->detalle_juego('2')
+#3 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/MAMP/htdocs/uabc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-03-15 20:20:57 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '(select nombre  from Equipo e2 inner join Juego j2 on e2.idEquipo =j2.equipoCasa' at line 1
+CRITICAL - 2022-03-15 20:20:57 --> Call to a member function getRow() on bool
+#0 /Applications/MAMP/htdocs/uabc/app/Controllers/Home.php(515): App\Models\TorneosModel->obtener_info_juego('2')
+#1 /Applications/MAMP/htdocs/uabc/app/Controllers/Home.php(316): App\Controllers\Home->getInfoJuego('2')
+#2 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(824): App\Controllers\Home->detalle_juego('2')
+#3 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/MAMP/htdocs/uabc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-03-15 20:21:06 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '(select nombre  from Equipo e2 inner join Juego j2 on e2.idEquipo =j2.equipoCasa' at line 1
+CRITICAL - 2022-03-15 20:21:06 --> Call to a member function getRow() on bool
+#0 /Applications/MAMP/htdocs/uabc/app/Controllers/Home.php(515): App\Models\TorneosModel->obtener_info_juego('2')
+#1 /Applications/MAMP/htdocs/uabc/app/Controllers/Home.php(316): App\Controllers\Home->getInfoJuego('2')
+#2 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(824): App\Controllers\Home->detalle_juego('2')
+#3 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/MAMP/htdocs/uabc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-03-15 20:21:32 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '(select nombre  from Equipo e2 inner join Juego j2 on e2.idEquipo =j2.equipoCasa' at line 1
+CRITICAL - 2022-03-15 20:21:32 --> Call to a member function getRow() on bool
+#0 /Applications/MAMP/htdocs/uabc/app/Controllers/Home.php(515): App\Models\TorneosModel->obtener_info_juego('2')
+#1 /Applications/MAMP/htdocs/uabc/app/Controllers/Home.php(316): App\Controllers\Home->getInfoJuego('2')
+#2 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(824): App\Controllers\Home->detalle_juego('2')
+#3 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/MAMP/htdocs/uabc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-03-15 20:21:44 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '(select nombre  from Equipo e2 inner join Juego j2 on e2.idEquipo =j2.equipoCasa' at line 1
+CRITICAL - 2022-03-15 20:21:44 --> Call to a member function getRow() on bool
+#0 /Applications/MAMP/htdocs/uabc/app/Controllers/Home.php(515): App\Models\TorneosModel->obtener_info_juego('2')
+#1 /Applications/MAMP/htdocs/uabc/app/Controllers/Home.php(316): App\Controllers\Home->getInfoJuego('2')
+#2 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(824): App\Controllers\Home->detalle_juego('2')
+#3 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/MAMP/htdocs/uabc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-03-15 20:22:24 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '(select nombre  from Equipo e2 inner join Juego j2 on e2.idEquipo =j2.equipoCasa' at line 1
+CRITICAL - 2022-03-15 20:22:24 --> Call to a member function getRow() on bool
+#0 /Applications/MAMP/htdocs/uabc/app/Controllers/Home.php(516): App\Models\TorneosModel->obtener_info_juego('2')
+#1 /Applications/MAMP/htdocs/uabc/app/Controllers/Home.php(316): App\Controllers\Home->getInfoJuego('2')
+#2 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(824): App\Controllers\Home->detalle_juego('2')
+#3 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/MAMP/htdocs/uabc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-03-15 20:22:25 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '(select nombre  from Equipo e2 inner join Juego j2 on e2.idEquipo =j2.equipoCasa' at line 1
+CRITICAL - 2022-03-15 20:22:25 --> Call to a member function getRow() on bool
+#0 /Applications/MAMP/htdocs/uabc/app/Controllers/Home.php(516): App\Models\TorneosModel->obtener_info_juego('2')
+#1 /Applications/MAMP/htdocs/uabc/app/Controllers/Home.php(316): App\Controllers\Home->getInfoJuego('2')
+#2 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(824): App\Controllers\Home->detalle_juego('2')
+#3 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/MAMP/htdocs/uabc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-03-15 20:22:25 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '(select nombre  from Equipo e2 inner join Juego j2 on e2.idEquipo =j2.equipoCasa' at line 1
+CRITICAL - 2022-03-15 20:22:25 --> Call to a member function getRow() on bool
+#0 /Applications/MAMP/htdocs/uabc/app/Controllers/Home.php(516): App\Models\TorneosModel->obtener_info_juego('2')
+#1 /Applications/MAMP/htdocs/uabc/app/Controllers/Home.php(316): App\Controllers\Home->getInfoJuego('2')
+#2 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(824): App\Controllers\Home->detalle_juego('2')
+#3 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/MAMP/htdocs/uabc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-03-15 20:22:33 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '(select nombre  from Equipo e2 inner join Juego j2 on e2.idEquipo =j2.equipoCasa' at line 1
+CRITICAL - 2022-03-15 20:22:33 --> Call to a member function getRow() on bool
+#0 /Applications/MAMP/htdocs/uabc/app/Controllers/Home.php(516): App\Models\TorneosModel->obtener_info_juego('2')
+#1 /Applications/MAMP/htdocs/uabc/app/Controllers/Home.php(316): App\Controllers\Home->getInfoJuego('2')
+#2 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(824): App\Controllers\Home->detalle_juego('2')
+#3 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/MAMP/htdocs/uabc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-03-15 20:22:57 --> Subquery returns more than 1 row
+CRITICAL - 2022-03-15 20:22:57 --> Call to a member function getResult() on bool
+#0 /Applications/MAMP/htdocs/uabc/app/Controllers/Home.php(449): App\Models\CatalogoModel->obtenerUltimosResultados('6', '10', true)
+#1 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(824): App\Controllers\Home->getResults('6', '10')
+#2 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/uabc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-03-15 20:22:58 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '(select nombre  from Equipo e2 inner join Juego j2 on e2.idEquipo =j2.equipoCasa' at line 1
+CRITICAL - 2022-03-15 20:22:58 --> Call to a member function getRow() on bool
+#0 /Applications/MAMP/htdocs/uabc/app/Controllers/Home.php(516): App\Models\TorneosModel->obtener_info_juego('2')
+#1 /Applications/MAMP/htdocs/uabc/app/Controllers/Home.php(316): App\Controllers\Home->getInfoJuego('2')
+#2 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(824): App\Controllers\Home->detalle_juego('2')
+#3 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/MAMP/htdocs/uabc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-03-15 20:23:01 --> Subquery returns more than 1 row
+CRITICAL - 2022-03-15 20:23:01 --> Call to a member function getResult() on bool
+#0 /Applications/MAMP/htdocs/uabc/app/Controllers/Home.php(449): App\Models\CatalogoModel->obtenerUltimosResultados('6', '10', true)
+#1 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(824): App\Controllers\Home->getResults('6', '10')
+#2 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/uabc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-03-15 20:23:03 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '(select nombre  from Equipo e2 inner join Juego j2 on e2.idEquipo =j2.equipoCasa' at line 1
+CRITICAL - 2022-03-15 20:23:03 --> Call to a member function getRow() on bool
+#0 /Applications/MAMP/htdocs/uabc/app/Controllers/Home.php(516): App\Models\TorneosModel->obtener_info_juego('2')
+#1 /Applications/MAMP/htdocs/uabc/app/Controllers/Home.php(316): App\Controllers\Home->getInfoJuego('2')
+#2 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(824): App\Controllers\Home->detalle_juego('2')
+#3 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/MAMP/htdocs/uabc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-03-15 20:23:46 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '(select nombre  from Equipo e2 inner join Juego j2 on e2.idEquipo =j2.equipoCasa' at line 1
+CRITICAL - 2022-03-15 20:23:46 --> Call to a member function getRow() on bool
+#0 /Applications/MAMP/htdocs/uabc/app/Controllers/Home.php(516): App\Models\TorneosModel->obtener_info_juego('2')
+#1 /Applications/MAMP/htdocs/uabc/app/Controllers/Home.php(316): App\Controllers\Home->getInfoJuego('2')
+#2 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(824): App\Controllers\Home->detalle_juego('2')
+#3 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/MAMP/htdocs/uabc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-03-15 20:23:52 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '(select nombre  from Equipo e2 inner join Juego j2 on e2.idEquipo =j2.equipoCasa' at line 1
+CRITICAL - 2022-03-15 20:23:52 --> Call to a member function getRow() on bool
+#0 /Applications/MAMP/htdocs/uabc/app/Controllers/Home.php(516): App\Models\TorneosModel->obtener_info_juego('2')
+#1 /Applications/MAMP/htdocs/uabc/app/Controllers/Home.php(316): App\Controllers\Home->getInfoJuego('2')
+#2 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(824): App\Controllers\Home->detalle_juego('2')
+#3 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/MAMP/htdocs/uabc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-03-15 20:24:02 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '(select nombre  from Equipo e2 inner join Juego j2 on e2.idEquipo =j2.equipoCasa' at line 1
+CRITICAL - 2022-03-15 20:24:02 --> Call to a member function getRow() on bool
+#0 /Applications/MAMP/htdocs/uabc/app/Controllers/Home.php(517): App\Models\TorneosModel->obtener_info_juego('2')
+#1 /Applications/MAMP/htdocs/uabc/app/Controllers/Home.php(316): App\Controllers\Home->getInfoJuego('2')
+#2 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(824): App\Controllers\Home->detalle_juego('2')
+#3 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/MAMP/htdocs/uabc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-03-15 20:24:24 --> Undefined variable $jugadoresVisita
+#0 /Applications/MAMP/htdocs/uabc/app/Views/catalogo/juego.php(318): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/Applications/M...', 318)
+#1 /Applications/MAMP/htdocs/uabc/system/View/View.php(214): include('/Applications/M...')
+#2 /Applications/MAMP/htdocs/uabc/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Applications/MAMP/htdocs/uabc/system/Common.php(1097): CodeIgniter\View\View->render('catalogo/juego', Array, true)
+#4 /Applications/MAMP/htdocs/uabc/app/Controllers/Home.php(329): view('catalogo/juego', Array)
+#5 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(824): App\Controllers\Home->detalle_juego('2')
+#6 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /Applications/MAMP/htdocs/uabc/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Applications/MAMP/htdocs/uabc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
