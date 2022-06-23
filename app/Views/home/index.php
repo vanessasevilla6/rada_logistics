@@ -41,15 +41,10 @@
 
                 <div class="w-full flex-grow lg:flex lg:items-center lg:w-auto hidden lg:block mt-2 lg:mt-0 lg:bg-transparent text-black p-4 lg:p-0 z-20 bg-white" id="nav-content">
                     <ul class="list-reset lg:flex justify-end flex-1 items-center bebas-font">
-                        <li class="mr-3">
-                            <a class="inline-block py-2 px-4 text-black font-bold no-underline" href="#">Active</a>
+                        <li class="mr-3" v-for="option in info.menu">
+                            <a class="inline-block py-2 px-4 text-black font-bold no-underline" href="#">{{option}}</a>
                         </li>
-                        <li class="mr-3">
-                            <a class="inline-block text-black no-underline hover:text-gray-800 hover:text-underline py-2 px-4" href="#">link</a>
-                        </li>
-                        <li class="mr-3">
-                            <a class="inline-block text-black no-underline hover:text-gray-800 hover:text-underline py-2 px-4" href="#">link</a>
-                        </li>
+                      
                         <li class="mr-3">
                             <a v-on:click="change_lang(default_language)" class="inline-block no-underline hover:text-gray-800 hover:text-underline py-2 px-4 text-red-rada" href="#"><i class="fa-solid fa-globe"></i> {{default_language}}</a>
                         </li>
@@ -113,7 +108,7 @@
         },
         beforeMount(){
             this.info = this.languages.en;
-            console.log(this.info.heading);
+           
         },
         methods:{
             change_lang(lang){
