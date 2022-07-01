@@ -1,8 +1,125 @@
 {
-    "heading" : "Tu carga siempre segura y a tiempo",
-    "menu":[
+    "heading": "Tu carga siempre segura y a tiempo",
+    "menu": [
         "Nosotros",
-        "Servicios"        
+        "Servicios"
     ],
-    "about-us":"Somos una empresa de tramporte que venimos ofreciendo servicio de calidad alrededor de 7 años y optimizando los recursos y procesos de lógistica, con el mejor equipo de trabajo."
-  }
+    "about-us": "Somos una empresa de tramporte que venimos ofreciendo servicio de calidad alrededor de 7 años y optimizando los recursos y procesos de lógistica, con el mejor equipo de trabajo.",
+    "philosophy": {
+        "heading":"NUESTRA FILOSOFÍA",
+        "text":"Mejora continua, entendida como la orientación y ejecución permanente de la iniciativa / innovación / eficiencia y aplicación sistemática del PDCA (\"Plan Do Check Act\")."
+    },
+
+    "values": {
+        "heading":"NUESTROS VALORES",
+        "info":[
+            {
+                "title": "Responsabilidad",
+                "icon":"responsability.svg"
+            },
+            {
+                "title": "Integridad",
+                "icon":"integrity.svg"
+            },
+            {
+                "title": "Honestidad",
+                "icon":"honesty.svg"
+            },
+            {
+                "title": "Lealtad",
+                "icon":"loyalty.svg"
+            },
+            {
+                "title": "Compromiso",
+                "icon":"commited.svg"
+            },
+            {
+                "title": "Servicio",
+                "icon":"service.svg"
+            },
+            {
+                "title": "Trabajo en Equipo",
+                "icon":"teamwork.svg"
+            },
+            {
+                "title": "Ética",
+                "icon":"ethics.svg"
+            }
+        ]
+    },
+    "mission": "Ser una empresa de logística líder en el sector, con el propósito de satisfacer permanentemente las expectativas de empleados, clientes, accionistas y sociedad.",
+    "vision": "Ser percibido como una empresa que satisface cualquier necesidad logística en el mercado Local y Nacional.",
+    "equipment": {
+        "title": "Equipo",
+        "data": [
+            {
+                "name": "Tracto camiones",
+                "logo": "trucks2.jpeg"
+            },
+            {
+                "name": "Contenedores",
+                "logo": "container.jpeg"
+            },
+            {
+                "name": "Step Van / Rabones",
+                "logo": "stepvan.jpeg"
+            },
+            {
+                "name": "Mecánico",
+                "logo": "mecanico.jpeg"
+            },
+            {
+                "name": "Llantero",
+                "logo": "llantero.jpeg"
+            }
+        ]
+    },
+    "services": [
+        "Almacenamiento de contendores",
+        "Reparación y mantenimiento de Tracto camiones",
+        "Llantero",
+        "Renta de contenedores 53 pies",
+        "Fletes Locales y Nacionales",
+        "Servicio de transporte interno (Maquilas)"
+    ],
+    "locations": [
+        {
+            "address": "Playas de Rosarito, Blvd. Benito Juárez, Col. Lienzo Charro, No. 202",
+            "name": "RADA OFFICE"
+        },
+        {
+            "address": "Calle Maquiladoras 1275, CD industrial, Tijuana BC",
+            "name": "RADA Main Yard"
+        },
+        {
+            "address": "Camino Viejo a Tecate No. 300 Infonavit Alba Roja ",
+            "name": "RADA Secondary Yard"
+        }
+    ],
+    "clients": [
+        {
+            "name": "HISENSE",
+            "logo": ""
+        },
+        {
+            "name": "TCL",
+            "logo": ""
+        },
+        {
+            "name": "Jetai de México",
+            "logo": ""
+        },
+        {
+            "name": "Hemtack SA DE CV",
+            "logo": ""
+        },
+        {
+            "name": "KATOOLEC",
+            "logo": ""
+        },
+        {
+            "name": "KB FOAM",
+            "logo": ""
+        }
+    ]
+}

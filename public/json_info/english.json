@@ -4,5 +4,127 @@
     "About us",
     "Services"        
 ],
-"about-us":"We are a transport company that has been offering a quality service for 7 years and optimizing resources and logistics processes, with the best work team."
+"about-us":"We are a transport company that has been offering a quality service for 7 years and optimizing resources and logistics processes, with the best work team.",
+"philosophy": {
+    "heading":"OUR PHILOSOPHY",
+    "text":"Continuous improvement, understood as the orientation and permanent execution of the initiative / innovation / efficiency and systematic application of the PDCA (\"Plan Do Check Act\")."
+},
+"values":{
+    "heading":"OUR VALUES",
+    "info":[
+        {
+         "title":"Responsability",
+         "icon":"responsability.svg"
+        },
+        {
+            "title":"Integrity",
+            "icon":"integrity.svg"
+        },
+        {
+            "title":"Honesty",
+            "icon":"honesty.svg"
+        },
+        {
+            "title":"Loyalty",
+            "icon":"loyalty.svg"
+        }, {
+            "title":"Commited",
+            "icon":"commited.svg"
+        },
+        {
+            "title":"Service",
+            "icon":"service.svg"
+        },
+        {
+            "title":"Teamwork",
+            "icon":"teamwork.svg"
+        },
+        {
+            "title":"Ethics",
+            "icon":"ethics.svg"
+        }
+    
+    ]
+},
+
+
+
+"mission": "To be a leading logistics company in the sector, with the purpose of permanently satisfying the expectations of employees, customers, shareholders and society.",
+"vision":"To Be perceived as a company that satisfies any logistical need in the Local and National market.",
+"equipment": {
+    "title":"Equipment",
+    "data": [
+    
+
+        {
+            "name":"Trucks",
+            "logo":"trucks2.jpeg"
+        },
+        {
+            "name":"Containers",
+            "logo":"container.jpeg"
+        },
+        {
+            "name":"Step Van",
+            "logo":"stepvan.jpeg"
+        },
+        {
+            "name":"Mechanic",
+            "logo":"mecanico.jpeg"
+        },
+        {
+            "name":"Movil Tire Repair",
+            "logo":"llantero.jpeg"
+        }
+    ]
+},
+"services": [
+    "Loading and unloading of empty containers",
+    "Empty container storage",
+    "Repairs and maintenance (tractors, company car fleet )",
+    "Movil tire repair",
+    "53ft Rental Container",
+    "OTR Freight (Local and National)",
+    "Export USA (3PL)"
+
+],
+"locations":[
+    {
+        "address":"Playas de Rosarito, Blvd. Benito Juárez, Col. Lienzo Charro, No. 202",
+        "name": "RADA OFFICE" 
+    },
+    {
+       "address":"Calle Maquiladoras 1275, CD industrial, Tijuana BC",
+       "name": "RADA Main Yard" 
+    },
+    {
+        "address":"Camino Viejo a Tecate No. 300 Infonavit Alba Roja ",
+        "name": "RADA Secondary Yard" 
+     }
+],
+"clients":[
+    {
+        "name":"HISENSE",
+        "logo":""
+    },
+    {
+        "name":"TCL",
+        "logo":""
+    },
+    {
+        "name":"Jetai de México",
+        "logo":""
+    },
+    {
+        "name":"Hemtack SA DE CV",
+        "logo":""
+    },
+    {
+        "name":"KATOOLEC",
+        "logo":""
+    },{
+        "name":"KB FOAM",
+        "logo":""
+    }
+]
 }
