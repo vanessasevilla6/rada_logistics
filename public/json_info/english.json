@@ -126,5 +126,19 @@
         "name":"KB FOAM",
         "logo":""
     }
+],
+"contact_info": [
+    {
+        "type": "Phone",
+        "info": "(661) 850 33 21"
+    },
+    {
+        "type": "Email",
+        "info": "info@radalogistics.com"
+    },
+    {
+        "type": "Facebook",
+        "info": "facebook.com/rada_logistics"
+    }
 ]
 }

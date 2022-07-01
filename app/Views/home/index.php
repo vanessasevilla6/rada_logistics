@@ -106,7 +106,7 @@
             </div>
         </section>
         <section id="values" class="bg-white">
-            <div class="conatiner relative pt-8 pb-16 flex flex-wrap items-center justify-center" style="min-height: 75vh;">
+            <div class="container relative pt-8 pb-16 mx-auto flex flex-wrap items-center justify-center" style="min-height: 75vh;">
                 <div class=" relative flex text-center w-full md:w-1/3">
                     <h1 class="w-full lg:w-3/4 px-2  bebas-font font-bold text-red-rada text-6xl my-14 drop-shadow-md  ">
                         {{ info.values.heading }}
@@ -115,10 +115,23 @@
                 <div class="w-full md:w-2/3 grid grid-cols-2 md:grid-cols-4 gap-3">
                     <div class="container text-center items-center justify-center font-bold montserrat-font uppercase text-md md:text-lg text-gray-800 " v-for="value in info.values.info">
                         <img :src="url+'/img/svg/'+value.icon" v-bind:alt="value.title" class="w-full md:w-2/3 mx-auto p-10 md:p-6 hover:scale-105 " />
-                         {{ value.title}}
+                        {{ value.title}}
                     </div>
                 </div>
 
+            </div>
+        </section>
+        <section id="footer" class="bg-black">
+            <div class="container relative pt-8 pb-16 mx-auto flex flex-wrap items-center justify-between" style="min-height: 75vh;">
+                <div class="w-full md:w-1/3">
+                    <div class="w-full text-left">
+                        {{info.contact_info.type}}
+                    </div>
+
+                </div>
+                <div>
+
+                </div>
             </div>
         </section>
     </div>
@@ -133,10 +146,12 @@
 
 
 <script type="module">
-    import en_lang from '<?php echo base_url() ?>/json_info/english.json' assert {
+    import en_lang from '<?php echo base_url() ?>/json_info/english.json'
+    assert {
         type: "json"
     };
-    import es_lang from '<?php echo base_url() ?>/json_info/spanish.json' assert {
+    import es_lang from '<?php echo base_url() ?>/json_info/spanish.json'
+    assert {
         type: "json"
     };
 
