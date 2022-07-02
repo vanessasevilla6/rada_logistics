@@ -146,12 +146,10 @@
 
 
 <script type="module">
-    import en_lang from '<?php echo base_url() ?>/json_info/english.json'
-    assert {
+    import en_lang from '<?php echo base_url() ?>/json_info/english.json' assert {
         type: "json"
     };
-    import es_lang from '<?php echo base_url() ?>/json_info/spanish.json'
-    assert {
+    import es_lang from '<?php echo base_url() ?>/json_info/spanish.json' assert {
         type: "json"
     };
 
